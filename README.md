@@ -36,7 +36,7 @@ This ULF loader should benefit some ULF tasks, e.g., ULF2English:
 The evaluation can be done by accessing the ground truth sentence in `metadata['sentence']`.
 
 ### Environment
-Basically, what you need here is just AllenNLP, but if you want to clone my own environment (which contains a lot of unnecessary libaries), feel free to run the command:
+Basically, what you need here is just AllenNLP, but if you want to clone my own environment (which contains a lot of unnecessary libaries), feel free to run the command (optional):
 
 ```
 conda env create -f nlp.yml
