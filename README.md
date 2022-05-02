@@ -14,7 +14,7 @@ It will generate `Instances` with the following fields:
 We also support identifying the number of sentences, i.e., multisentetnce or not.
 We simply set the default value to words if they don't have any tense or class annotation.
 
-## Parameters
+### Parameters
 * tokenizer : `Tokenizer`, optional (default=`SpacyTokenizer()`).
     We use this `Tokenizer` for the ULF words.  See :class:`Tokenizer`.
     Default is `SpacyTokenizer()`. 
@@ -25,7 +25,7 @@ We simply set the default value to words if they don't have any tense or class a
     A special token to append to each context. This is to help the sentence transition.
 
 # Usage
-    
+
 This ULF loader should benefit some ULF tasks, e.g., ULF2English:
 * Target :Maps ULFs to English sentences, given **((This.pro ((pres be.v) (= (a.d sentence.n)))))**, generates **"this be a sentence"**
 * Input to models: tonkenized context [This], [be], [a], [sentence]
@@ -34,6 +34,13 @@ This ULF loader should benefit some ULF tasks, e.g., ULF2English:
     * Class: [pro], [v], [d], [n]
 
 The evaluation can be done by accessing the ground truth sentence in `metadata['sentence']`.
+
+### Environment
+Basically, what you need here is just AllenNLP, but if you want to clone my own environment (which contains a lot of unnecessary libaries), feel free to run the command:
+
+```
+conda env create -f nlp.yml
+```
 
 To run the code, use the command below:
 ```
