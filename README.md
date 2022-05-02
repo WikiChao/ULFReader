@@ -14,14 +14,14 @@ It will generate `Instances` with the following fields:
 We also support identifying the number of sentences, i.e., multisentetnce or not.
 We simply set the default value to words if they don't have any tense or class annotation.
 
-# Parameters
-tokenizer : `Tokenizer`, optional (default=`SpacyTokenizer()`)
+## Parameters
+* tokenizer : `Tokenizer`, optional (default=`SpacyTokenizer()`)\\
     We use this `Tokenizer` for the ULF words.  See :class:`Tokenizer`.
-    Default is `SpacyTokenizer()`.
-token_indexers : `Dict[str, TokenIndexer]`, optional
+    Default is `SpacyTokenizer()`. 
+* token_indexers : `Dict[str, TokenIndexer]`, optional
     We similarly use this for the ULF words.  See :class:`TokenIndexer`.
     Default is `{"tokens": SingleIdTokenIndexer()}`.
-multisent: `Optional[str]`, optional (default=`False`)
+* multisent: `Optional[str]`, optional (default=`False`)
     A special token to append to each context. This is to help the sentence transition.
     
 This ULF loader should benefit some ULF tasks, e.g., ULF2English:
