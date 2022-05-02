@@ -1,0 +1,719 @@
+; sid: 228285
+; sentence: I was about to go out when the phone rang.
+((I.PRO ((PAST BE.V) (ABOUT.P (TO GO_OUT.V)))) (WHEN.PS ((THE.D PHONE.N) (PAST RING.V))))
+
+; sid: 228286
+; sentence: Look carefully. I'm going to show you how it's done.
+(MULTI-SENT ((YOU.PRO ((PRES LOOK.V) CAREFULLY.ADV-A)) !) (I.PRO ((PRES BE.AUX-V) (GO.V (TO (SHOW.V YOU.PRO (ANS-TO (SUB HOW.PQ (IT.PRO ((PRES (PASV DO.V)) *H))))))))))
+
+; sid: 228287
+; sentence: People should understand that the world is changing.
+((K (PLUR PERSON.N)) ((PRES SHOULD.AUX-V) (UNDERSTAND.V (THAT ((THE.D WORLD.N) ((PRES PROG) CHANGE.V))))))
+
+; sid: 228288
+; sentence: Speech is silver, but silence is golden.
+(((K SPEECH.N) ((PRES BE.V) SILVER.A)) BUT.CC ((K SILENCE.N) ((PRES BE.V) GOLDEN.A)))
+
+; sid: 228290
+; sentence: I don't like these remarks.
+(I.PRO ((PRES DO.AUX-S) NOT (LIKE.V (THESE.D (PLUR REMARK.N)))))
+
+; sid: 228292
+; sentence: Why do you want to leave today?
+((SUB WHY.ADV-S ((PRES DO.AUX-S) YOU.PRO (WANT.V (TO (LEAVE.V TODAY.ADV-E)) *H))) ?)
+
+; sid: 228293
+; sentence: I'm going to take my car.
+(I.PRO ((PRES PROG) (GO.V (TO (TAKE.V (MY.D CAR.N))))))
+
+; sid: 228295
+; sentence: You cannot achieve the impossible without attempting the absurd.
+(YOU.PRO ((PRES CAN.AUX-V) NOT ((ACHIEVE.V (THE.D ((MOD-N IMPOSSIBLE.A) REF.N))) (ADV-A (WITHOUT.P (KA (ATTEMPT.V (THE.D ((MOD-N ABSURD.A) REF.N)))))))))
+
+; sid: 228297
+; sentence: To be quiet in class is to respect other people's sleep.
+((TO ((BE.V QUIET.A) (ADV-E (IN.P (K CLASS.N))))) ((PRES BE.V) (= (TO (RESPECT.V (((OTHER.D (PLUR PERSON.N)) 'S) SLEEP.N))))))
+
+; sid: 228298
+; sentence: Logic is a systematic method of coming to the wrong conclusion with confidence.
+((K LOGIC.N) ((PRES BE.V) (= (A.D ((MOD-N SYSTEMATIC.A) (METHOD-OF.N (KA (COME.V (TO.P-ARG (THE.D ((MOD-N WRONG.A) CONCLUSION.N))) (ADV-A (WITH.P (K CONFIDENCE.N)))))))))))
+
+; sid: 228410
+; sentence: It seems to me that the train is late.
+(IT.PRO ((PRES SEEM.V) (ADV-A (TO.P ME.PRO)) (THAT ((THE.D TRAIN.N) ((PRES BE.V) LATE.A)))))
+
+; sid: 228412
+; sentence: I don't know if I'll have time to do it.
+(I.PRO ((PRES DO.AUX-S) NOT (KNOW.V (WHETHER (I.PRO ((PRES WILL.AUX-S) (HAVE.V (K TIME.N) (TO (DO.V IT.PRO)))))))))
+
+; sid: 228413
+; sentence: Ask Trang if he's going out this evening.
+((YOU.PRO ((PRES ASK.V) | Trang| (WHETHER (HE.PRO ((PRES PROG) (GO_OUT.V (THIS.D EVENING.N))))))) !)
+
+; sid: 228415
+; sentence: In a town you may pass unnoticed, whereas in a village it's impossible.
+((SUB (ADV-A (IN.P (A.D TOWN.N))) (YOU.PRO ((PRES MAY.AUX-S) (PASS.V UNNOTICED.A *H)))) (WHEREAS.PS (SUB (ADV-A (IN.P (A.D VILLAGE.N))) (IT.PRO ((PRES BE.V) IMPOSSIBLE.A *H)))))
+
+; sid: 228416
+; sentence: Who said that? It's totally wrong!
+(((WHO.PRO ((PAST SAY.V) THAT.PRO)) ?) (IT.PRO ((PRES BE.V) (TOTALLY.MOD-A WRONG.A))))
+
+; sid: 228418
+; sentence: Wolves won't usually attack people.
+((K (PLUR WOLF.N)) ((PRES WILL.AUX-S) NOT USUALLY.ADV-F (ATTACK.V (K (PLUR PERSON.N)))))
+
+; sid: 228419
+; sentence: "Can somebody help me?" "I will."
+(MULTI-SENT (|"| (((PRES CAN.AUX-S) SOMEBODY.PRO (HELP.V ME.PRO)) ?) |"|) (|"| (I.PRO ((PRES WILL.AUX-S) HELP.V)) |"|))
+
+; sid: 228421
+; sentence: You've given me your cold.
+(YOU.PRO (((PRES PERF) GIVE.V) ME.PRO (YOUR.D COLD.N)))
+
+; sid: 228422
+; sentence: Ah! If I were rich, I'd buy myself a house in Spain.
+(AH.X ((IF.PS (I.PRO ((CF BE.V) RICH.A))) (I.PRO ((CF WILL.AUX-S) (BUY.V MYSELF.PRO (A.D (N+PREDS HOUSE.N (IN.P | Spain|))))))))
+
+; sid: 228423
+; sentence: I wish she would stop playing that stupid music.
+(I.PRO ((PRES WISH.V) (THT (SHE.PRO ((PRES WOULD.AUX-S) (STOP.V (KA (PLAY.V (THAT.D ((MOD-N STUPID.A) MUSIC.N))))))))))
+
+; sid: 228537
+; sentence: Did you meet her?
+(((PAST DO.AUX-S) YOU.PRO (MEET.V HER.PRO)) ?)
+
+; sid: 228538
+; sentence: Do you want to see her very much?
+(((PAST DO.AUX-S) YOU.PRO (WANT.V (TO (SEE.V HER.PRO)) (ADV-A (VERY.MOD-A MUCH.A)))) ?)
+
+; sid: 228539
+; sentence: Did you fall in love with her at first sight?
+(((PAST DO.AUX-S) YOU.PRO (FALL.V (IN.P-ARG (K LOVE.N)) (WITH.P-ARG HER.PRO) (ADV-A (AT.P (K ((MOD-N FIRST.A) SIGHT.N)))))) ?)
+
+; sid: 228540
+; sentence: You were taken in by her.
+(YOU.PRO ((PAST (PASV TAKE_IN.V)) (ADV-A (BY.P HER.PRO))))
+
+; sid: 228541
+; sentence: You told her that you had finished the work three days before.
+(YOU.PRO ((PAST TELL.V) HER.PRO (THAT (YOU.PRO ((PRES PERF) (FINISH.V (THE.D WORK.N) (ADV-E (AT.P (THREE.D (N+PREDS (PLUR DAY.N) (BEFORE.P IT.PRO)))))))))))
+
+; sid: 228542
+; sentence: Unlike her, you are diligent.
+(SUB (UNLIKE.A HER.PRO) (YOU.PRO ((PRES BE.V) DILIGENT.A (ADV-A *H))))
+
+; sid: 228544
+; sentence: When did you see her dancing with him?
+((SUB WHEN.PQ ((PAST DO.AUX-S) YOU.PRO (SEE.V HER.PRO (KA (DANCE.V (ADV-A (WITH.P HIM.PRO)))) *H))) ?)
+
+; sid: 228545
+; sentence: You'll come to like her.
+(YOU.PRO ((PRES WILL.AUX-S) (COME.V (TO (LIKE.V HER.PRO)))))
+
+; sid: 228546
+; sentence: Are you aware of how much she loves you?
+(((PRES BE.V) YOU.PRO AWARE.A (OF.P-ARG (ANS-TO (SUB (HOW.MOD-A MUCH.A) (SHE.PRO ((PRES LOVE.V) YOU.PRO (ADV-A *H))))))) ?)
+
+; sid: 228547
+; sentence: I think you had better call on him.
+(I.PRO ((PRES THINK.V) (THT (YOU.PRO ((PRES HAD_BETTER.AUX-S) (CALL.V (ON.P-ARG HIM.PRO)))))))
+
+; sid: 228717
+; sentence: Do you believe in God?
+(((PRES DO.AUX-S) YOU.PRO (BELIEVE.V (IN.P-ARG | God|))) ?)
+
+; sid: 228718
+; sentence: If you study earnestly, you can expect to pass the exam.
+((IF.PS (YOU.PRO ((PRES STUDY.V) EARNESTLY.ADV-A))) (YOU.PRO ((PRES CAN.AUX-S) (EXPECT.V (TO (PASS.V (THE.D EXAM.N)))))))
+
+; sid: 228722
+; sentence: You can rely on him. He never lets you down.
+(MULTI-SENT (YOU.PRO ((PRES CAN.AUX-V) (RELY.V (ON.P-ARG HIM.PRO)))) (HE.PRO NEVER.ADV-E ((PRES LET.V) YOU.PRO DOWN.ADV-A)))
+
+; sid: 228723
+; sentence: You must clear the table.
+(YOU.PRO ((PRES MUST.AUX-V) (CLEAR.V (THE.D TABLE.N))))
+
+; sid: 228724
+; sentence: Do you wash your hands before meals?
+(((PRES DO.AUX-S) YOU.PRO (WASH.V (YOUR.D (PLUR HAND.N)) (ADV-E (BEFORE.P (K (PLUR MEAL.N)))))) ?)
+
+; sid: 228725
+; sentence: I think you'd better go on a diet.
+(I.PRO ((PRES THINK.V) (THT (YOU.PRO ((PRES HAD_BETTER.AUX-S) (GO.V (ON.P-ARG (A.D DIET.N))))))))
+
+; sid: 228726
+; sentence: You bought the food, so if I buy the wine that will even things up.
+((YOU.PRO ((PAST BUY.V) (THE.D FOOD.N))) SO.CC ((IF.PS (I.PRO ((PRES BUY.V) (THE.D WINE.N)))) (THAT.PRO ((PRES WILL.AUX-S) (EVEN.V (K (PLUR THING.N)) UP.ADV-A)))))
+
+; sid: 228727
+; sentence: You really have a passion for food.
+(YOU.PRO REALLY.ADV-S ((PRES HAVE.V) (A.D (PASSION.N (FOR.P-ARG (K FOOD.N))))))
+
+; sid: 228729
+; sentence: You had better be careful not to overeat.
+(YOU.PRO ((PRES HAD_BETTER.AUX-S) (BE.V (CAREFUL.A (TO (NOT OVEREAT.V))))))
+
+; sid: 228730
+; sentence: You must account for your neglect of duty.
+(YOU.PRO ((PRES MUST.AUX-V) (ACCOUNT.V (FOR.P-ARG (YOUR.D (NEGLECT.N (OF.P-ARG DUTY.N)))))))
+
+; sid: 228846
+; sentence: You'd better knuckle down to work.
+(YOU.PRO ((PRES HAD_BETTER.AUX-S) (KNUCKLE.V DOWN.ADV-A (TO.P-ARG (K WORK.N)))))
+
+; sid: 228847
+; sentence: Your hair wants cutting.
+((YOUR.D HAIR.N) ((PRES WANT.V) (KA CUT.V)))
+
+; sid: 228848
+; sentence: You had better take an umbrella with you.
+(YOU.PRO ((PRES HAD_BETTER.AUX-S) (TAKE.V (AN.D UMBRELLA.N) (ADV-A (WITH.P YOU.PRO)))))
+
+; sid: 228849
+; sentence: All you have to do is wash the dish.
+((ALL.D (N+PREDS REF.N (SUB THT.REL (YOU.PRO ((PRES HAVE.V) (TO (DO.V *H))))))) ((PRES BE.V) (= (KA (WASH.V (THE.D DISH.N))))))
+
+; sid: 228850
+; sentence: Did you call me up last night?
+(((PAST DO.AUX-S) YOU.PRO (CALL.V ME.PRO UP.ADV-A (ADV-E (DURING.P (LAST.D NIGHT.N))))) ?)
+
+; sid: 228851
+; sentence: You are guilty of murder.
+(YOU.PRO ((PRES BE.V) (GUILTY.A (MOD-A (OF.P (K MURDER.N))))))
+
+; sid: 228852
+; sentence: You ought to have come to see me yesterday.
+(YOU.PRO ((PAST OUGHT_TO.AUX-V) (PERF (COME.V (TO (SEE.V ME.PRO YESTERDAY.ADV-E))))))
+
+; sid: 228853
+; sentence: Did you go out last night?
+(((PAST DO.AUX-S) YOU.PRO (GO.V OUT.ADV-A (ADV-E (DURING.P (LAST.D NIGHT.N))))) ?)
+
+; sid: 228854
+; sentence: You didn't come to school yesterday, did you?
+((YOU.PRO ((PAST DO.AUX-S) NOT (COME.V (TO.P-ARG (K SCHOOL.N)) YESTERDAY.ADV-E))) .?)
+
+; sid: 228855
+; sentence: You did not come to school yesterday.
+(YOU.PRO ((PAST DO.AUX-S) NOT (COME.V (TO.P-ARG (K SCHOOL.N)) YESTERDAY.ADV-E)))
+
+; sid: 229129
+; sentence: You haven't changed at all.
+(YOU.PRO ((PRES PERF) (NOT (CHANGE.V (ADV-A (AT.P ALL.PRO))))))
+
+; sid: 229130
+; sentence: You have made the very same mistake again.
+(YOU.PRO ((PRES PERF) (MAKE.V (THE.D ((MOD-N (VERY.MOD-A SAME.A)) MISTAKE.N)) AGAIN.ADV-S)))
+
+; sid: 229131
+; sentence: Are you still smarting over my remarks?
+((YOU.PRO (STILL.ADV-S ((PRES PROG) (SMART.V (ADV-A (OVER.P (MY.D (PLUR REMARK.N)))))))) ?)
+
+; sid: 229132
+; sentence: You haven't washed your hands yet, have you?
+((YOU.PRO ((PRES PERF) NOT (WASH.V (YOUR.D (PLUR HAND.N)) YET.ADV-E))) .?)
+
+; sid: 229134
+; sentence: Have you got a pen?
+((YOU.PRO ((PRES PERF) (GOT.V (A.D PEN.N)))) ?)
+
+; sid: 229135
+; sentence: You will not take Bob's advice.
+((YOU.PRO ((PRES WILL.AUX-V) NOT (TAKE.V ((| Bob| 'S) ADVICE.N)))) !)
+
+; sid: 229136
+; sentence: Are you planning on staying long in Berlin?
+((YOU.PRO ((PRES PERF) ((PROG PLAN.V) (ON.P-ARG (KA (STAY.V LONG.A (ADV-E (IN.P | Berlin|)))))))) ?)
+
+; sid: 229137
+; sentence: Can you speak French?
+(((PRES CAN.AUX-S) (YOU.PRO (SPEAK.V | French|))) ?)
+
+; sid: 229138
+; sentence: You can't speak French, can you?
+((YOU.PRO ((PRES CAN.AUX-V) NOT (SPEAK.V | French|))) .?)
+
+; sid: 229139
+; sentence: You neglected to tell me to buy bread.
+(YOU.PRO ((PAST NEGLECT.V) (TO (TELL.V ME.PRO (TO (BUY.V (K BREAD.N)))))))
+
+; sid: 288801
+; sentence: My wife is subject to moods.
+((MY.D (WIFE-OF.N *S)) ((PRES BE.V) (SUBJECT.A (TO.P-ARG (K (PLUR MOOD.N))))))
+
+; sid: 290365
+; sentence: When I was a child, I would often call on him on Sunday.
+((WHEN.PS (I.PRO ((PAST BE.V) (= (A.D CHILD.N))))) (I.PRO ((PAST WILL.AUX-S) OFTEN.ADV-F (CALL.V (ON.P-ARG HIM.PRO) (ADV-E (ON.P | Sunday|))))))
+
+; sid: 290686
+; sentence: Are there any tours of the city?
+(((PRES BE.V) THERE.PRO (= (ANY.D (PLUR (TOUR-OF.N (THE.D CITY.N)))))) ?)
+
+; sid: 291537
+; sentence: Be quiet while I'm speaking.
+(((YOU.PRO ((PRES BE.V) QUIET.A)) (WHILE.PS (I.PRO ((PRES PROG) SPEAK.V)))) !)
+
+; sid: 291879
+; sentence: Our hens laid a lot of eggs yesterday.
+((OUR.D (PLUR HEN.N)) ((PAST LAY.V) (A.D (N+PREDS LOT.N (OF.P (K (PLUR EGG.N))))) YESTERDAY.ADV-E))
+
+; sid: 293798
+; sentence: May we draw your attention to our new products?
+(((PRES MAY.AUX-V) WE.PRO (DRAW.V (YOUR.D ATTENTION.N) (ADV-A (TO.P (OUR.D ((MOD-N NEW.A) (PLUR PRODUCT.N))))))) ?)
+
+; sid: 294470
+; sentence: Will you make room for me?
+(((PRES WILL.AUX-S) YOU.PRO (MAKE.V (K ROOM.N) (ADV-A (FOR.P ME.PRO)))) ?)
+
+; sid: 296692
+; sentence: I think of you all the time.
+(I.PRO ((PRES THINK.V) (OF.P-ARG YOU.PRO) (ADV-E (DURING.P (ALL.D (OF.P (THE.D TIME.N)))))))
+
+; sid: 300000
+; sentence: I have been to see the cherry blossoms.
+(I.PRO ((PRES PERF) ((BE.V (TO.P REF.PRO)) (ADV-A (FOR.P (TO (SEE.V (THE.D ((MOD-N CHERRY.N) (PLUR BLOSSOM.N))))))))))
+
+; sid: 300001
+; sentence: I am allergic to pollen.
+(I.PRO ((PRES BE.V) (ALLERGIC.A (TO.P-ARG (K POLLEN.N)))))
+
+; sid: 320028
+; sentence: God above helped us.
+((NP+PREDS | God| (ABOVE.P US.PRO)) ((PAST HELP.V) US.PRO))
+
+; sid: 320030
+; sentence: The Milky Way is a vast belt of distant stars, each star a sun like our one.
+(((THE.D | Milky Way.N|) ((PRES BE.V) (= (A.D ((MOD-N VAST.A) (BELT.N (OF.P-ARG (DISTANT.A (K (PLUR STAR.N)))))))))) ((EACH.D STAR.N) ((PRES BE.V) (= (A.D (N+PREDS SUN.N (LIKE.P (OUR.D ONE.N))))))))
+
+; sid: 320031
+; sentence: Heaven is under our feet as well as over our heads.
+(| Heaven| ((PRES BE.V) ((UNDER.P (OUR.D (PLUR FOOT.N))) AS_WELL_AS.CC (OVER.P (OUR.D (PLUR HEAD.N))))))
+
+; sid: 320032
+; sentence: There was a beautiful chandelier hanging from the ceiling.
+(THERE.PRO ((PAST BE.V) (= (A.D (N+PREDS ((MOD-N BEAUTIFUL.A) CHANDELIER.N) (HANG.V (ADV-A (FROM.P (THE.D CEILING.N)))))))))
+
+; sid: 320033
+; sentence: Down came the ceiling and the dog went away.
+((SUB DOWN.ADV-A ((THE.D CEILING.N) ((PAST COME.V) *H))) AND.CC ((THE.D DOG.N) ((PAST GO.V) AWAY.ADV-A)))
+
+; sid: 320034
+; sentence: If the ceiling fell, he would be crushed.
+((IF.PS ((THE.D CEILING.N) (CF FALL.V))) (HE.PRO ((CF WILL.AUX-S) (PASV CRUSH.V))))
+
+; sid: 320035
+; sentence: Make sure that the device is attached firmly to ceiling.
+(YOU.PRO ((PRES MAKE_SURE.V) (THAT ((THE.D DEVICE.N) ((PRES (PASV ATTACH.V)) FIRMLY.ADV-A (ADV-A (TO.P (K CEILING.N))))))))
+
+; sid: 320036
+; sentence: There is a dragonfly on the ceiling.
+(THERE.PRO ((PRES BE.V) (= (A.D (N+PREDS DRAGONFLY.N (ON.P (THE.D CEILING.N)))))))
+
+; sid: 320037
+; sentence: I saw a fly on the ceiling.
+(I.PRO ((PAST SEE.V) (A.D (N+PREDS FLY.N (ON.P (THE.D CEILING.N))))))
+
+; sid: 320038
+; sentence: There is a fly on the ceiling.
+(THERE.PRO ((PRES BE.V) (= (A.D (N+PREDS FLY.N (ON.P (THE.D CEILING.N)))))))
+
+; sid: 440282
+; sentence: What she is trying to say is that you're a jackass.
+((ANS-TO (SUB WHAT.PRO (SHE.PRO ((PRES PROG) (TRY.V (TO (SAY.V *H))))))) ((PRES BE.V) (= (THAT (YOU.PRO ((PRES BE.V) (= (A.D JACKASS.N))))))))
+
+; sid: 442610
+; sentence: What would he know?
+((SUB WHAT.PRO ((PRES WOULD.AUX-S) HE.PRO (KNOW.V *H))) ?)
+
+; sid: 443349
+; sentence: What is the matter of surprise in it?
+((SUB WHAT.PRO ((PRES BE.V) (THE.D (N+PREDS (MATTER.N (OF.P-ARG (K SURPRISE.N))) (IN.P IT.PRO))) (= *H))) ?)
+
+; sid: 443464
+; sentence: Shall we go out for a walk?
+(((PRES SHALL.AUX-S) WE.PRO (GO.V OUT.ADV-A (FOR.P-ARG (A.D WALK.N)))) ?)
+
+; sid: 443488
+; sentence: Where would you go if you could time travel?
+(((SUB (TO.P-ARG WHICH.PRO) ((CF WILL.AUX-S) YOU.PRO (GO.V *H))) (IF.PS (YOU.PRO ((CF CAN.AUX-V) TIME_TRAVEL.V)))) ?)
+
+; sid: 444152
+; sentence: Is it not dark in the rain?
+(((PRES BE.V) IT.PRO NOT DARK.A (ADV-E (IN.P (THE-GEN.D RAIN.N)))) ?)
+
+; sid: 445122
+; sentence: Why don't you go home?
+((SUB WHY.ADV-S ((PRES DO.AUX-S) NOT YOU.PRO (GO.V (TO.P-ARG (K HOME.N)) *H))) ?)
+
+; sid: 445705
+; sentence: Are Protestants tired of the Bible?
+(((PRES BE.V) (K (PLUR | Protestant.N|)) (TIRED.A (OF.P-ARG (THE.D | Bible.N|)))) ?)
+
+; sid: 448286
+; sentence: If he had worked harder, he could have succeeded.
+((IF.PS (HE.PRO ((PAST PERF) (WORK.V (ADV-A HARDER.A))))) (HE.PRO ((CF CAN.AUX-V) (PERF SUCCEED.V))))
+
+; sid: 451157
+; sentence: What wonderful weather!
+((SUB (WHAT.D ((MOD-N WONDERFUL.A) WEATHER.N)) (THIS.PRO ((PRES BE.V) (= *H)))) !)
+
+; sid: 569824
+; sentence: Do you want to drink a perfect cocktail?
+(((PRES DO.AUX-S) YOU.PRO (WANT.V (TO (DRINK.V (A.D ((MOD-N PERFECT.A) COCKTAIL.N)))))) ?)
+
+; sid: 569829
+; sentence: Do you care who helps us?
+(((PRES DO.AUX-S) YOU.PRO (CARE.V (ANS-TO (WHO.PRO ((PRES HELP.V) US.PRO))))) ?)
+
+; sid: 569860
+; sentence: When the sun comes up, I'll get out of bed.
+((WHEN.PS ((THE.D SUN.N) (PRES COME_UP.V))) (I.PRO ((PRES WILL.AUX-S) (GET.V (OUT_OF.P (THE.D BED.N))))))
+
+; sid: 572742
+; sentence: Do you want to see me?
+(((PRES DO.AUX-S) YOU.PRO (WANT.V (TO (SEE.V ME.PRO)))) ?)
+
+; sid: 573127
+; sentence: What did you do with all that stuff you had in the garage?
+((SUB WHAT.PRO ((PAST DO.AUX-S) YOU.PRO (DO.V *H (ADV-A (WITH.P (ALL.D (OF.P (THAT.D (N+PREDS STUFF.N (SUB THT.REL (YOU.PRO ((PAST HAVE.V) *H (ADV-E (IN.P (THE.D GARAGE.N))))))))))))))) ?)
+
+; sid: 575615
+; sentence: You're not very hungry, are you?
+((YOU.PRO ((PRES BE.V) NOT (VERY.MOD-A HUNGRY.A))) .?)
+
+; sid: 578992
+; sentence: Why are you whispering?
+((SUB WHY.ADV-S ((PRES PROG) YOU.PRO (WHISPER.V *H))) ?)
+
+; sid: 579034
+; sentence: What did you do before?
+((SUB WHAT.PRO ((PAST DO.AUX-S) YOU.PRO (DO.V *H BEFORE.ADV-E))) ?)
+
+; sid: 579120
+; sentence: Tom wanted it this way.
+(| Tom| ((PAST WANT.V) IT.PRO (ADV-A (IN.P (THIS.D WAY.N)))))
+
+; sid: 579467
+; sentence: Can't you do something?
+(((PRES CAN.AUX-V) NOT YOU.PRO (DO.V SOMETHING.PRO)) ?)
+
+; sid: 661915
+; sentence: Where's the big guy?
+((SUB (AT-LOC.P WHICH.PRO) ((PRES BE.V) (THE.D ((MOD-N BIG.A) GUY.N)) *H)) ?)
+
+; sid: 662734
+; sentence: Can I get up now?
+(((PRES CAN.AUX-V) I.PRO (GET_UP.V NOW.ADV-E)) ?)
+
+; sid: 662755
+; sentence: Can you prevent it?
+(((PRES CAN.AUX-V) YOU.PRO (PREVENT.V IT.PRO)) ?)
+
+; sid: 662758
+; sentence: Can you freeze it?
+(((PRES CAN.AUX-V) YOU.PRO (FREEZE.V IT.PRO)) ?)
+
+; sid: 662784
+; sentence: Can I ask a favor?
+(((PRES CAN.AUX-V) I.PRO (ASK.V (A.D FAVOR.N))) ?)
+
+; sid: 662786
+; sentence: Can you help me down?
+(((PRES CAN.AUX-V) YOU.PRO (HELP.V ME.PRO (GET.V DOWN.A))) ?)
+
+; sid: 663001
+; sentence: Can you excuse me a second?
+(((PRES CAN.AUX-S) YOU.PRO (EXCUSE.V ME.PRO (ADV-E (FOR.P (A.D SECOND.N))))) ?)
+
+; sid: 663254
+; sentence: Can you shut the door on your way out?
+(((PRES CAN.AUX-V) YOU.PRO (SHUT.V (THE.D DOOR.N) (ADV-A (ON.P (YOUR.D (N+PREDS WAY.N (OUT.P REF.PRO))))))) ?)
+
+; sid: 663317
+; sentence: Can you ask Tom to come on in?
+(((PRES CAN.AUX-V) YOU.PRO (ASK.V | Tom| (TO (COME.V ON.ADV-A IN.ADV-A)))) ?)
+
+; sid: 664774
+; sentence: Do you think I did it?
+(((PRES DO.AUX-S) YOU.PRO (THINK.V (THT (I.PRO ((PAST DO.V) IT.PRO))))) ?)
+
+; sid: 758281
+; sentence: Wasn't there anything they could do for you?
+(((PAST BE.V) NOT THERE.PRO (= (ANY.D (N+PREDS THING.N (SUB THT.REL (THEY.PRO ((PAST CAN.AUX-V) (DO.V *H (ADV-A (FOR.P YOU.PRO)))))))))) ?)
+
+; sid: 758448
+; sentence: Did you really see Tom yesterday?
+(((PAST DO.AUX-S) YOU.PRO REALLY.ADV-S (SEE.V | Tom| YESTERDAY.ADV-E)) ?)
+
+; sid: 758955
+; sentence: Which hospital did they take Tom to?
+((SUB (WHICH.D HOSPITAL.N) ((PAST DO.AUX-S) THEY.PRO (TAKE.V | Tom| (ADV-A (TO.P *H))))) ?)
+
+; sid: 759384
+; sentence: What am I supposed to think?
+((SUB WHAT.PRO (I.PRO ((PRES BE.V) (SUPPOSED.A (TO (THINK.V *H)))))) ?)
+
+; sid: 760111
+; sentence: What do you like on your salad?
+((SUB WHAT.PRO ((PRES DO.AUX-S) YOU.PRO (LIKE.V (NP+PREDS *H (ON.P (YOUR.D SALAD.N)))))) ?)
+
+; sid: 760161
+; sentence: Are you saying Tom was right?
+((YOU.PRO ((PRES PROG) (SAY.V (THT (| Tom| ((PAST BE.V) RIGHT.A)))))) ?)
+
+; sid: 760308
+; sentence: How long were you in prison?
+((SUB (HOW.MOD-A LONG.A) ((PAST BE.V) YOU.PRO (IN.P (K PRISON.N)) (ADV-E *H))) ?)
+
+; sid: 760785
+; sentence: Would you mind if I ask why not?
+((((CF WILL.AUX-S) YOU.PRO MIND.V) (IF.PS (I.PRO ((PRES ASK.V) (ANS-TO (WHY.ADV-S (NOT REF.SENT))))))) ?)
+
+; sid: 761620
+; sentence: Did you really expect Tom to read it?
+((((PAST DO.AUX-S) YOU.PRO ((REALLY.ADV-A EXPECT.V)) (| Tom| (TO (READ.V IT.PRO))))) ?)
+
+; sid: 762281
+; sentence: Would you lend me a hand?
+(((PRES WOULD.AUX-S) YOU.PRO (LEND.V ME.PRO (A.D HAND.N))) ?)
+
+; sid: 891183
+; sentence: What curriculum does Fadil use to teach Arabic?
+((SUB (WHAT.D CURRICULUM.N) ((PRES DO.AUX-S) | Fadil| (USE.V *H (TO (TEACH.V | Arabic|))))) ?)
+
+; sid: 893790
+; sentence: Were you able to convince Tom to help us?
+(((PAST BE.V) YOU.PRO (ABLE.A (TO (CONVINCE.V | Tom| (TO (HELP.V US.PRO)))))) ?)
+
+; sid: 896205
+; sentence: Can I borrow your laptop for a second?
+(((PRES CAN.AUX-V) I.PRO (BORROW.V (YOUR.D LAPTOP.N) (ADV-E (FOR.P (A.D SECOND.N))))) ?)
+
+; sid: 896522
+; sentence: What instruments do you play?
+((SUB (WHAT.D (PLUR INSTRUMENT.N)) ((PRES DO.AUX-S) YOU.PRO (PLAY.V *H))) ?)
+
+; sid: 897149
+; sentence: According to Tom, Mary got married last month.
+((ADV-S (ACCORD.V (TO.P-ARG | Tom|))) (| Mary| ((PAST GET.V) MARRIED.A (ADV-E ((MOD-N LAST.A) MONTH.N)))))
+
+; sid: 898556
+; sentence: Can't I persuade you to come?
+(((PRES CAN.AUX-V) NOT I.PRO (PERSUADE.V YOU.PRO (TO COME.V))) ?)
+
+; sid: 899528
+; sentence: I'm going to go to the bank. Can you watch the gratin?
+(MULTI-SENT (I.PRO ((PRES BE.AUX-V) (GO.V (TO (GO.V (TO.P-ARG (THE.D BANK.N))))))) (((PRES CAN.AUX-V) YOU.PRO (WATCH.V (THE.D GRATIN.N))) ?))
+
+; sid: 900000
+; sentence: I want to be remembered after I die.
+(I.PRO ((PRES WANT.V) (TO ((PASV REMEMBER.V) (ADV-E (AFTER.P (KE (I.PRO DIE.V))))))))
+
+; sid: 902341
+; sentence: What happened after Tom disappeared?
+(((WHAT.PRO (PAST HAPPEN.V)) (AFTER.PS (| Tom| (PAST DISAPPEAR.V)))) ?)
+
+; sid: 903202
+; sentence: If I don't eat, I will die.
+((IF.PS (I.PRO ((PRES DO.AUX-S) NOT EAT.V))) (I.PRO ((PRES WILL.AUX-S) DIE.V)))
+
+; sid: 916689
+; sentence: `` If we refuse and reject negotiations with the Russians , we will be blamed by the world , '' Mojaddidi said .
+(SUB (|"| ((IF.PS (WE.PRO (((PRES REFUSE.V) AND.CC (PRES REJECT.V)) (K ((PLUR NEGOTIATION.N) (WITH.P-ARG (THE-GEN.D (PLUR | Russian.N|)))))))) (WE.PRO ((PRES WILL.AUX-S) ((PASV BLAME.V) (BY.P-ARG (THE.D WORLD.N)))))) |"|) (| Mojaddidi| ((PAST SAY.V) *H)))
+
+; sid: 916699
+; sentence: `` What is going to happen ?
+((WHAT.PRO ((PRES BE.AUX-V) (GO.V (TO HAPPEN.V)))) ?)
+
+; sid: 916714
+; sentence: A high school canceled classes for a second day Thursday after a custodian was diagnosed with Legionnaires ' disease and another custodian began showing symptoms of the disease .
+(((A.D ((MOD-N HIGH.A) SCHOOL.N)) ((PAST CANCEL.V) (K (PLUR CLASS.N)) (ADV-A (FOR.P (A.D ((MOD-N SECOND.A) DAY.N)))) THURSDAY.ADV-E)) (AFTER.PS (((A.D CUSTODIAN.N) ((PAST (PASV DIAGNOSE.V)) (WITH.P-ARG | Legionnaires ' disease|))) AND.CC ((ANOTHER.D CUSTODIAN.N) ((PAST BEGIN.V) (KA (SHOW.V (K (PLUR (SYMPTOM-OF.N (THE.D DISEASE.N)))))))))))
+
+; sid: 916715
+; sentence: Test results to determine if the second custodian at Hunterdon Central Regional High School has the disease should be available in about five days , said Marilyn Riley , state Health Department spokeswoman .
+(SUB ((K (N+PREDS ((MOD-N TEST.N) (PLUR RESULT.N)) (FOR.P (TO (DETERMINE.V (WHETHER ((THE.D (N+PREDS ((MOD-N SECOND.A) CUSTODIAN.N) (AT.P | Hunterdon Central Regional High School|))) ((PRES HAVE.V) (THE.D DISEASE.N))))))))) ((PRES SHOULD.AUX-S) (BE.V AVAILABLE.A (ADV-E (IN.P ((NQUAN (ABOUT.MOD-A FIVE.A)) (PLUR DAY.N))))))) ((NP+PREDS | Marilyn Riley| ((MOD-N ((MOD-N STATE.N) | Health Department.N|)) SPOKESWOMAN.N)) ((PAST SAY.V) (THT *H))))
+
+; sid: 916757
+; sentence: At one time , U.S. diplomats got into hot water if they clinked teacups with members of the PLO , but now the State Department has switched signals .
+(((ADV-E (AT.P (ONE.D TIME.N))) (((K ((MOD-N | U.S..N|) (PLUR DIPLOMAT.N))) ((PAST GET.V) (INTO.P-ARG (K ((MOD-N HOT.A) WATER.N))))) (IF.PS (THEY.PRO ((PAST CLINK.V) (K (PLUR TEACUP.N)) (ADV-A (WITH.P (K (PLUR (MEMBER-OF.N (THE.D | PLO.N|))))))))))) BUT.CC (NOW.ADV-E ((THE.D | State Department.N|) ((PRES PERF) (SWITCH.V (K (PLUR SIGNAL.N)))))))
+
+; sid: 916759
+; sentence: `` There have been instructions that have allowed people in social settings to respond socially to introductions , '' Mrs. Oakley said .
+(SUB (|"| (THERE.PRO ((PRES PERF) (BE.V (N+PREDS (PLUR INSTRUCTION.N) (THAT.REL ((PRES PERF) (ALLOW.V (K (PLUR PERSON.N)) (ADV-E (IN.P (K ((MOD-N SOCIAL.A) (PLUR SETTING.N))))) (TO (RESPOND.V SOCIALLY.ADV-A (TO.P-ARG (K (PLUR INTRODUCTION.N)))))))))))) |"|) (| Mrs. Oakley| ((PAST SAY.V) *H)))
+
+; sid: 916776
+; sentence: When it 's time for their biannual powwow , the nation 's manufacturing titans typically jet off to the sunny confines of resort towns like Boca Raton and Hot Springs .
+((WHEN.PS (IT.PRO ((PRES BE.V) (N+PREDS TIME.N (FOR.P (THEIR.D ((MOD-N BIANNUAL.A) POWWOW.N))))))) ((((THE.D NATION.N) 'S) ((MOD-N MANUFACTURING.N) (PLUR TITAN.N))) TYPICALLY.ADV-S ((PRES JET.V) OFF.ADV-A (TO.P-ARG (THE.D (N+PREDS ((MOD-N SUNNY.A) (PLUR CONFINE.N)) (OF.P (NP+PREDS (K ((MOD-N RESORT.A) (PLUR TOWN.N))) (LIKE.P (| Boca Raton| AND.CC | Hot Springs|))))))))))
+
+; sid: 916805
+; sentence: He is expected to rework the lame-duck budget Reagan will be sending to Congress on Monday .
+(HE.PRO ((PRES (PASV EXPECT.V)) (TO (REWORK.V (THE.D (N+PREDS ((MOD-N LAME-DUCK.A) BUDGET.N) (SUB THT.REL (| Reagan| ((PRES WILL.AUX-S) ((PROG SEND.V) *H (TO.P-ARG | Congress|) (ADV-E (ON.P | Monday|))))))))))))
+
+; sid: 916836
+; sentence: But it does call into profound question his judgment , in particular his willingness to turn a blind eye to the background and beliefs of notorious colleagues if they share his anti-communism . ''
+(BUT.ADV-S (IT.PRO ((PRES DO.AUX-S) (CALL.V (INTO.P-ARG (K ((MOD-N PROFOUND.A) QUESTION.N))) ((HIS.D JUDGEMENT.N) AND.CC ((ADV-S (IN.P (K PARTICULAR.N))) (HIS.D (WILLINGNESS.N (TO (TURN.V (A.D ((MOD-N BLIND.A) EYE.N)) (TO.P-ARG (K (N+PREDS ((PLUR BACKGROUND.N) AND.CC (PLUR BELIEF.N)) (OF.P (THE.D ((MOD-N NOTORIOUS.A) (PLUR COLLEAGUE.N))))))) (IF.PS (THEY.PRO ((PRES SHARE.V) (HIS.D ANTI-COMMUNISM.N))))))))))))))
+
+; sid: 916852
+; sentence: Goddard said cities recognize the federal deficit problem and do n't seek a return to their pampered days , `` but we do need a positive administration response , one which is willing to use national leadership and coordination to help us save money and add a sense of direction . ''
+(| Goddard| ((PAST SAY.V) (THT (((K (PLUR CITY.N)) (((PRES RECOGNIZE.V) (THE.D ((MOD-N ((MOD-N FEDERAL.A) DEFICIT.N)) PROBLEM.N))) AND.CC ((PRES DO.AUX-S) NOT (SEEK.V (A.D (RETURN.N (TO.P-ARG (THEIR.D ((MOD-N PAMPERED.A) (PLUR DAY.N)))))))))) BUT.CC (WE.PRO ((PRES DO.AUX-S) (NEED.V (NP+PREDS (A.D ((MOD-N POSITIVE.A) ((MOD-N ADMINISTRATION.A) RESPONSE.N))) (N+PREDS ONE.N (WHICH.REL ((PRES BE.V) (WILLING.A (TO (USE.V (K ((MOD-N NATIONAL.A) (LEADERSHIP.N AND.CC COORDINATION.N))) (TO ((HELP.V US.PRO (SAVE.V (K MONEY.N))) AND.CC (ADD.V (A.D (N+PREDS SENSE.N (OF.P (K DIRECTION.N)))))))))))))))))))))
+
+; sid: 924881
+; sentence: What is the full name of the man who invented the multicolored game cube that has 42.3 quintillion potential combinations ?
+((SUB WHAT.PRO ((PRES BE.V) (THE.D (N+PREDS ((MOD-N FULL.A) NAME.N) (OF.P (THE.D (N+PREDS MAN.N (WHO.REL ((PAST INVENT.V) (THE.D (N+PREDS ((MOD-N MULTICOLORED.A) ((MOD-N GAME.N) CUBE.N)) (THAT.REL ((PRES HAVE.V) ((NQUAN ((MOD-A |42.3.A|) QUINTILLION.A)) ((MOD-N POTENTIAL.A) (PLUR COMBINATION.N)))))))))))))) (= *H))) ?)
+
+; sid: 924896
+; sentence: Where can I find the names of all the 15 Pokemon ?
+((SUB WHERE.PQ ((PRES CAN.AUX-V) I.PRO (FIND.V (THE.D (N+PREDS (PLUR NAME.N) (OF.P (ALL.D (OF.P (THE.D ((MOD-N |15.D|) | Pokemon.N|))))))) *H))) ?)
+
+; sid: 924923
+; sentence: How many casinos are in Atlantic City , NJ ?
+((((NQUAN (HOW.MOD-A MANY.A)) (PLUR CASINO.N)) ((PRES BE.V) (IN.P (DS ADDRESS "Atlantic City, NJ")))) ?)
+
+; sid: 925077
+; sentence: How can I find out how much income tax is paid on Social Security income on the 1998 income tax ?
+((SUB HOW.PQ ((PRES CAN.AUX-V) I.PRO (FIND.V OUT.ADV-A (ANS-TO (((NQUAN (HOW.MOD-A MUCH.A)) ((MOD-N INCOME.N) TAX.N)) ((PRES (PASV PAY.V)) (ON.P-ARG (K ((MOD-N | Social Security.N|) INCOME.N))) (ADV-E (ON.P (THE.D (| 1998| ((MOD-N INCOME.N) TAX.N)))))))) *H))) ?)
+
+; sid: 925240
+; sentence: Where can I find information about touring the Philippines ?
+((SUB WHERE.PQ ((PRES CAN.AUX-S) I.PRO (FIND.V (K (N+PREDS INFORMATION.N (ABOUT.P (KA (TOUR.V (THE.D (PLUR | Philippine.N|))))))) *H))) ?)
+
+; sid: 925315
+; sentence: Name four famous cartoon cats .
+((YOU.PRO ((PRES NAME.V) (FOUR.D ((MOD-N FAMOUS.A) ((MOD-N CARTOON.N) (PLUR CAT.N)))))) !)
+
+; sid: 925407
+; sentence: Name the five positions who are in the line of succession to the presidency .
+((YOU.PRO ((PRES NAME.V) (THE.D (N+PREDS ((MOD-N FIVE.A) (PLUR POSITION.N)) (WHO.REL ((PRES BE.V) (IN.P (THE.D (N+PREDS LINE.N (OF.P (K (SUCCESSION.N (TO.P-ARG (THE.D PRESIDENCY.N)))))))))))))) !)
+
+; sid: 925450
+; sentence: Name Li 'l Abner 's favorite Indian drink .
+((YOU.PRO ((PRES NAME.V) ((| Li'l Abner| 'S) ((MOD-N FAVORITE.A) ((MOD-N | Indian.A|) DRINK.N))))) !)
+
+; sid: 925497
+; sentence: What two commanders directed the forces in the Battle of El Alamein ?
+(((WHAT.D ((MOD-N TWO.A) (PLUR COMMANDER.N))) ((PAST DIRECT.V) (THE.D (PLUR FORCE.N)) (ADV-E (IN.P (THE.D (N+PREDS | Battle.N| (OF.P | El Alamein|))))))) ?)
+
+; sid: 925613
+; sentence: What are the three secondary colors ?
+((SUB (= WHAT.PRO) ((PRES BE.V) (THE.D ((MOD-N THREE.A) ((MOD-N SECONDARY.A) (PLUR COLOR.N)))) *H)) ?)
+
+; sid: 943484
+; sentence: " And now , your excellency , " added he , " allow me to repeat my apologies , and I hope you will not entertain any resentment at what has occurred . "
+(|"| (AND.ADV-S NOW.ADV-E (VOC (YOUR.D EXCELLENCY.N)) (QT-ATTR (HE.PRO ((PAST ADD.V) *QT))) (((YOU.PRO ((PRES ALLOW.V) ME.PRO (TO (REPEAT.V (MY.D (PLUR APOLOGY.N)))))) !) AND.CC (I.PRO ((PRES HOPE.V) (THT (YOU.PRO ((PRES WILL.AUX-S) NOT (ENTERTAIN.V (ANY.D (RESENTMENT.N (AT.P-ARG (NP+PREDS WHAT.PRO (PERF OCCUR.V))))))))))))) |"|)
+
+; sid: 943487
+; sentence: " Gentlemen , " added the chief , turning towards the young men , " perhaps the offer may not appear very tempting to you ; but if you should ever feel inclined to pay me a second visit , wherever I may be , you shall be welcome . "
+(|"| (((VOC (K (PLUR GENTLEMAN.N))) (QT-ATTR ((THE.D CHIEF.N) ((PAST ADD.V) *QT (ADV-A (TURN.V (ADV-A (TOWARDS.P (THE.D ((MOD-N YOUNG.A) (PLUR MAN.N)))))))))) PERHAPS.ADV-S ((THE.D OFFER.N) ((PRES MAY.AUX-S) NOT (APPEAR.V (VERY.MOD-A TEMPTING.A) (TO.P-ARG YOU.PRO))))) (BUT.ADV-S ((IF.PS (YOU.PRO ((CF SHOULD.AUX-S) EVER.ADV-E (FEEL.V (INCLINED.A (TO (PAY.V ME.PRO (A.D ((MOD-N SECOND.A) VISIT.N)) (ADV-E (AT.P (ANY.D (N+PREDS PLACE.N (SUB WHERE.REL (I.PRO ((CF MAY.AUX-S) (BE.V (AT.P *H)))))))))))))))) (YOU.PRO ((PRES SHALL.AUX-S) (BE.V WELCOME.A)))))) |"|)
+
+; sid: 943488
+; sentence: Franz and Albert bowed .
+((| Franz| AND.CC | Albert|) (PAST BOW.V))
+
+; sid: 943490
+; sentence: Franz paused for a moment .
+(| Franz| ((PAST PAUSE.V) (ADV-E (FOR.P (A.D MOMENT.N)))))
+
+; sid: 943491
+; sentence: " Has your excellency anything to ask me ? " said Vampa with a smile .
+(SUB (|"| (((PRES HAVE.V) (YOUR.D EXCELLENCY.N) (ANY.D (N+PREDS THING.N (SUB THT.REL (TO (ASK.V ME.PRO *H)))))) ?) |"|) (| Vampa| ((PAST SAY.V) *H (ADV-A (WITH.P (A.D SMILE.N))))))
+
+; sid: 943492
+; sentence: " Yes , I have , " replied Franz ; " I am curious to know what work you were perusing with so much attention as we entered . "
+(|"| ((YES.YN (I.PRO ((PRES HAVE.V) REF.PRO))) (QT-ATTR (| Franz| ((PAST REPLY.V) *QT))) (I.PRO ((PRES BE.V) (CURIOUS.A (TO (KNOW.V (ANS-TO (SUB (WHAT.D WORK.N) (YOU.PRO ((PAST PROG) (PERUSE.V *H (ADV-A (WITH.P (K ((MOD-N (SO.MOD-A MUCH.A)) ATTENTION.N)))) (AS.PS (WE.PRO (PAST ENTER.V)))))))))))))) |"|)
+
+; sid: 943493
+; sentence: " Caesar 's Commentaries , " said the bandit , " it is my favorite work . "
+(|"| ((PU ((| Caesar| 'S) (PLUR | Commentary.N|))) (QT-ATTR ((THE.D BANDIT.N) ((PAST SAY.V) *QT))) (IT.PRO ((PRES BE.V) (= (MY.D ((MOD-N FAVORITE.A) WORK.N)))))) |"|)
+
+; sid: 943494
+; sentence: " Well , are you coming ? " asked Albert .
+(SUB (|"| (WELL.X (((PRES PROG) YOU.PRO COME.V) ?)) |"|) (| Albert| ((PAST ASK.V) *H)))
+
+; sid: 943495
+; sentence: " Yes , " replied Franz , " here I am , " and he , in his turn , left the caves .
+((|"| (YES.YN (QT-ATTR (| Franz| ((PAST REPLY.V) *QT))) (SUB HERE.A (I.PRO ((PRES BE.V) *H)))) |"|) AND.CC (HE.PRO (ADV-S (IN.P (HIS.D TURN.N))) ((PAST LEAVE.V) (THE.D (PLUR CAVE.N)))))
+
+; sid: 943496
+; sentence: They advanced to the plain .
+(THEY.PRO ((PAST ADVANCE.V) (ADV-A (TO.P (THE.D PLAIN.N)))))
+
+; sid: 993481
+; sentence: Chance , that is to say , Providence , had cast him into precisely that convent in the Quartier Saint-Antoine where old Fauchelevent , crippled by the fall from his cart , had been admitted on his recommendation two years previously .
+((NP+PREDS (K | Chance.N|) (THAT.REL ((PRES BE.V) (= (TO (SAY.V (K | Providence.N|))))))) ((PAST PERF) (CAST.V HIM.PRO (INTO.P-ARG (PRECISELY.ADV-S (THAT.D (N+PREDS CONVENT.N (IN.P (THE.D | Quartier Saint-Antoine.N|)) (SUB (AT-LOC.P-ARG WHICH.REL) ((THE.D ((MOD-N OLD.A) | Fauchelevent.N|)) ((ADV-A ((PASV CRIPPLE.V) (BY.P-ARG (THE.D (FALL.N (FROM.P-ARG (HIS.D CART.N))))))) ((PAST PERF) (ADMIT.V *H (ADV-S (ON.P (HIS.D RECOMMENDATION.N))) (ADV-E ((MOD-A (BY.P (TWO.D (PLUR YEAR.N)))) PREVIOUS.A))))))))))))))
+
+; sid: 993482
+; sentence: He repeated , as though talking to himself : --
+(HE.PRO ((PAST REPEAT.V) REF.PRO (ADV-A (AS_THOUGH.P (KA (TALK.V (TO.P-ARG HIMSELF.PRO)))))))
+
+; sid: 993483
+; sentence: " The Petit-Picpus convent . "
+(|"| (PU (THE.D (| Petit-Picpus| CONVENT.N))) |"|)
+
+; sid: 993484
+; sentence: " Exactly , " returned old Fauchelevent .
+((THE.D ((MOD-N OLD.A) | Fauchelevent.N|)) ((PAST RETURN.V) (|"| EXACTLY.ADV-S |"|)))
+
+; sid: 993485
+; sentence: " But to come to the point , how the deuce did you manage to get in here , you , Father Madeleine ?
+(((BUT.ADV-S (ADV-S (FOR.P (TO (COME.V (ADV-A (TO.P (THE.D (POINT-OF.N *REF)))))))) (SUB (ADV-A (BY-MEANS-OF.P (NP+PREDS WHICH.PRO (= (THE.D DEUCE.N))))) ((PAST DO.AUX-S) YOU.PRO (MANAGE.V (TO (GET.V (IN.P-ARG HERE.PRO))) *H)))) (VOC (NP+PREDS YOU.PRO (= | Father Madeleine|)))) ?)
+
+; sid: 993486
+; sentence: No matter if you are a saint ; you are a man as well , and no man enters here . "
+(((IT.PRO ((PRES BE.V) (= (NO.D MATTER.N)))) (IF.PS (YOU.PRO ((PRES BE.V) (= (A.D SAINT.N)))))) ((YOU.PRO ((PRES BE.V) (= (A.D MAN.N)) AS_WELL.ADV-S)) AND.CC ((NO.D MAN.N) ((PRES ENTER.V) HERE.PRO))))
+
+; sid: 993487
+; sentence: " You certainly are here . "
+(|"| (YOU.PRO CERTAINLY.ADV-S ((PRES BE.V) HERE.A)) |"|)
+
+; sid: 993488
+; sentence: " There is no one but me . "
+(|"| (THERE.PRO ((PRES BE.V) (= (NO.D (N+PREDS ONE.N (BUT.P ME.PRO)))))) |"|)
+
+; sid: 993489
+; sentence: " Still , " said Jean Valjean , " I must stay here . "
+(|"| (STILL.ADV-S (QT-ATTR (| Jean Valjean| ((PAST SAY.V) *QT))) (I.PRO ((PRES MUST.AUX-V) (STAY.V HERE.A)))) |"|)
+
+; sid: 993490
+; sentence: " Ah , good God ! " cried Fauchelevent .
+(SUB (|"| (AH.X (GOOD.X GOD.X)) |"|) (| Fauchelevent| ((PAST CRY.V) *H)))
+
+; sid: 1255177
+; sentence: " Well I might if I liked,"--but I did not .
+((|"| (WELL.X ((I.PRO ((PRES MIGHT.AUX-S) REF1.V)) (IF.PS (I.PRO ((PAST PERF) LIKE.V))))) |"|) BUT.CC (I.PRO ((PAST DO.AUX-S) (NOT REF1.V))))
+
+; sid: 1263273
+; sentence: To Thy grace I ascribe it , and to Thy mercy , that Thou hast melted away my sins as it were ice .
+(SUB (TO.P-ARG (THY.D GRACE.N)) (REP (I.PRO ((PRES ASCRIBE.V) (NP+PREDS IT.PRO (= *P)) (*H AND.CC (TO.P-ARG (THY.D MERCY.N))))) (THAT (THOU.PRO ((PRES PERF) (MELT.V AWAY.ADV-A (MY.D (PLUR SIN.N)) (AS.PS (IT.PRO ((CF WERE.V) ICE.N)))))))))
+
+; sid: 1264399
+; sentence: And who has any right to speak against it , if just punishment follow the sinner ?
+((AND.ADV-S ((WHO.PRO ((PRES HAVE.V) (ANY.D (N+PREDS RIGHT.N (= (TO (SPEAK.V (ADV-A (AGAINST.P IT.PRO))))))))) (IF.PS ((K ((MOD-N JUST.A) PUNISHMENT.N)) ((PRES FOLLOW.V) (THE.D SINNER.N)))))) ?)
+
+; sid: 1267246
+; sentence: Hast thou enticed me into a bond that will prove the ruin of my soul ? "
+(((PAST PERF) THOU.PRO (ENTICE.V ME.PRO (ADV-A (INTO.P (A.D (N+PREDS BOND.N (THAT.REL ((PRES WILL.AUX-S) (PROVE.V (THE.D (RUIN.N (OF.P-ARG (MY.PRO SOUL.N))))))))))))) ?)
+
+; sid: 1288532
+; sentence: [" If that half of my soul were snatch away from me by an untimely stroke , why should the other stay ?
+(((IF.PS ((THAT.D (HALF-OF.N (MY.D SOUL.N))) ((CF (PASV SNATCH.V)) AWAY.ADV-A (FROM.P-ARG ME.PRO) (BY.P-ARG (AN.D ((MOD-N UNTIMELY.A) STROKE.N)))))) (SUB WHY.ADV-S ((CF SHOULD.AUX-V) (THE.D ((MOD-N OTHER.A) REF.N)) (STAY.V *H)))) ?)
+
+; sid: 1320887
+; sentence: He began to scribble on a slip of paper .
+(HE.PRO ((PAST BEGIN.V) (TO (SCRIBBLE.V (ON.P-ARG (A.D (N+PREDS SLIP.N (OF.P (K PAPER.N)))))))))
+
+; sid: 1322701
+; sentence: Lenehan opened most genial arms. Who ?
+(MULTI-SENT (| Lenehan| ((PAST OPEN.V) (MOST.D ((MOD-N GENIAL.A) (PLUR ARM.N))))) ((WHO.PRO REF.V) ?))
+
+; sid: 1326553
+; sentence: I saw all .
+(I.PRO ((PAST SEE.V) ALL.PRO))
+
+; sid: 1334296
+; sentence: Since in the majority of cases there has only been exercise of will when the effect of the command--consequently obedience , and therefore action--was to be EXPECTED , the APPEARANCE has translated itself into the sentiment , as if there were a NECESSITY OF EFFECT ; in a word , he who wills believes with a fair amount of certainty that will and action are somehow one ; he ascribes the success , the carrying out of the willing , to the will itself , and thereby enjoys an increase of the sensation of power which accompanies all success .
+(((SINCE.PS (((ADV-S (IN.P (THE.D (MAJORITY-OF.N (K (PLUR CASE.N)))))) (THERE.PRO ((PRES PERF) (ONLY.ADV-S (BE.V (EXERCISE.N (OF.P-ARG (K WILL.N)))))))) (WHEN.PS ((THE.D (N+PREDS EFFECT.N (OF.P (THE.D COMMAND.N)) ((CONSEQUENTLY.ADV-S OBEDIENCE.N) AND.CC (THEREFORE.ADV-S ACTION.N)))) ((PRES BE-TO.AUX-V) (BE.V EXPECTED.A)))))) (((THE.D APPEARANCE.N) ((PRES PERF) (TRANSLATE.V ITSELF.PRO (INTO.P-ARG (THE.D SENTIMENT.N))))) (AS_IF.PS (THERE.PRO ((CF WERE.V) (= (A.D (NECESSITY.N (OF.P-ARG (K EFFECT.N)))))))))) ((ADV-S (IN.P (A.D WORD.N))) ((NP+PREDS HE.PRO (WHO.REL ((PRES WILL.V) REF.PRO))) ((PRES BELIEVE.V) (ADV-A (WITH.P (A.D ((MOD-N FAIR.A) (AMOUNT-OF.N (K CERTAINTY.N)))))) (THAT (((K WILL.N) AND.CC (K ACTION.N)) ((PRES BE.V) SOMEHOW.ADV-S ONE.A)))))) (HE.PRO (((PRES ASCRIBE.V) (NP+PREDS (THE.D SUCCESS.N) (= (THE.D (CARRYING_OUT.N (OF.P-ARG (THE.D WILLING.N)))))) (TO.P-ARG (THE.D (N+PREDS WILL.N (= ITSELF.PRO))))) AND.CC (THEREBY.ADV-S ((PRES ENJOY.V) (AN.D (INCREASE-OF.N (THE.D (N+PREDS SENSATION.N (OF.P (K POWER.N)) (WHICH.REL ((PRES ACCOMPANY.V) (ALL.D SUCCESS.N))))))))))))
+
+; sid: 1335475
+; sentence: Oh Europe !
+(OH.X (VOC | Europe|))

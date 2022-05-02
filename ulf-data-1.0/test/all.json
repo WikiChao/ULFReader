@@ -1,0 +1,1082 @@
+[
+    [
+        "227278",
+        "Let's try something.",
+        "((YOU.PRO ((PRES LET.V) US.PRO (TRY.V SOMETHING.PRO))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LET.V)) :ARG0 (V7 / US.PRO) :ARG1 (V8 / TRY.V :ARG0 (V10 / SOMETHING.PRO)))) :ARG0 (V11 / !))"
+    ],
+    [
+        "227354",
+        "Back in high school, I got up at 6 a.m. every morning.",
+        "((BACK.ADV-E (ADV-E (IN.P (K HIGH_SCHOOL.N))) (I.PRO ((PAST GET_UP.V) (ADV-E (AT.P (DS DATE-TIME \"6 am\"))) (ADV-F ((MOD-N EVERY.A) MORNING.N))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / BACK.ADV-E :ARG0 (V3 / ADV-E :ARG0 (V5 / IN.P :ARG0 (V7 / K :ARG0 (V9 / HIGH_SCHOOL.N)))) :ARG1 (V10 / I.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PAST :ARG0 (V15 / GET_UP.V)) :ARG0 (V16 / ADV-E :ARG0 (V18 / AT.P :ARG0 (V20 / DS :ARG0 (V22 / DATE-TIME) :ARG1 (V23 / \"6 am\")))) :ARG1 (V24 / ADV-F :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / EVERY.A)) :ARG0 (V30 / MORNING.N)))))))"
+    ],
+    [
+        "228189",
+        "Who painted this painting?",
+        "((WHO.PRO ((PAST PAINT.V) (THIS.D PAINTING.N))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / WHO.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / PAINT.V)) :ARG0 (V7 / THIS.D :ARG0 (V9 / PAINTING.N)))) :ARG0 (V10 / ?))"
+    ],
+    [
+        "228278",
+        "That's the snag.",
+        "(THAT.PRO ((PRES BE.V) (= (THE.D SNAG.N))))",
+        "(V0 / THAT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / = :ARG0 (V8 / THE.D :ARG0 (V10 / SNAG.N)))))"
+    ],
+    [
+        "228279",
+        "We are what we pretend to be, so we must be careful what we pretend to be.",
+        "((WE.PRO ((PRES BE.V) (= (ANS-TO (SUB WHAT.PRO (WE.PRO ((PRES PRETEND.V) (TO (BE.V (= *H)))))))))) SO.CC (WE.PRO ((PRES MUST.AUX-V) (BE.V (CAREFUL.A (ANS-TO (SUB WHAT.PRO (WE.PRO ((PRES PRETEND.V) (TO (BE.V (= *H))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / WE.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / = :ARG0 (V9 / ANS-TO :ARG0 (V11 / SUB :ARG0 (V13 / WHAT.PRO) :ARG1 (V14 / WE.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / PRETEND.V)) :ARG0 (V20 / TO :ARG0 (V22 / BE.V :ARG0 (V24 / = :ARG0 (V26 / *H))))))))))) :ARG0 (V27 / SO.CC) :ARG1 (V28 / WE.PRO :ARG0 (V30 / COMPLEX :INSTANCE (V31 / PRES :ARG0 (V33 / MUST.AUX-V)) :ARG0 (V34 / BE.V :ARG0 (V36 / CAREFUL.A :ARG0 (V38 / ANS-TO :ARG0 (V40 / SUB :ARG0 (V42 / WHAT.PRO) :ARG1 (V43 / WE.PRO :ARG0 (V45 / COMPLEX :INSTANCE (V46 / PRES :ARG0 (V48 / PRETEND.V)) :ARG0 (V49 / TO :ARG0 (V51 / BE.V :ARG0 (V53 / = :ARG0 (V55 / *H)))))))))))))"
+    ],
+    [
+        "228280",
+        "I don't know him.",
+        "(I.PRO ((PRES DO.AUX-S) NOT (KNOW.V HIM.PRO)))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / KNOW.V :ARG0 (V9 / HIM.PRO))))"
+    ],
+    [
+        "228281",
+        "I liked this film.",
+        "(I.PRO ((PAST LIKE.V) (THIS.D FILM.N)))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / LIKE.V)) :ARG0 (V6 / THIS.D :ARG0 (V8 / FILM.N))))"
+    ],
+    [
+        "228282",
+        "She's rolling in money.",
+        "(SHE.PRO ((PRES PROG) (ROLL.V (ADV-A (IN.P (K MONEY.N))))))",
+        "(V0 / SHE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PROG)) :ARG0 (V6 / ROLL.V :ARG0 (V8 / ADV-A :ARG0 (V10 / IN.P :ARG0 (V12 / K :ARG0 (V14 / MONEY.N)))))))"
+    ],
+    [
+        "228283",
+        "It's not important.",
+        "(IT.PRO ((PRES BE.V) NOT IMPORTANT.A))",
+        "(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / NOT) :ARG1 (V7 / IMPORTANT.A)))"
+    ],
+    [
+        "228284",
+        "I don't care.",
+        "(I.PRO ((PRES DO.AUX-S) NOT CARE.V))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / CARE.V)))"
+    ],
+    [
+        "228397",
+        "You changed a lot.",
+        "(YOU.PRO ((PAST CHANGE.V) A_LOT.ADV-A))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / CHANGE.V)) :ARG0 (V6 / A_LOT.ADV-A)))"
+    ],
+    [
+        "228398",
+        "Those who know him like him.",
+        "((THOSE.D (N+PREDS (PLUR PERSON.N) (WHO.REL ((PRES KNOW.V) HIM.PRO)))) ((PRES LIKE.V) HIM.PRO))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THOSE.D :ARG0 (V3 / N+PREDS :ARG0 (V5 / PLUR :ARG0 (V7 / PERSON.N)) :ARG1 (V8 / WHO.REL :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / KNOW.V)) :ARG0 (V14 / HIM.PRO))))) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / LIKE.V)) :ARG0 (V19 / HIM.PRO)))"
+    ],
+    [
+        "228399",
+        "Tell me what happened.",
+        "((YOU.PRO ((PRES TELL.V) ME.PRO (ANS-TO (WHAT.PRO (PAST HAPPEN.V))))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / TELL.V)) :ARG0 (V7 / ME.PRO) :ARG1 (V8 / ANS-TO :ARG0 (V10 / WHAT.PRO :ARG0 (V12 / PAST :ARG0 (V14 / HAPPEN.V)))))) :ARG0 (V15 / !))"
+    ],
+    [
+        "228400",
+        "They are sensible girls.",
+        "(THEY.PRO ((PRES BE.V) ((MOD-N SENSIBLE.A) (PLUR GIRL.N))))",
+        "(V0 / THEY.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / SENSIBLE.A)) :ARG0 (V10 / PLUR :ARG0 (V12 / GIRL.N)))))"
+    ],
+    [
+        "228401",
+        "How beautiful you are!",
+        "(SUB (HOW.MOD-A BEAUTIFUL.A) (YOU.PRO ((PRES BE.V) *H)))",
+        "(V0 / SUB :ARG0 (V2 / HOW.MOD-A :ARG0 (V4 / BEAUTIFUL.A)) :ARG1 (V5 / YOU.PRO :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / BE.V)) :ARG0 (V11 / *H))))"
+    ],
+    [
+        "228403",
+        "You must work more.",
+        "(YOU.PRO ((PRES MUST.AUX-V) (WORK.V MORE.ADV-A)))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / WORK.V :ARG0 (V8 / MORE.ADV-A))))"
+    ],
+    [
+        "228405",
+        "He told me he would go to Venice.",
+        "(HE.PRO ((PAST TELL.V) ME.PRO (THT (HE.PRO ((PAST WILL.AUX-S) (GO.V (TO.P-ARG | Venice|)))))))",
+        "(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / TELL.V)) :ARG0 (V6 / ME.PRO) :ARG1 (V7 / THT :ARG0 (V9 / HE.PRO :ARG0 (V11 / COMPLEX :INSTANCE (V12 / PAST :ARG0 (V14 / WILL.AUX-S)) :ARG0 (V15 / GO.V :ARG0 (V17 / TO.P-ARG :ARG0 (V19 / \"| Venice|\"))))))))"
+    ],
+    [
+        "228406",
+        "Who are those guys?",
+        "((SUB WHO.PRO ((THOSE.D (PLUR GUY.N)) ((PRES BE.V) (= *H)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHO.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / THOSE.D :ARG0 (V7 / PLUR :ARG0 (V9 / GUY.N))) :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / BE.V)) :ARG0 (V14 / = :ARG0 (V16 / *H))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "228407",
+        "I don't agree with him.",
+        "(I.PRO ((PRES DO.AUX-S) NOT (AGREE.V (WITH.P-ARG HIM.PRO))))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / AGREE.V :ARG0 (V9 / WITH.P-ARG :ARG0 (V11 / HIM.PRO)))))"
+    ],
+    [
+        "228408",
+        "The spirit is willing, but the flesh is weak.",
+        "(((THE.D SPIRIT.N) ((PRES BE.V) WILLING.A)) BUT.CC ((THE.D FLESH.N) ((PRES BE.V) WEAK.A)))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / SPIRIT.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / BE.V)) :ARG0 (V9 / WILLING.A))) :ARG0 (V10 / BUT.CC) :ARG1 (V11 / COMPLEX :INSTANCE (V12 / THE.D :ARG0 (V14 / FLESH.N)) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / BE.V)) :ARG0 (V19 / WEAK.A))))"
+    ],
+    [
+        "228523",
+        "Are you not tired?",
+        "(((PRES BE.V) YOU.PRO (NOT TIRED.A)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / NOT :ARG0 (V8 / TIRED.A))) :ARG0 (V9 / ?))"
+    ],
+    [
+        "228524",
+        "You look tired. You ought to rest for an hour or two.",
+        "((YOU.PRO ((PRES LOOK.V) TIRED.A)) (YOU.PRO ((PRES OUGHT_TO.AUX-V) (REST.V (ADV-A (FOR.P ((AN.D HOUR.N) OR.CC TWO.PRO)))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LOOK.V)) :ARG0 (V7 / TIRED.A))) :ARG0 (V8 / YOU.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / OUGHT_TO.AUX-V)) :ARG0 (V14 / REST.V :ARG0 (V16 / ADV-A :ARG0 (V18 / FOR.P :ARG0 (V20 / COMPLEX :INSTANCE (V21 / AN.D :ARG0 (V23 / HOUR.N)) :ARG0 (V24 / OR.CC) :ARG1 (V25 / TWO.PRO))))))))"
+    ],
+    [
+        "228526",
+        "You can rely on him.",
+        "(YOU.PRO ((PRES CAN.AUX-S) (RELY.V (ON.P-ARG HIM.PRO))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-S)) :ARG0 (V6 / RELY.V :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / HIM.PRO)))))"
+    ],
+    [
+        "228527",
+        "You can rely on her.",
+        "(YOU.PRO ((PRES CAN.AUX-S) (RELY.V (ON.P-ARG HER.PRO))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-S)) :ARG0 (V6 / RELY.V :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / HER.PRO)))))"
+    ],
+    [
+        "228529",
+        "You must not take advantage of her innocence.",
+        "(YOU.PRO ((PRES MUST.AUX-V) NOT (TAKE.V (K ADVANTAGE.N) (ADV-A (OF.P (HER.D INNOCENCE.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / NOT) :ARG1 (V7 / TAKE.V :ARG0 (V9 / K :ARG0 (V11 / ADVANTAGE.N)) :ARG1 (V12 / ADV-A :ARG0 (V14 / OF.P :ARG0 (V16 / HER.D :ARG0 (V18 / INNOCENCE.N)))))))"
+    ],
+    [
+        "228530",
+        "You should have acted on her advice.",
+        "(YOU.PRO ((PAST SHOULD.AUX-V) (PERF (ACT.V (ON.P-ARG (HER.D ADVICE.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SHOULD.AUX-V)) :ARG0 (V6 / PERF :ARG0 (V8 / ACT.V :ARG0 (V10 / ON.P-ARG :ARG0 (V12 / HER.D :ARG0 (V14 / ADVICE.N)))))))"
+    ],
+    [
+        "228531",
+        "You are treading on her corns.",
+        "(YOU.PRO ((PRES PROG) (TREAD.V (ADV-A (ON.P (HER.D (PLUR CORN.N)))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PROG)) :ARG0 (V6 / TREAD.V :ARG0 (V8 / ADV-A :ARG0 (V10 / ON.P :ARG0 (V12 / HER.D :ARG0 (V14 / PLUR :ARG0 (V16 / CORN.N))))))))"
+    ],
+    [
+        "228532",
+        "I think that you ought to apologize to her.",
+        "(I.PRO ((PRES THINK.V) (THAT (YOU.PRO ((PRES OUGHT_TO.AUX-V) (APOLOGIZE.V (ADV-A (TO.P HER.PRO))))))))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / THINK.V)) :ARG0 (V6 / THAT :ARG0 (V8 / YOU.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / OUGHT_TO.AUX-V)) :ARG0 (V14 / APOLOGIZE.V :ARG0 (V16 / ADV-A :ARG0 (V18 / TO.P :ARG0 (V20 / HER.PRO)))))))))"
+    ],
+    [
+        "228534",
+        "Just a minute.",
+        "(PU (JUST.ADV-S (A.D MINUTE.N)))",
+        "(V0 / PU :ARG0 (V2 / JUST.ADV-S :ARG0 (V4 / A.D :ARG0 (V6 / MINUTE.N))))"
+    ],
+    [
+        "228535",
+        "You asked after her? What did she say?",
+        "(MULTI-SENT ((YOU.PRO ((PAST ASK.V) (ADV-A (AFTER.P HER.PRO)))) ?) ((SUB WHAT.PRO ((PAST DO.AUX-S) SHE.PRO (SAY.V *H))) ?))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / ASK.V)) :ARG0 (V9 / ADV-A :ARG0 (V11 / AFTER.P :ARG0 (V13 / HER.PRO))))) :ARG0 (V14 / ?)) :ARG1 (V15 / COMPLEX :INSTANCE (V16 / SUB :ARG0 (V18 / WHAT.PRO) :ARG1 (V19 / COMPLEX :INSTANCE (V20 / PAST :ARG0 (V22 / DO.AUX-S)) :ARG0 (V23 / SHE.PRO) :ARG1 (V24 / SAY.V :ARG0 (V26 / *H)))) :ARG0 (V27 / ?)))"
+    ],
+    [
+        "228706",
+        "I should think you are right.",
+        "(I.PRO ((PRES SHOULD.AUX-S) (THINK.V (THT (YOU.PRO ((PRES BE.V) RIGHT.A))))))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / SHOULD.AUX-S)) :ARG0 (V6 / THINK.V :ARG0 (V8 / THT :ARG0 (V10 / YOU.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / BE.V)) :ARG0 (V16 / RIGHT.A)))))))"
+    ],
+    [
+        "228707",
+        "You may be right, but I am against your opinion.",
+        "((YOU.PRO ((PRES MAY.AUX-S) (BE.V RIGHT.A))) BUT.CC (I.PRO ((PRES BE.V) (AGAINST.P (YOUR.D OPINION.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / MAY.AUX-S)) :ARG0 (V7 / BE.V :ARG0 (V9 / RIGHT.A)))) :ARG0 (V10 / BUT.CC) :ARG1 (V11 / I.PRO :ARG0 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / AGAINST.P :ARG0 (V19 / YOUR.D :ARG0 (V21 / OPINION.N))))))"
+    ],
+    [
+        "228708",
+        "Are you concerned with politics?",
+        "(((PRES BE.V) YOU.PRO (CONCERNED.A (WITH.P-ARG (K (PLUR POLITIC.N))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / CONCERNED.A :ARG0 (V8 / WITH.P-ARG :ARG0 (V10 / K :ARG0 (V12 / PLUR :ARG0 (V14 / POLITIC.N)))))) :ARG0 (V15 / ?))"
+    ],
+    [
+        "228709",
+        "You can get ahead in the world.",
+        "(YOU.PRO ((PRES CAN.AUX-V) (GET.V AHEAD.ADV-A (ADV-E (IN.P (THE.D WORLD.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-V)) :ARG0 (V6 / GET.V :ARG0 (V8 / AHEAD.ADV-A) :ARG1 (V9 / ADV-E :ARG0 (V11 / IN.P :ARG0 (V13 / THE.D :ARG0 (V15 / WORLD.N)))))))"
+    ],
+    [
+        "228710",
+        "He is ignorant of the world.",
+        "(HE.PRO ((PRES BE.V) (IGNORANT.A (OF.P-ARG (THE.D WORLD.N)))))",
+        "(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / IGNORANT.A :ARG0 (V8 / OF.P-ARG :ARG0 (V10 / THE.D :ARG0 (V12 / WORLD.N))))))"
+    ],
+    [
+        "228712",
+        "Are you fond of swimming?",
+        "(((PRES BE.V) YOU.PRO (FOND.A (OF.P-ARG (KA SWIM.V)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / FOND.A :ARG0 (V8 / OF.P-ARG :ARG0 (V10 / KA :ARG0 (V12 / SWIM.V))))) :ARG0 (V13 / ?))"
+    ],
+    [
+        "228713",
+        "You will soon get used to speaking in public.",
+        "(YOU.PRO ((PRES WILL.AUX-S) SOON.ADV-E (GET.V (USED_TO.A (KA (SPEAK.V (ADV-E (IN.P (K PUBLIC.N)))))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / SOON.ADV-E) :ARG1 (V7 / GET.V :ARG0 (V9 / USED_TO.A :ARG0 (V11 / KA :ARG0 (V13 / SPEAK.V :ARG0 (V15 / ADV-E :ARG0 (V17 / IN.P :ARG0 (V19 / K :ARG0 (V21 / PUBLIC.N))))))))))"
+    ],
+    [
+        "228714",
+        "You must not lose sight of your goal in life.",
+        "(YOU.PRO ((PRES MUST.AUX-V) (NOT (LOSE.V (K (SIGHT.N (OF.P-ARG (YOUR.D (GOAL.N (MOD-N (IN.P (K LIFE.N))))))))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / NOT :ARG0 (V8 / LOSE.V :ARG0 (V10 / K :ARG0 (V12 / SIGHT.N :ARG0 (V14 / OF.P-ARG :ARG0 (V16 / YOUR.D :ARG0 (V18 / GOAL.N :ARG0 (V20 / MOD-N :ARG0 (V22 / IN.P :ARG0 (V24 / K :ARG0 (V26 / LIFE.N)))))))))))))"
+    ],
+    [
+        "228715",
+        "You were kind to help me.",
+        "(YOU.PRO ((PAST BE.V) KIND.A (ADV-A (IN.P (TO (HELP.V ME.PRO))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / BE.V)) :ARG0 (V6 / KIND.A) :ARG1 (V7 / ADV-A :ARG0 (V9 / IN.P :ARG0 (V11 / TO :ARG0 (V13 / HELP.V :ARG0 (V15 / ME.PRO)))))))"
+    ],
+    [
+        "228716",
+        "Can you break away from your parents?",
+        "(((PRES CAN.AUX-V) YOU.PRO (BREAK_AWAY.V (FROM.P-ARG (YOUR.D (PLUR (PARENT-OF.N *S)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / BREAK_AWAY.V :ARG0 (V8 / FROM.P-ARG :ARG0 (V10 / YOUR.D :ARG0 (V12 / PLUR :ARG0 (V14 / PARENT-OF.N :ARG0 (V16 / *S))))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "228833",
+        "You ought to have come to our party.",
+        "(YOU.PRO ((PAST OUGHT_TO.AUX-S) (PERF (COME.V (TO.P-ARG (OUR.D PARTY.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / OUGHT_TO.AUX-S)) :ARG0 (V6 / PERF :ARG0 (V8 / COME.V :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / OUR.D :ARG0 (V14 / PARTY.N)))))))"
+    ],
+    [
+        "228835",
+        "You are to stay here until we come back.",
+        "((YOU.PRO ((PRES BE-TO.AUX-V) (STAY.V HERE.ADV-E))) (UNTIL.PS (WE.PRO ((PRES COME.V) BACK.ADV-A))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE-TO.AUX-V)) :ARG0 (V7 / STAY.V :ARG0 (V9 / HERE.ADV-E)))) :ARG0 (V10 / UNTIL.PS :ARG0 (V12 / WE.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / COME.V)) :ARG0 (V18 / BACK.ADV-A)))))"
+    ],
+    [
+        "228837",
+        "You don't know how worried I am.",
+        "(YOU.PRO ((PRES DO.AUX-S) NOT (KNOW.V (ANS-TO (SUB (HOW.MOD-A WORRIED.A) (I.PRO ((PRES BE.V) *H)))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / KNOW.V :ARG0 (V9 / ANS-TO :ARG0 (V11 / SUB :ARG0 (V13 / HOW.MOD-A :ARG0 (V15 / WORRIED.A)) :ARG1 (V16 / I.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / BE.V)) :ARG0 (V22 / *H))))))))"
+    ],
+    [
+        "228838",
+        "You had better do as I suggest.",
+        "((YOU.PRO ((PRES HAD_BETTER.AUX-S) (DO.V REF1.PRO))) (AS.PS (I.PRO ((PRES SUGGEST.V) REF2.PRO))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / HAD_BETTER.AUX-S)) :ARG0 (V7 / DO.V :ARG0 (V9 / REF1.PRO)))) :ARG0 (V10 / AS.PS :ARG0 (V12 / I.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / SUGGEST.V)) :ARG0 (V18 / REF2.PRO)))))"
+    ],
+    [
+        "228839",
+        "Can you imagine me making a cake?",
+        "(((PRES CAN.AUX-V) YOU.PRO (IMAGINE.V (KE (ME.PRO (MAKE.V (A.D CAKE.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / IMAGINE.V :ARG0 (V8 / KE :ARG0 (V10 / ME.PRO :ARG0 (V12 / MAKE.V :ARG0 (V14 / A.D :ARG0 (V16 / CAKE.N))))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "228840",
+        "You have only to follow the directions.",
+        "(YOU.PRO ((PRES HAVE.V) ONLY.ADV-S (TO (FOLLOW.V (THE.D (PLUR DIRECTION.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / HAVE.V)) :ARG0 (V6 / ONLY.ADV-S) :ARG1 (V7 / TO :ARG0 (V9 / FOLLOW.V :ARG0 (V11 / THE.D :ARG0 (V13 / PLUR :ARG0 (V15 / DIRECTION.N)))))))"
+    ],
+    [
+        "228841",
+        "You must learn to obey instructions.",
+        "(YOU.PRO ((PRES MUST.AUX-V) (LEARN.V (TO (OBEY.V (K (PLUR INSTRUCTION.N)))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / LEARN.V :ARG0 (V8 / TO :ARG0 (V10 / OBEY.V :ARG0 (V12 / K :ARG0 (V14 / PLUR :ARG0 (V16 / INSTRUCTION.N))))))))"
+    ],
+    [
+        "228842",
+        "You finally succeeded in getting a job.",
+        "(YOU.PRO (FINALLY.ADV-S ((PAST SUCCEED.V) (ADV-A (IN.P (KA (GET.V (A.D JOB.N))))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / FINALLY.ADV-S :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / SUCCEED.V)) :ARG0 (V8 / ADV-A :ARG0 (V10 / IN.P :ARG0 (V12 / KA :ARG0 (V14 / GET.V :ARG0 (V16 / A.D :ARG0 (V18 / JOB.N)))))))))"
+    ],
+    [
+        "228843",
+        "You are frustrated with your work.",
+        "(YOU.PRO (PRES ((PASV FRUSTRATE.V) (WITH.P-ARG (YOUR.D WORK.N)))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / PRES :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PASV :ARG0 (V7 / FRUSTRATE.V)) :ARG0 (V8 / WITH.P-ARG :ARG0 (V10 / YOUR.D :ARG0 (V12 / WORK.N))))))"
+    ],
+    [
+        "228844",
+        "You were late for work.",
+        "(YOU.PRO ((PAST BE.V) (LATE.A (MOD-A (FOR.P (K WORK.N))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / BE.V)) :ARG0 (V6 / LATE.A :ARG0 (V8 / MOD-A :ARG0 (V10 / FOR.P :ARG0 (V12 / K :ARG0 (V14 / WORK.N)))))))"
+    ],
+    [
+        "229115",
+        "You may go home now.",
+        "(YOU.PRO ((PRES MAY.AUX-V) (GO.V (K HOME.N) NOW.ADV-E)))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MAY.AUX-V)) :ARG0 (V6 / GO.V :ARG0 (V8 / K :ARG0 (V10 / HOME.N)) :ARG1 (V11 / NOW.ADV-E))))"
+    ],
+    [
+        "229116",
+        "It is time you went to school.",
+        "(IT.PRO ((PRES BE.V) (N+PREDS TIME.N (SUB THT.REL (YOU.PRO ((CF GO.V) (ADV-A (TO.P (K SCHOOL.N))) (ADV-E (AT.P *H))))))))",
+        "(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / N+PREDS :ARG0 (V8 / TIME.N) :ARG1 (V9 / SUB :ARG0 (V11 / THT.REL) :ARG1 (V12 / YOU.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CF :ARG0 (V17 / GO.V)) :ARG0 (V18 / ADV-A :ARG0 (V20 / TO.P :ARG0 (V22 / K :ARG0 (V24 / SCHOOL.N)))) :ARG1 (V25 / ADV-E :ARG0 (V27 / AT.P :ARG0 (V29 / *H)))))))))"
+    ],
+    [
+        "229117",
+        "Have you turned in your report?",
+        "((YOU.PRO ((PRES PERF) (TURN.V IN.ADV-A (YOUR.D REPORT.N)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / TURN.V :ARG0 (V9 / IN.ADV-A) :ARG1 (V10 / YOUR.D :ARG0 (V12 / REPORT.N))))) :ARG0 (V13 / ?))"
+    ],
+    [
+        "229118",
+        "It's high time you got going.",
+        "(IT.PRO ((PRES BE.V) ((MOD-N HIGH.A) (N+PREDS TIME.N (SUB THT.REL (YOU.PRO ((CF GET.V) (KA GO.V) (ADV-E (AT.P *H)))))))))",
+        "(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / HIGH.A)) :ARG0 (V10 / N+PREDS :ARG0 (V12 / TIME.N) :ARG1 (V13 / SUB :ARG0 (V15 / THT.REL) :ARG1 (V16 / YOU.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / CF :ARG0 (V21 / GET.V)) :ARG0 (V22 / KA :ARG0 (V24 / GO.V)) :ARG1 (V25 / ADV-E :ARG0 (V27 / AT.P :ARG0 (V29 / *H))))))))))"
+    ],
+    [
+        "229119",
+        "Have you finished reading that book yet?",
+        "((YOU.PRO ((PRES PERF) (FINISH.V (KA (READ.V (THAT.D BOOK.N)))) YET.ADV-E)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / FINISH.V :ARG0 (V9 / KA :ARG0 (V11 / READ.V :ARG0 (V13 / THAT.D :ARG0 (V15 / BOOK.N))))) :ARG1 (V16 / YET.ADV-E))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "229120",
+        "Have you finished the work yet?",
+        "((YOU.PRO ((PRES PERF) (FINISH.V (THE.D WORK.N) YET.ADV-E))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / FINISH.V :ARG0 (V9 / THE.D :ARG0 (V11 / WORK.N)) :ARG1 (V12 / YET.ADV-E)))) :ARG0 (V13 / ?))"
+    ],
+    [
+        "229122",
+        "If you read this book again, you will have read it three times.",
+        "((IF.PS (YOU.PRO ((PRES READ.V) (THIS.D BOOK.N) AGAIN.ADV-S))) (YOU.PRO ((PRES WILL.AUX-S) (PERF (READ.V IT.PRO (ADV-F ((MOD-N THREE.A) (PLUR TIME.N))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / IF.PS :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / READ.V)) :ARG0 (V9 / THIS.D :ARG0 (V11 / BOOK.N)) :ARG1 (V12 / AGAIN.ADV-S)))) :ARG0 (V13 / YOU.PRO :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / WILL.AUX-S)) :ARG0 (V19 / PERF :ARG0 (V21 / READ.V :ARG0 (V23 / IT.PRO) :ARG1 (V24 / ADV-F :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / THREE.A)) :ARG0 (V30 / PLUR :ARG0 (V32 / TIME.N)))))))))"
+    ],
+    [
+        "229123",
+        "Now that you are eighteen, you can get a driver's license.",
+        "((ADV-E (NOW.P (THAT (YOU.PRO ((PRES BE.V) EIGHTEEN.A))))) (YOU.PRO ((PRES CAN.AUX-S) (GET.V (((A.D DRIVER.N) 'S) LICENSE.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / ADV-E :ARG0 (V3 / NOW.P :ARG0 (V5 / THAT :ARG0 (V7 / YOU.PRO :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PRES :ARG0 (V12 / BE.V)) :ARG0 (V13 / EIGHTEEN.A)))))) :ARG0 (V14 / YOU.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / CAN.AUX-S)) :ARG0 (V20 / GET.V :ARG0 (V22 / COMPLEX :INSTANCE (V23 / COMPLEX :INSTANCE (V24 / A.D :ARG0 (V26 / DRIVER.N)) :ARG0 (V27 / 'S)) :ARG0 (V30 / LICENSE.N))))))"
+    ],
+    [
+        "229125",
+        "You surprised everybody.",
+        "(YOU.PRO ((PAST SURPRISE.V) EVERYBODY.PRO))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SURPRISE.V)) :ARG0 (V6 / EVERYBODY.PRO)))"
+    ],
+    [
+        "229126",
+        "You've been properly led up the garden path.",
+        "(YOU.PRO ((PAST PERF) (PROPERLY.ADV-A ((PASV LEAD.V) (ADV-A (UP.P (THE.D ((MOD-N GARDEN.N) PATH.N))))))))",
+        "(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / PERF)) :ARG0 (V6 / PROPERLY.ADV-A :ARG0 (V8 / COMPLEX :INSTANCE (V9 / PASV :ARG0 (V11 / LEAD.V)) :ARG0 (V12 / ADV-A :ARG0 (V14 / UP.P :ARG0 (V16 / THE.D :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / GARDEN.N)) :ARG0 (V22 / PATH.N)))))))))"
+    ],
+    [
+        "280136",
+        "I've never seen you cook. Can you cook anything at all?",
+        "(MULTI-SENT (I.PRO ((PRES PERF) NEVER.ADV-E (SEE.V YOU.PRO COOK.V))) (((PRES CAN.AUX-V) YOU.PRO (COOK.V ANYTHING.PRO AT_ALL.ADV-A)) ?))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / PERF)) :ARG0 (V8 / NEVER.ADV-E) :ARG1 (V9 / SEE.V :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / COOK.V)))) :ARG1 (V13 / COMPLEX :INSTANCE (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / CAN.AUX-V)) :ARG0 (V18 / YOU.PRO) :ARG1 (V19 / COOK.V :ARG0 (V21 / ANYTHING.PRO) :ARG1 (V22 / AT_ALL.ADV-A))) :ARG0 (V23 / ?)))"
+    ],
+    [
+        "282012",
+        "Does the 19 bus go to Main Street?",
+        "(((PRES DO.AUX-S) (THE.D (| 19| BUS.N)) (GO.V (TO.P-ARG | Main Street|))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / THE.D :ARG0 (V7 / COMPLEX :INSTANCE (V8 / \"| 19|\") :ARG0 (V9 / BUS.N))) :ARG1 (V10 / GO.V :ARG0 (V12 / TO.P-ARG :ARG0 (V14 / \"| Main Street|\")))) :ARG0 (V15 / ?))"
+    ],
+    [
+        "282413",
+        "\"Could you do this instead of me?\" \"Sorry, I'm too busy.\"",
+        "(MULTI-SENT (|\"| (((PRES COULD.AUX-V) YOU.PRO (DO.V THIS.PRO (ADV-S (INSTEAD_OF.P ME.PRO)))) ?) |\"|) (|\"| ((PU SORRY.A) (I.PRO ((PRES BE.V) (TOO.MOD-A BUSY.A)))) |\"|))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / COULD.AUX-V)) :ARG0 (V9 / YOU.PRO) :ARG1 (V10 / DO.V :ARG0 (V12 / THIS.PRO) :ARG1 (V13 / ADV-S :ARG0 (V15 / INSTEAD_OF.P :ARG0 (V17 / ME.PRO))))) :ARG0 (V18 / ?)) :ARG1 (V19 / \"|\\\"|\")) :ARG1 (V20 / COMPLEX :INSTANCE (V21 / \"|\\\"|\") :ARG0 (V22 / COMPLEX :INSTANCE (V23 / PU :ARG0 (V25 / SORRY.A)) :ARG0 (V26 / I.PRO :ARG0 (V28 / COMPLEX :INSTANCE (V29 / PRES :ARG0 (V31 / BE.V)) :ARG0 (V32 / TOO.MOD-A :ARG0 (V34 / BUSY.A))))) :ARG1 (V35 / \"|\\\"|\")))"
+    ],
+    [
+        "282830",
+        "The train was crowded with people.",
+        "((THE.D TRAIN.N) ((PAST BE.V) (CROWDED.A (MOD-A (WITH.P (K PEOPLE.N))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / TRAIN.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / BE.V)) :ARG0 (V8 / CROWDED.A :ARG0 (V10 / MOD-A :ARG0 (V12 / WITH.P :ARG0 (V14 / K :ARG0 (V16 / PEOPLE.N)))))))"
+    ],
+    [
+        "282967",
+        "How long have you been dating?",
+        "((SUB (HOW.MOD-A LONG.A) ((PRES PERF) YOU.PRO (PROG (DATE.V (ADV-E *H))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.MOD-A :ARG0 (V5 / LONG.A)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / PERF)) :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / PROG :ARG0 (V13 / DATE.V :ARG0 (V15 / ADV-E :ARG0 (V17 / *H)))))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "283832",
+        "Does this mean you're not coming to help?",
+        "(((PRES DO.AUX-S) THIS.PRO (MEAN.V (THT (YOU.PRO ((PRES PROG) NOT (COME.V (TO HELP.V))))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / THIS.PRO) :ARG1 (V6 / MEAN.V :ARG0 (V8 / THT :ARG0 (V10 / YOU.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / PROG)) :ARG0 (V16 / NOT) :ARG1 (V17 / COME.V :ARG0 (V19 / TO :ARG0 (V21 / HELP.V)))))))) :ARG0 (V22 / ?))"
+    ],
+    [
+        "284282",
+        "The dog traced the rabbit into the forest.",
+        "((THE.D DOG.N) ((PAST TRACE.V) (THE.D RABBIT.N) (ADV-A (INTO.P (THE.D FOREST.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / DOG.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / TRACE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / RABBIT.N)) :ARG1 (V11 / ADV-A :ARG0 (V13 / INTO.P :ARG0 (V15 / THE.D :ARG0 (V17 / FOREST.N))))))"
+    ],
+    [
+        "285613",
+        "Can you see Mt. Daisetsu over there?",
+        "(((PRES CAN.AUX-V) YOU.PRO (SEE.V | Mt. Daisetsu| OVER_THERE.ADV-E)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / SEE.V :ARG0 (V8 / \"| Mt. Daisetsu|\") :ARG1 (V9 / OVER_THERE.ADV-E))) :ARG0 (V10 / ?))"
+    ],
+    [
+        "286980",
+        "Will we be in time for the plane if we leave now?",
+        "((((PRES WILL.AUX-S) WE.PRO (BE.V (IN.P (K TIME.N)) (ADV-A (FOR.P (THE.D PLANE.N))))) (IF.PS (WE.PRO ((PRES LEAVE.V) NOW.ADV-E)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / WE.PRO) :ARG1 (V7 / BE.V :ARG0 (V9 / IN.P :ARG0 (V11 / K :ARG0 (V13 / TIME.N))) :ARG1 (V14 / ADV-A :ARG0 (V16 / FOR.P :ARG0 (V18 / THE.D :ARG0 (V20 / PLANE.N)))))) :ARG0 (V21 / IF.PS :ARG0 (V23 / WE.PRO :ARG0 (V25 / COMPLEX :INSTANCE (V26 / PRES :ARG0 (V28 / LEAVE.V)) :ARG0 (V29 / NOW.ADV-E))))) :ARG0 (V30 / ?))"
+    ],
+    [
+        "287762",
+        "How about meeting today?",
+        "((SUB HOW.ADV-A ((PRES DO.AUX-S) YOU.PRO (FEEL.V (ADV-A (ABOUT.P (KA (MEET.V TODAY.ADV-E)))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / FEEL.V :ARG0 (V11 / ADV-A :ARG0 (V13 / ABOUT.P :ARG0 (V15 / KA :ARG0 (V17 / MEET.V :ARG0 (V19 / TODAY.ADV-E))))) :ARG1 (V20 / *H)))) :ARG0 (V21 / ?))"
+    ],
+    [
+        "320015",
+        "A railroad was constructed in this town.",
+        "((A.D RAILROAD.N) ((PAST (PASV CONSTRUCT.V)) (ADV-E (IN.P (THIS.D TOWN.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / A.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PASV :ARG0 (V9 / CONSTRUCT.V))) :ARG0 (V10 / ADV-E :ARG0 (V12 / IN.P :ARG0 (V14 / THIS.D :ARG0 (V16 / TOWN.N))))))"
+    ],
+    [
+        "320017",
+        "It's dangerous to walk on railway lines.",
+        "(IT-EXTRA.PRO (((PRES BE.V) DANGEROUS.A) (TO (WALK.V (ADV-A (ON.P (K ((MOD-N RAILWAY.N) (PLUR LINE.N)))))))))",
+        "(V0 / IT-EXTRA.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / DANGEROUS.A)) :ARG0 (V8 / TO :ARG0 (V10 / WALK.V :ARG0 (V12 / ADV-A :ARG0 (V14 / ON.P :ARG0 (V16 / K :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / RAILWAY.N)) :ARG0 (V22 / PLUR :ARG0 (V24 / LINE.N))))))))))"
+    ],
+    [
+        "320018",
+        "What is it that determines the route a railway takes?",
+        "((REP (SUB WHAT.PRO ((PAST BE.V) IT-CLEFT.PRO *H *P)) (THAT.REL ((PRES DETERMINE.V) (THE.D (N+PREDS ROUTE.N (SUB THT.REL ((A.D RAILROAD.N) ((PRES TAKE.V) *H)))))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / REP :ARG0 (V3 / SUB :ARG0 (V5 / WHAT.PRO) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / BE.V)) :ARG0 (V10 / IT-CLEFT.PRO) :ARG1 (V11 / *H) :ARG2 (V12 / *P))) :ARG1 (V13 / THAT.REL :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / DETERMINE.V)) :ARG0 (V19 / THE.D :ARG0 (V21 / N+PREDS :ARG0 (V23 / ROUTE.N) :ARG1 (V24 / SUB :ARG0 (V26 / THT.REL) :ARG1 (V27 / COMPLEX :INSTANCE (V28 / A.D :ARG0 (V30 / RAILROAD.N)) :ARG0 (V31 / COMPLEX :INSTANCE (V32 / PRES :ARG0 (V34 / TAKE.V)) :ARG0 (V35 / *H))))))))) :ARG0 (V36 / ?))"
+    ],
+    [
+        "320020",
+        "The railroad provoked a kind of revolution.",
+        "((THE.D RAILROAD.N) ((PAST PROVOKE.V) (A.D (KIND.N (OF.P-ARG (K REVOLUTION.N))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PROVOKE.V)) :ARG0 (V8 / A.D :ARG0 (V10 / KIND.N :ARG0 (V12 / OF.P-ARG :ARG0 (V14 / K :ARG0 (V16 / REVOLUTION.N)))))))"
+    ],
+    [
+        "320021",
+        "Please look up the first train to London in the railway guide.",
+        "((YOU.PRO PLEASE.ADV-S ((PRES LOOK.V) UP.ADV-A (THE.D ((MOD-N FIRST.A) (N+PREDS TRAIN.N (TO.P | London|) (IN.P (THE.D ((MOD-N RAILWAY.N) GUIDE.N)))))))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / PLEASE.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / LOOK.V)) :ARG0 (V8 / UP.ADV-A) :ARG1 (V9 / THE.D :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / FIRST.A)) :ARG0 (V15 / N+PREDS :ARG0 (V17 / TRAIN.N) :ARG1 (V18 / TO.P :ARG0 (V20 / \"| London|\")) :ARG2 (V21 / IN.P :ARG0 (V23 / THE.D :ARG0 (V25 / COMPLEX :INSTANCE (V26 / MOD-N :ARG0 (V28 / RAILWAY.N)) :ARG0 (V29 / GUIDE.N))))))))) :ARG0 (V30 / !))"
+    ],
+    [
+        "320022",
+        "The railroad is parallel to the road.",
+        "((THE.D RAILROAD.N) ((PRES BE.V) (PARALLEL.A (TO.P-ARG (THE.D ROAD.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / PARALLEL.A :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / THE.D :ARG0 (V14 / ROAD.N))))))"
+    ],
+    [
+        "320023",
+        "The rail-line was carried under the Tsugaru Strait to Hokkaido.",
+        "((THE.D RAIL-LINE.N) ((PAST (PASV CARRY.V)) (ADV-A (UNDER.P (THE.D | Tsugaru Strait.N|))) (ADV-A (TO.P | Hokkaido|))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAIL-LINE.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PASV :ARG0 (V9 / CARRY.V))) :ARG0 (V10 / ADV-A :ARG0 (V12 / UNDER.P :ARG0 (V14 / THE.D :ARG0 (V16 / \"| Tsugaru Strait.N|\")))) :ARG1 (V17 / ADV-A :ARG0 (V19 / TO.P :ARG0 (V21 / \"| Hokkaido|\")))))"
+    ],
+    [
+        "320024",
+        "Every bullet has its billet.",
+        "((EVERY.D BULLET.N) ((PRES HAVE.V) (ITS.D BILLET.N)))",
+        "(V0 / COMPLEX :INSTANCE (V1 / EVERY.D :ARG0 (V3 / BULLET.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / HAVE.V)) :ARG0 (V8 / ITS.D :ARG0 (V10 / BILLET.N))))"
+    ],
+    [
+        "320025",
+        "What is a typical British dinner?",
+        "((SUB WHAT.PRO ((PRES BE.V) (A.D ((MOD-N TYPICAL.A) ((MOD-N | British.A|) DINNER.N))) (= *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / A.D :ARG0 (V10 / COMPLEX :INSTANCE (V11 / MOD-N :ARG0 (V13 / TYPICAL.A)) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / MOD-N :ARG0 (V17 / \"| British.A|\")) :ARG0 (V18 / DINNER.N)))) :ARG1 (V19 / = :ARG0 (V21 / *H)))) :ARG0 (V22 / ?))"
+    ],
+    [
+        "320026",
+        "Typical Japanese babies sleep with their mother after coming home from hospital.",
+        "((K ((MOD-N TYPICAL.A) ((MOD-N | Japanese.A|) (PLUR BABY.N)))) ((PRES SLEEP.V) (ADV-A (WITH.P (THEIR.D MOTHER.N)) (ADV-E (AFTER.P (KA (COME.V (K HOME.N) (FROM.P-ARG (K HOSPITAL.N)))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / K :ARG0 (V3 / COMPLEX :INSTANCE (V4 / MOD-N :ARG0 (V6 / TYPICAL.A)) :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / \"| Japanese.A|\")) :ARG0 (V11 / PLUR :ARG0 (V13 / BABY.N))))) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / SLEEP.V)) :ARG0 (V18 / ADV-A :ARG0 (V20 / WITH.P :ARG0 (V22 / THEIR.D :ARG0 (V24 / MOTHER.N))) :ARG1 (V25 / ADV-E :ARG0 (V27 / AFTER.P :ARG0 (V29 / KA :ARG0 (V31 / COME.V :ARG0 (V33 / K :ARG0 (V35 / HOME.N)) :ARG1 (V36 / FROM.P-ARG :ARG0 (V38 / K :ARG0 (V40 / HOSPITAL.N))))))))))"
+    ],
+    [
+        "415475",
+        "Tom didn't want to eat the worms even though they were high in protein.",
+        "((| Tom| ((PAST DO.AUX-S) NOT (WANT.V (TO (EAT.V (THE.D (PLUR WORM.N))))))) (EVEN_THOUGH.PS (THEY.PRO ((PAST BE.V) (HIGH.A (IN.P-ARG (K PROTEIN.N)))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / \"| Tom|\") :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / NOT) :ARG1 (V8 / WANT.V :ARG0 (V10 / TO :ARG0 (V12 / EAT.V :ARG0 (V14 / THE.D :ARG0 (V16 / PLUR :ARG0 (V18 / WORM.N)))))))) :ARG0 (V19 / EVEN_THOUGH.PS :ARG0 (V21 / THEY.PRO :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / BE.V)) :ARG0 (V27 / HIGH.A :ARG0 (V29 / IN.P-ARG :ARG0 (V31 / K :ARG0 (V33 / PROTEIN.N))))))))"
+    ],
+    [
+        "420702",
+        "Could you help me wash the dishes?",
+        "(((PRES COULD.AUX-S) YOU.PRO (HELP.V ME.PRO (KA (WASH.V (THE.D (PLUR DISH.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / COULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / HELP.V :ARG0 (V8 / ME.PRO) :ARG1 (V9 / KA :ARG0 (V11 / WASH.V :ARG0 (V13 / THE.D :ARG0 (V15 / PLUR :ARG0 (V17 / DISH.N))))))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "421851",
+        "Why don't you drop in?",
+        "((SUB WHY.ADV-S ((PRES DO.AUX-S) NOT YOU.PRO (DROP_IN.V *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHY.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / NOT) :ARG1 (V9 / YOU.PRO) :ARG2 (V10 / DROP_IN.V :ARG0 (V12 / *H)))) :ARG0 (V13 / ?))"
+    ],
+    [
+        "423617",
+        "Tom has never said such a thing.",
+        "(| Tom.N| ((PRES PERF) NOT EVER.ADV-S (SAY.V (SUCH.D (= (A.D THING.N))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Tom.N|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PERF)) :ARG0 (V6 / NOT) :ARG1 (V7 / EVER.ADV-S) :ARG2 (V8 / SAY.V :ARG0 (V10 / SUCH.D :ARG0 (V12 / = :ARG0 (V14 / A.D :ARG0 (V16 / THING.N)))))))"
+    ],
+    [
+        "430573",
+        "If you go too close, you run the risk of being electrocuted.",
+        "((IF.PS (YOU.PRO ((PRES GO.V) (ADV-A (TOO.MOD-A CLOSE.A))))) (YOU.PRO (RUN.V (THE.D (RISK.N (OF.P-ARG (KA (PASV ELECTROCUTE.V))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / IF.PS :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / GO.V)) :ARG0 (V9 / ADV-A :ARG0 (V11 / TOO.MOD-A :ARG0 (V13 / CLOSE.A)))))) :ARG0 (V14 / YOU.PRO :ARG0 (V16 / RUN.V :ARG0 (V18 / THE.D :ARG0 (V20 / RISK.N :ARG0 (V22 / OF.P-ARG :ARG0 (V24 / KA :ARG0 (V26 / PASV :ARG0 (V28 / ELECTROCUTE.V)))))))))"
+    ],
+    [
+        "430657",
+        "Did you know that men can get breast cancer?",
+        "(((PAST DO.AUX-S) YOU.PRO (KNOW.V (THAT ((PLUR MAN.N) ((CAN.AUX-V GET.V) ((MOD-N BREAST.N) CANCER.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PAST :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / KNOW.V :ARG0 (V8 / THAT :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PLUR :ARG0 (V13 / MAN.N)) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CAN.AUX-V :ARG0 (V17 / GET.V)) :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / BREAST.N)) :ARG0 (V22 / CANCER.N))))))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "431123",
+        "I can't keep up with you. Could you dictate a bit slower?",
+        "(MULTI-SENT (I.PRO ((PRES CAN.AUX-V) NOT (KEEP_UP.V (WITH.P-ARG YOU.PRO)))) (((PRES COULD.AUX-V) YOU.PRO (DICTATE.V (ADV-A (A_BIT.MOD-A SLOWER.A)))) ?))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-V)) :ARG0 (V8 / NOT) :ARG1 (V9 / KEEP_UP.V :ARG0 (V11 / WITH.P-ARG :ARG0 (V13 / YOU.PRO))))) :ARG1 (V14 / COMPLEX :INSTANCE (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / COULD.AUX-V)) :ARG0 (V19 / YOU.PRO) :ARG1 (V20 / DICTATE.V :ARG0 (V22 / ADV-A :ARG0 (V24 / A_BIT.MOD-A :ARG0 (V26 / SLOWER.A))))) :ARG0 (V27 / ?)))"
+    ],
+    [
+        "431423",
+        "It's OK with me if you take that book.",
+        "((IT.PRO ((PRES BE.V) OK.A (ADV-A (WITH.P ME.PRO)))) (IF.PS (YOU.PRO ((PRES TAKE.V) (THAT.D BOOK.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / IT.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / OK.A) :ARG1 (V8 / ADV-A :ARG0 (V10 / WITH.P :ARG0 (V12 / ME.PRO))))) :ARG0 (V13 / IF.PS :ARG0 (V15 / YOU.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PRES :ARG0 (V20 / TAKE.V)) :ARG0 (V21 / THAT.D :ARG0 (V23 / BOOK.N))))))"
+    ],
+    [
+        "432749",
+        "I'm broken.",
+        "(I.PRO ((PRES BE.V) BROKEN.A))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / BROKEN.A)))"
+    ],
+    [
+        "435994",
+        "You don't worry.",
+        "((YOU.PRO ((PRES DO.AUX-S) NOT WORRY.V)) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / NOT) :ARG1 (V8 / WORRY.V))) :ARG0 (V9 / !))"
+    ],
+    [
+        "554138",
+        "Where is Banja Luka?",
+        "((SUB (AT-LOC.P WHICH.PRO) ((PRES BE.V) | Banja Luka| *H)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / AT-LOC.P :ARG0 (V5 / WHICH.PRO)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / BE.V)) :ARG0 (V10 / \"| Banja Luka|\") :ARG1 (V11 / *H))) :ARG0 (V12 / ?))"
+    ],
+    [
+        "554310",
+        "He says that he will come tomorrow.",
+        "(HE.PRO ((PRES SAY.V) (THAT (HE.PRO ((PRES WILL.AUX-S) (COME.V TOMORROW.ADV-E))))))",
+        "(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THAT :ARG0 (V8 / HE.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / WILL.AUX-S)) :ARG0 (V14 / COME.V :ARG0 (V16 / TOMORROW.ADV-E)))))))"
+    ],
+    [
+        "555349",
+        "Maybe you could draw me a map?",
+        "((MAYBE.ADV-S (YOU.PRO ((PRES COULD.AUX-V) (DRAW.V ME.PRO (A.D MAP.N))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / MAYBE.ADV-S :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / COULD.AUX-V)) :ARG0 (V9 / DRAW.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / A.D :ARG0 (V14 / MAP.N)))))) :ARG0 (V15 / ?))"
+    ],
+    [
+        "556069",
+        "Would you like to grab a bite to eat somewhere?",
+        "(((PAST WOULD.AUX-S) YOU.PRO (LIKE.V (TO (GRAB.V (A.D BITE.N) (ADV-A (FOR.P (TO EAT.V))) SOMEWHERE.ADV-E)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PAST :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LIKE.V :ARG0 (V8 / TO :ARG0 (V10 / GRAB.V :ARG0 (V12 / A.D :ARG0 (V14 / BITE.N)) :ARG1 (V15 / ADV-A :ARG0 (V17 / FOR.P :ARG0 (V19 / TO :ARG0 (V21 / EAT.V)))) :ARG2 (V22 / SOMEWHERE.ADV-E))))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "557369",
+        "Would you take Tom to Boston with you?",
+        "(((PRES WOULD.AUX-S) YOU.PRO (TAKE.V | Tom| (TO.P-ARG | Boston|) (ADV-A (WITH.P YOU.PRO)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / TAKE.V :ARG0 (V8 / \"| Tom|\") :ARG1 (V9 / TO.P-ARG :ARG0 (V11 / \"| Boston|\")) :ARG2 (V12 / ADV-A :ARG0 (V14 / WITH.P :ARG0 (V16 / YOU.PRO))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "558231",
+        "Are you recording this conversation?",
+        "(((PRES PROG) YOU.PRO (RECORD.V (THIS.D CONVERSATION.N))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / PROG)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / RECORD.V :ARG0 (V8 / THIS.D :ARG0 (V10 / CONVERSATION.N)))) :ARG0 (V11 / ?))"
+    ],
+    [
+        "559083",
+        "Tom won't even know we were here.",
+        "(| Tom| ((PRES WILL.AUX-S) NOT EVEN.ADV-S (KNOW.V (THT (WE.PRO ((PAST BE.V) HERE.A))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Tom|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / EVEN.ADV-S) :ARG2 (V8 / KNOW.V :ARG0 (V10 / THT :ARG0 (V12 / WE.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PAST :ARG0 (V17 / BE.V)) :ARG0 (V18 / HERE.A)))))))"
+    ],
+    [
+        "562628",
+        "I'd know if you were lying.",
+        "((I.PRO ((CF WILL.AUX-S) (KNOW.V REF.PRO))) (IF.PS (YOU.PRO ((CF PROG) LIE.V))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / I.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / CF :ARG0 (V6 / WILL.AUX-S)) :ARG0 (V7 / KNOW.V :ARG0 (V9 / REF.PRO)))) :ARG0 (V10 / IF.PS :ARG0 (V12 / YOU.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CF :ARG0 (V17 / PROG)) :ARG0 (V18 / LIE.V)))))"
+    ],
+    [
+        "564580",
+        "What's behind the door?",
+        "((WHAT.PRO ((PRES BE.V) (BEHIND.P (THE.D DOOR.N)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / WHAT.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / BEHIND.P :ARG0 (V9 / THE.D :ARG0 (V11 / DOOR.N))))) :ARG0 (V12 / ?))"
+    ],
+    [
+        "564804",
+        "I'm the boss, aren't I?",
+        "((I.PRO ((PRES BE.V) (= (THE.D BOSS.N)))) .?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / I.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / = :ARG0 (V9 / THE.D :ARG0 (V11 / BOSS.N))))) :ARG0 (V12 / .?))"
+    ],
+    [
+        "652869",
+        "Do you love your children?",
+        "(((PRES DO.AUX-S) YOU.PRO (LOVE.V (YOUR.D (PLUR (CHILD-OF.N *S))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOVE.V :ARG0 (V8 / YOUR.D :ARG0 (V10 / PLUR :ARG0 (V12 / CHILD-OF.N :ARG0 (V14 / *S)))))) :ARG0 (V15 / ?))"
+    ],
+    [
+        "654086",
+        "Are you sure it's safe?",
+        "(((PRES BE.V) YOU.PRO (SURE.A (THT (IT.PRO ((PRES BE.V) SAFE.A))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / SURE.A :ARG0 (V8 / THT :ARG0 (V10 / IT.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / BE.V)) :ARG0 (V16 / SAFE.A)))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "654336",
+        "Why do you hate me so much?",
+        "((SUB WHY.ADV-S ((PRES DO.AUX-S) YOU.PRO (HATE.V ME.PRO (ADV-A (SO.MOD-A MUCH.A)) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHY.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / HATE.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / ADV-A :ARG0 (V14 / SO.MOD-A :ARG0 (V16 / MUCH.A))) :ARG2 (V17 / *H)))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "657004",
+        "Hey... did you hear the news?",
+        "((HEY.GR ((PAST DO.AUX-S) YOU.PRO (HEAR.V (THE.D NEWS.N)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / HEY.GR :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / YOU.PRO) :ARG1 (V8 / HEAR.V :ARG0 (V10 / THE.D :ARG0 (V12 / NEWS.N))))) :ARG0 (V13 / ?))"
+    ],
+    [
+        "657145",
+        "Can you loan him some money?",
+        "(((PRES CAN.AUX-S) YOU.PRO (LOAN.V HIM.PRO (SOME.D MONEY.N))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOAN.V :ARG0 (V8 / HIM.PRO) :ARG1 (V9 / SOME.D :ARG0 (V11 / MONEY.N)))) :ARG0 (V12 / ?))"
+    ],
+    [
+        "657146",
+        "Can you loan her some money?",
+        "(((PRES CAN.AUX-S) YOU.PRO (LOAN.V HER.PRO (SOME.D MONEY.N))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOAN.V :ARG0 (V8 / HER.PRO) :ARG1 (V9 / SOME.D :ARG0 (V11 / MONEY.N)))) :ARG0 (V12 / ?))"
+    ],
+    [
+        "657398",
+        "I do not understand Tom's ostensible contempt for satorial concerns of his peers.",
+        "(I.PRO ((PRES DO.AUX-S) NOT (UNDERSTAND.V ((| Tom| 'S) ((MOD-N OSTENSIBLE.A) (CONTEMPT.N (FOR.P-ARG (K (N+PREDS ((MOD-N SATORIAL.A) (PLUR CONCERN.N)) (OF.P (HIS.D (PLUR (PEER-OF.N *S)))))))))))))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / UNDERSTAND.V :ARG0 (V9 / COMPLEX :INSTANCE (V10 / COMPLEX :INSTANCE (V11 / \"| Tom|\") :ARG0 (V12 / 'S)) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / MOD-N :ARG0 (V18 / OSTENSIBLE.A)) :ARG0 (V19 / CONTEMPT.N :ARG0 (V21 / FOR.P-ARG :ARG0 (V23 / K :ARG0 (V25 / N+PREDS :ARG0 (V27 / COMPLEX :INSTANCE (V28 / MOD-N :ARG0 (V30 / SATORIAL.A)) :ARG0 (V31 / PLUR :ARG0 (V33 / CONCERN.N))) :ARG1 (V34 / OF.P :ARG0 (V36 / HIS.D :ARG0 (V38 / PLUR :ARG0 (V40 / PEER-OF.N :ARG0 (V42 / *S))))))))))))))"
+    ],
+    [
+        "658175",
+        "Do you mean all this was for nothing?",
+        "(((PRES DO.AUX-S) YOU.PRO (MEAN.V (THT ((ALL.D (OF.P THIS.PRO)) ((PAST BE.V) (FOR.P NOTHING.PRO)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / MEAN.V :ARG0 (V8 / THT :ARG0 (V10 / COMPLEX :INSTANCE (V11 / ALL.D :ARG0 (V13 / OF.P :ARG0 (V15 / THIS.PRO))) :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PAST :ARG0 (V19 / BE.V)) :ARG0 (V20 / FOR.P :ARG0 (V22 / NOTHING.PRO))))))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "658231",
+        "How could I forget something like that?",
+        "((SUB HOW.PQ ((PRES COULD.AUX-V) I.PRO (FORGET.V (NP+PREDS SOMETHING.PRO (LIKE.P THAT.PRO)) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FORGET.V :ARG0 (V11 / NP+PREDS :ARG0 (V13 / SOMETHING.PRO) :ARG1 (V14 / LIKE.P :ARG0 (V16 / THAT.PRO))) :ARG1 (V17 / *H)))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "659571",
+        "What's the name of that fat girl you used to date in high school?",
+        "((SUB WHAT.PRO ((PRES BE.V) (THE.D (N+PREDS NAME.N (OF.P (THAT.D (N+PREDS ((MOD-N FAT.A) GIRL.N) (SUB THT.REL (YOU.PRO ((PAST USE.V) (TO (DATE.V *H)) (ADV-E (IN.P (K ((MOD-N HIGH.A) SCHOOL.N)))))))))))) (= *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / NAME.N) :ARG1 (V13 / OF.P :ARG0 (V15 / THAT.D :ARG0 (V17 / N+PREDS :ARG0 (V19 / COMPLEX :INSTANCE (V20 / MOD-N :ARG0 (V22 / FAT.A)) :ARG0 (V23 / GIRL.N)) :ARG1 (V24 / SUB :ARG0 (V26 / THT.REL) :ARG1 (V27 / YOU.PRO :ARG0 (V29 / COMPLEX :INSTANCE (V30 / PAST :ARG0 (V32 / USE.V)) :ARG0 (V33 / TO :ARG0 (V35 / DATE.V :ARG0 (V37 / *H))) :ARG1 (V38 / ADV-E :ARG0 (V40 / IN.P :ARG0 (V42 / K :ARG0 (V44 / COMPLEX :INSTANCE (V45 / MOD-N :ARG0 (V47 / HIGH.A)) :ARG0 (V48 / SCHOOL.N))))))))))))) :ARG1 (V49 / = :ARG0 (V51 / *H)))) :ARG0 (V52 / ?))"
+    ],
+    [
+        "749751",
+        "Don't you believe us?",
+        "(((PRES DO.AUX-S) NOT YOU.PRO (BELIEVE.V US.PRO)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / NOT) :ARG1 (V6 / YOU.PRO) :ARG2 (V7 / BELIEVE.V :ARG0 (V9 / US.PRO))) :ARG0 (V10 / ?))"
+    ],
+    [
+        "751209",
+        "What didn't you like about me?",
+        "((SUB WHAT.PRO ((PAST DO.AUX-S) NOT YOU.PRO (LIKE.V (NP+PREDS *H (ABOUT.P ME.PRO))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / NOT) :ARG1 (V9 / YOU.PRO) :ARG2 (V10 / LIKE.V :ARG0 (V12 / NP+PREDS :ARG0 (V14 / *H) :ARG1 (V15 / ABOUT.P :ARG0 (V17 / ME.PRO)))))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "751227",
+        "How much do you know about her?",
+        "((SUB (ADV-A (HOW.MOD-A MUCH.A)) ((PRES DO.AUX-S) YOU.PRO (KNOW.V *H (ADV-A (ABOUT.P HER.PRO))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / ADV-A :ARG0 (V5 / HOW.MOD-A :ARG0 (V7 / MUCH.A))) :ARG1 (V8 / COMPLEX :INSTANCE (V9 / PRES :ARG0 (V11 / DO.AUX-S)) :ARG0 (V12 / YOU.PRO) :ARG1 (V13 / KNOW.V :ARG0 (V15 / *H) :ARG1 (V16 / ADV-A :ARG0 (V18 / ABOUT.P :ARG0 (V20 / HER.PRO)))))) :ARG0 (V21 / ?))"
+    ],
+    [
+        "751988",
+        "Would you tell Tom I'm here?",
+        "(((PRES WOULD.AUX-S) YOU.PRO (TELL.V | Tom| (THT (I.PRO ((PRES BE.V) HERE.A))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / TELL.V :ARG0 (V8 / \"| Tom|\") :ARG1 (V9 / THT :ARG0 (V11 / I.PRO :ARG0 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / HERE.A)))))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "754304",
+        "Have you lost the key of your house?",
+        "(((PRES PERF) YOU.PRO (LOSE.V (THE.D (N+PREDS KEY.N (OF.P (YOUR.D HOUSE.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / PERF)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOSE.V :ARG0 (V8 / THE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / KEY.N) :ARG1 (V13 / OF.P :ARG0 (V15 / YOUR.D :ARG0 (V17 / HOUSE.N))))))) :ARG0 (V18 / ?))"
+    ],
+    [
+        "754831",
+        "The Earth orbits around the Sun. It takes one year to go around the Sun one complete time.",
+        "(MULTI-SENT ((THE.D | Earth.N|) ((PRES ORBIT.V) (AROUND.P-ARG (THE.D | Sun.N|)))) (IT-EXTRA.PRO (((PRES TAKE.V) (ONE.D YEAR.N)) (TO (GO.V (ADV-A (AROUND.P (THE.D | Sun.N|))) (ADV-A (FOR.P (ONE.D ((MOD-N COMPLETE.A) TIME.N)))))))))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / THE.D :ARG0 (V5 / \"| Earth.N|\")) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / ORBIT.V)) :ARG0 (V10 / AROUND.P-ARG :ARG0 (V12 / THE.D :ARG0 (V14 / \"| Sun.N|\"))))) :ARG1 (V15 / IT-EXTRA.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / TAKE.V)) :ARG0 (V22 / ONE.D :ARG0 (V24 / YEAR.N))) :ARG0 (V25 / TO :ARG0 (V27 / GO.V :ARG0 (V29 / ADV-A :ARG0 (V31 / AROUND.P :ARG0 (V33 / THE.D :ARG0 (V35 / \"| Sun.N|\")))) :ARG1 (V36 / ADV-A :ARG0 (V38 / FOR.P :ARG0 (V40 / ONE.D :ARG0 (V42 / COMPLEX :INSTANCE (V43 / MOD-N :ARG0 (V45 / COMPLETE.A)) :ARG0 (V46 / TIME.N))))))))))"
+    ],
+    [
+        "756109",
+        "How will you solve the problem?",
+        "((SUB HOW.PQ ((PRES WILL.AUX-S) YOU.PRO (SOLVE.V (THE.D PROBLEM.N) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / SOLVE.V :ARG0 (V11 / THE.D :ARG0 (V13 / PROBLEM.N)) :ARG1 (V14 / *H)))) :ARG0 (V15 / ?))"
+    ],
+    [
+        "756557",
+        "Do you have the rota for next week?",
+        "(((PRES DO.AUX-S) YOU.PRO (HAVE.V (THE.D ROTA.N) (ADV-E (FOR.P (K ((MOD-N NEXT.A) WEEK.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / HAVE.V :ARG0 (V8 / THE.D :ARG0 (V10 / ROTA.N)) :ARG1 (V11 / ADV-E :ARG0 (V13 / FOR.P :ARG0 (V15 / K :ARG0 (V17 / COMPLEX :INSTANCE (V18 / MOD-N :ARG0 (V20 / NEXT.A)) :ARG0 (V21 / WEEK.N))))))) :ARG0 (V22 / ?))"
+    ],
+    [
+        "757629",
+        "When do you know me from?",
+        "((SUB WHEN.PRO ((PRES DO.AUX-S) YOU.PRO (KNOW.V ME.PRO (ADV-E (FROM.P *H))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHEN.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / KNOW.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / ADV-E :ARG0 (V14 / FROM.P :ARG0 (V16 / *H)))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "758037",
+        "Are your parents coming to pick you up?",
+        "(((PRES BE.AUX-V) (YOUR.D (PLUR (PARENT-OF.N *S))) (PROG (COME.V (ADV-A (FOR.P (TO (PICK.V YOU.PRO UP.ADV-A))))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.AUX-V)) :ARG0 (V5 / YOUR.D :ARG0 (V7 / PLUR :ARG0 (V9 / PARENT-OF.N :ARG0 (V11 / *S)))) :ARG1 (V12 / PROG :ARG0 (V14 / COME.V :ARG0 (V16 / ADV-A :ARG0 (V18 / FOR.P :ARG0 (V20 / TO :ARG0 (V22 / PICK.V :ARG0 (V24 / YOU.PRO) :ARG1 (V25 / UP.ADV-A)))))))) :ARG0 (V26 / ?))"
+    ],
+    [
+        "876631",
+        "How tough is your job?",
+        "((SUB (HOW.MOD-A TOUGH.A) ((PRES BE.V) (YOUR.D JOB.N) *H)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.MOD-A :ARG0 (V5 / TOUGH.A)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / BE.V)) :ARG0 (V10 / YOUR.D :ARG0 (V12 / JOB.N)) :ARG1 (V13 / *H))) :ARG0 (V14 / ?))"
+    ],
+    [
+        "876837",
+        "Tom got to school just in time.",
+        "(| Tom| ((PAST GET.V) (TO.P-ARG (K SCHOOL.N)) (ADV-S (JUST.ADV-S (IN.P (K TIME.N))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Tom|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / GET.V)) :ARG0 (V6 / TO.P-ARG :ARG0 (V8 / K :ARG0 (V10 / SCHOOL.N))) :ARG1 (V11 / ADV-S :ARG0 (V13 / JUST.ADV-S :ARG0 (V15 / IN.P :ARG0 (V17 / K :ARG0 (V19 / TIME.N)))))))"
+    ],
+    [
+        "877457",
+        "Let me tell you my plans.",
+        "((YOU.PRO ((PRES LET.V) ME.PRO (TELL.V YOU.PRO (MY.D (PLUR PLAN.N))))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LET.V)) :ARG0 (V7 / ME.PRO) :ARG1 (V8 / TELL.V :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / MY.D :ARG0 (V13 / PLUR :ARG0 (V15 / PLAN.N)))))) :ARG0 (V16 / !))"
+    ],
+    [
+        "877560",
+        "I'll just talk it over with Tom.",
+        "(I.PRO ((PRES WILL.AUX-S) (JUST.ADV-S (TALK.V IT.PRO OVER.ADV-A (WITH.P-ARG | Tom|)))))",
+        "(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / JUST.ADV-S :ARG0 (V8 / TALK.V :ARG0 (V10 / IT.PRO) :ARG1 (V11 / OVER.ADV-A) :ARG2 (V12 / WITH.P-ARG :ARG0 (V14 / \"| Tom|\"))))))"
+    ],
+    [
+        "877654",
+        "Will your parents let you stay home today?",
+        "(((PRES WILL.AUX-S) (YOUR.D (PLUR (PARENT-OF.N *S))) (LET.V YOU.PRO (STAY.V (AT.P-ARG (K HOME.N)) TODAY.ADV-E))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WILL.AUX-S)) :ARG0 (V5 / YOUR.D :ARG0 (V7 / PLUR :ARG0 (V9 / PARENT-OF.N :ARG0 (V11 / *S)))) :ARG1 (V12 / LET.V :ARG0 (V14 / YOU.PRO) :ARG1 (V15 / STAY.V :ARG0 (V17 / AT.P-ARG :ARG0 (V19 / K :ARG0 (V21 / HOME.N))) :ARG1 (V22 / TODAY.ADV-E)))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "880647",
+        "Are you pregnant yet?",
+        "(((PRES BE.V) YOU.PRO PREGNANT.A YET.ADV-E) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / PREGNANT.A) :ARG2 (V7 / YET.ADV-E)) :ARG0 (V8 / ?))"
+    ],
+    [
+        "881784",
+        "How exactly did this happen?",
+        "((SUB HOW.PQ (EXACTLY.ADV-S ((PAST DO.AUX-S) THIS.PRO (HAPPEN.V *H)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / EXACTLY.ADV-S :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / DO.AUX-S)) :ARG0 (V10 / THIS.PRO) :ARG1 (V11 / HAPPEN.V :ARG0 (V13 / *H))))) :ARG0 (V14 / ?))"
+    ],
+    [
+        "881927",
+        "How could you understand what I'm going through?",
+        "((SUB HOW.ADV-A ((PRES COULD.AUX-V) YOU.PRO (UNDERSTAND.V (ANS-TO (SUB WHAT.PRO (I.PRO ((PRES PROG) (GO.V (THROUGH.P-ARG *H)))))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / UNDERSTAND.V :ARG0 (V11 / ANS-TO :ARG0 (V13 / SUB :ARG0 (V15 / WHAT.PRO) :ARG1 (V16 / I.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / PROG)) :ARG0 (V22 / GO.V :ARG0 (V24 / THROUGH.P-ARG :ARG0 (V26 / *H))))))) :ARG1 (V27 / *H)))) :ARG0 (V28 / ?))"
+    ],
+    [
+        "882689",
+        "How do you know this is a fake?",
+        "((SUB HOW.PQ ((PRES DO.AUX-S) YOU.PRO (KNOW.V (THT (THIS.PRO ((PRES BE.V) (= (A.D FAKE.N))))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / KNOW.V :ARG0 (V11 / THT :ARG0 (V13 / THIS.PRO :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / BE.V)) :ARG0 (V19 / = :ARG0 (V21 / A.D :ARG0 (V23 / FAKE.N)))))) :ARG1 (V24 / *H)))) :ARG0 (V25 / ?))"
+    ],
+    [
+        "885332",
+        "Do you think I look happy?",
+        "(((PRES DO.AUX-S) YOU.PRO (THINK.V (THT (I.PRO ((PRES LOOK.V) HAPPY.A))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / THINK.V :ARG0 (V8 / THT :ARG0 (V10 / I.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / LOOK.V)) :ARG0 (V16 / HAPPY.A)))))) :ARG0 (V17 / ?))"
+    ],
+    [
+        "916513",
+        "New streamlined procedures announced last fall will cut FDA review time in half , he added .",
+        "(SUB ((K (N+PREDS ((MOD-N NEW.A) ((MOD-N STREAMLINED.A) (PLUR PROCEDURE.N))) ((PASV ANNOUNCE.V) (ADV-E (DURING.P (LAST.D FALL.N)))))) ((PRES WILL.AUX-S) (CUT.V (K ((MOD-N | FDA.N|) ((MOD-N REVIEW.N) TIME.N))) (ADV-A (IN.P (K (HALF-OF.N *REF))))))) (HE.PRO ((PAST ADD.V) (THT *H))))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / K :ARG0 (V5 / N+PREDS :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / NEW.A)) :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / STREAMLINED.A)) :ARG0 (V15 / PLUR :ARG0 (V17 / PROCEDURE.N)))) :ARG1 (V18 / COMPLEX :INSTANCE (V19 / PASV :ARG0 (V21 / ANNOUNCE.V)) :ARG0 (V22 / ADV-E :ARG0 (V24 / DURING.P :ARG0 (V26 / LAST.D :ARG0 (V28 / FALL.N))))))) :ARG0 (V29 / COMPLEX :INSTANCE (V30 / PRES :ARG0 (V32 / WILL.AUX-S)) :ARG0 (V33 / CUT.V :ARG0 (V35 / K :ARG0 (V37 / COMPLEX :INSTANCE (V38 / MOD-N :ARG0 (V40 / \"| FDA.N|\")) :ARG0 (V41 / COMPLEX :INSTANCE (V42 / MOD-N :ARG0 (V44 / REVIEW.N)) :ARG0 (V45 / TIME.N)))) :ARG1 (V46 / ADV-A :ARG0 (V48 / IN.P :ARG0 (V50 / K :ARG0 (V52 / HALF-OF.N :ARG0 (V54 / *REF)))))))) :ARG1 (V55 / HE.PRO :ARG0 (V57 / COMPLEX :INSTANCE (V58 / PAST :ARG0 (V60 / ADD.V)) :ARG0 (V61 / THT :ARG0 (V63 / *H)))))"
+    ],
+    [
+        "916517",
+        "Young said the criticism reflects a `` misperception about FDA requirements . ''",
+        "(| Young| ((PAST SAY.V) (THT ((THE.D CRITICISM.N) ((PRES REFLECT.V) (A.D (N+PREDS MISPERCEPTION.N (ABOUT.P (K ((MOD-N | FDA.N|) (PLUR REQUIREMENT.N)))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Young|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THT :ARG0 (V8 / COMPLEX :INSTANCE (V9 / THE.D :ARG0 (V11 / CRITICISM.N)) :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / REFLECT.V)) :ARG0 (V16 / A.D :ARG0 (V18 / N+PREDS :ARG0 (V20 / MISPERCEPTION.N) :ARG1 (V21 / ABOUT.P :ARG0 (V23 / K :ARG0 (V25 / COMPLEX :INSTANCE (V26 / MOD-N :ARG0 (V28 / \"| FDA.N|\")) :ARG0 (V29 / PLUR :ARG0 (V31 / REQUIREMENT.N))))))))))))"
+    ],
+    [
+        "916519",
+        "Dr. Louis Lasagna , chairman of the panel studying how to speed up the process , said his committee hopes to establish `` mechanisms to mediate '' the fireworks between the FDA and the cancer institute .",
+        "((NP+PREDS | Dr. Louis Lasagna| (CHAIRMAN-OF.N (THE.D (N+PREDS PANEL.N (STUDY.V (ANS-TO (SUB HOW.PQ (TO (SPEED.V UP.ADV-A (THE.D PROCESS.N) *H))))))))) ((PAST SAY.V) (THT ((HIS.D COMMITTEE.N) ((PRES HOPE.V) (TO (ESTABLISH.V (K (N+PREDS (PLUR MECHANISM.N) (FOR.P (TO (MEDIATE.V (THE.D (N+PREDS (PLUR FIREWORK.N) (BETWEEN.P ((THE.D | FDA.N|) AND.CC (THE.D ((MOD-N CANCER.N) INSTITUTE.N))))))))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / NP+PREDS :ARG0 (V3 / \"| Dr. Louis Lasagna|\") :ARG1 (V4 / CHAIRMAN-OF.N :ARG0 (V6 / THE.D :ARG0 (V8 / N+PREDS :ARG0 (V10 / PANEL.N) :ARG1 (V11 / STUDY.V :ARG0 (V13 / ANS-TO :ARG0 (V15 / SUB :ARG0 (V17 / HOW.PQ) :ARG1 (V18 / TO :ARG0 (V20 / SPEED.V :ARG0 (V22 / UP.ADV-A) :ARG1 (V23 / THE.D :ARG0 (V25 / PROCESS.N)) :ARG2 (V26 / *H)))))))))) :ARG0 (V27 / COMPLEX :INSTANCE (V28 / PAST :ARG0 (V30 / SAY.V)) :ARG0 (V31 / THT :ARG0 (V33 / COMPLEX :INSTANCE (V34 / HIS.D :ARG0 (V36 / COMMITTEE.N)) :ARG0 (V37 / COMPLEX :INSTANCE (V38 / PRES :ARG0 (V40 / HOPE.V)) :ARG0 (V41 / TO :ARG0 (V43 / ESTABLISH.V :ARG0 (V45 / K :ARG0 (V47 / N+PREDS :ARG0 (V49 / PLUR :ARG0 (V51 / MECHANISM.N)) :ARG1 (V52 / FOR.P :ARG0 (V54 / TO :ARG0 (V56 / MEDIATE.V :ARG0 (V58 / THE.D :ARG0 (V60 / N+PREDS :ARG0 (V62 / PLUR :ARG0 (V64 / FIREWORK.N)) :ARG1 (V65 / BETWEEN.P :ARG0 (V67 / COMPLEX :INSTANCE (V68 / THE.D :ARG0 (V70 / \"| FDA.N|\")) :ARG0 (V71 / AND.CC) :ARG1 (V72 / THE.D :ARG0 (V74 / COMPLEX :INSTANCE (V75 / MOD-N :ARG0 (V77 / CANCER.N)) :ARG0 (V78 / INSTITUTE.N)))))))))))))))))))"
+    ],
+    [
+        "916520",
+        "`` Because there is so much public pressure regarding AIDS , about not wasting time getting treatments to victims ... we might be able to capitalize on that concern to bring about improvements in the drug approval process , '' Lasagna said .",
+        "(SUB (|\"| ((BECAUSE.PS (THERE.PRO ((PRES BE.V) ((MOD-N (SO.MOD-A MUCH.A)) (N+PREDS ((MOD-N PUBLIC.A) PRESSURE.N) (REGARD.V | AIDS|) (ABOUT.P (KA (NOT (WASTE.V (K TIME.N) (FOR.P (KA (GET.V (K (PLUR TREATMENT.N)) (ADV-A (TO.P (K (PLUR VICTIM.N)))))))))))))))) (WE.PRO ((PRES MIGHT.AUX-S) (BE.V (ABLE.A (TO (CAPITALIZE.V (ON.P-ARG (THAT.D CONCERN.N)) (ADV-A (FOR.P (TO (BRING.V (ABOUT.P-ARG (K (N+PREDS (PLUR IMPROVEMENT.N) (IN.P (THE.D ((MOD-N ((MOD-N DRUG.N) APPROVAL.N)) PROCESS.N))))))))))))))))) |\"|) (| Lasagna| ((PAST SAY.V) *H)))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / BECAUSE.PS :ARG0 (V7 / THERE.PRO :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PRES :ARG0 (V12 / BE.V)) :ARG0 (V13 / COMPLEX :INSTANCE (V14 / MOD-N :ARG0 (V16 / SO.MOD-A :ARG0 (V18 / MUCH.A))) :ARG0 (V19 / N+PREDS :ARG0 (V21 / COMPLEX :INSTANCE (V22 / MOD-N :ARG0 (V24 / PUBLIC.A)) :ARG0 (V25 / PRESSURE.N)) :ARG1 (V26 / REGARD.V :ARG0 (V28 / \"| AIDS|\")) :ARG2 (V29 / ABOUT.P :ARG0 (V31 / KA :ARG0 (V33 / NOT :ARG0 (V35 / WASTE.V :ARG0 (V37 / K :ARG0 (V39 / TIME.N)) :ARG1 (V40 / FOR.P :ARG0 (V42 / KA :ARG0 (V44 / GET.V :ARG0 (V46 / K :ARG0 (V48 / PLUR :ARG0 (V50 / TREATMENT.N))) :ARG1 (V51 / ADV-A :ARG0 (V53 / TO.P :ARG0 (V55 / K :ARG0 (V57 / PLUR :ARG0 (V59 / VICTIM.N))))))))))))))))) :ARG0 (V60 / WE.PRO :ARG0 (V62 / COMPLEX :INSTANCE (V63 / PRES :ARG0 (V65 / MIGHT.AUX-S)) :ARG0 (V66 / BE.V :ARG0 (V68 / ABLE.A :ARG0 (V70 / TO :ARG0 (V72 / CAPITALIZE.V :ARG0 (V74 / ON.P-ARG :ARG0 (V76 / THAT.D :ARG0 (V78 / CONCERN.N))) :ARG1 (V79 / ADV-A :ARG0 (V81 / FOR.P :ARG0 (V83 / TO :ARG0 (V85 / BRING.V :ARG0 (V87 / ABOUT.P-ARG :ARG0 (V89 / K :ARG0 (V91 / N+PREDS :ARG0 (V93 / PLUR :ARG0 (V95 / IMPROVEMENT.N)) :ARG1 (V96 / IN.P :ARG0 (V98 / THE.D :ARG0 (V100 / COMPLEX :INSTANCE (V101 / MOD-N :ARG0 (V103 / COMPLEX :INSTANCE (V104 / MOD-N :ARG0 (V106 / DRUG.N)) :ARG0 (V107 / APPROVAL.N))) :ARG0 (V108 / PROCESS.N)))))))))))))))))) :ARG1 (V109 / \"|\\\"|\")) :ARG1 (V110 / COMPLEX :INSTANCE (V111 / \"| Lasagna|\") :ARG0 (V112 / COMPLEX :INSTANCE (V113 / PAST :ARG0 (V115 / SAY.V)) :ARG0 (V116 / *H))))"
+    ],
+    [
+        "916521",
+        "The panel of nine scientists from leading pharmaceutical and biotechnical companies and major universities and laboratories was appointed by the President 's Cancer Panel , headed by Dr. Armand Hammer .",
+        "((THE.D (N+PREDS PANEL.N (OF.P (NINE.D (N+PREDS (PLUR SCIENTIST.N) (FROM.P (K (((MOD-N LEADING.A) ((MOD-N (PHARMACEUTICAL.A AND.CC BIOTECHNICAL.A)) (PLUR COMPANY.N))) AND.CC ((MOD-N MAJOR.A) ((PLUR UNIVERSITY.N) AND.CC (PLUR LABORATORY.N))))))))))) ((PAST (PASV APPOINT.V)) (BY.P-ARG (NP+PREDS (((THE.D PRESIDENT.N) 'S) ((MOD-N CANCER.N) PANEL.N)) ((PASV HEAD.V) (BY.P-ARG | Dr. Armand Hammer|))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / N+PREDS :ARG0 (V5 / PANEL.N) :ARG1 (V6 / OF.P :ARG0 (V8 / NINE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / PLUR :ARG0 (V14 / SCIENTIST.N)) :ARG1 (V15 / FROM.P :ARG0 (V17 / K :ARG0 (V19 / COMPLEX :INSTANCE (V20 / COMPLEX :INSTANCE (V21 / MOD-N :ARG0 (V23 / LEADING.A)) :ARG0 (V24 / COMPLEX :INSTANCE (V25 / MOD-N :ARG0 (V27 / PHARMACEUTICAL.A :ARG0 (V29 / AND.CC) :ARG1 (V30 / BIOTECHNICAL.A))) :ARG0 (V31 / PLUR :ARG0 (V33 / COMPANY.N)))) :ARG0 (V34 / AND.CC) :ARG1 (V35 / COMPLEX :INSTANCE (V36 / MOD-N :ARG0 (V38 / MAJOR.A)) :ARG0 (V39 / COMPLEX :INSTANCE (V40 / PLUR :ARG0 (V42 / UNIVERSITY.N)) :ARG0 (V43 / AND.CC) :ARG1 (V44 / PLUR :ARG0 (V46 / LABORATORY.N)))))))))))) :ARG0 (V47 / COMPLEX :INSTANCE (V48 / PAST :ARG0 (V50 / PASV :ARG0 (V52 / APPOINT.V))) :ARG0 (V53 / BY.P-ARG :ARG0 (V55 / NP+PREDS :ARG0 (V57 / COMPLEX :INSTANCE (V58 / COMPLEX :INSTANCE (V59 / THE.D :ARG0 (V61 / PRESIDENT.N)) :ARG0 (V62 / 'S)) :ARG0 (V65 / COMPLEX :INSTANCE (V66 / MOD-N :ARG0 (V68 / CANCER.N)) :ARG0 (V69 / PANEL.N))) :ARG1 (V70 / COMPLEX :INSTANCE (V71 / PASV :ARG0 (V73 / HEAD.V)) :ARG0 (V74 / BY.P-ARG :ARG0 (V76 / \"| Dr. Armand Hammer|\")))))))"
+    ],
+    [
+        "916522",
+        "President-elect Bush , as chief of the Presidential Task Force on Regulatory Relief , last year asked the cancer panel to undertake the study .",
+        "((NP+PREDS | President-elect Bush| (AS.P (K (CHIEF-OF.N (THE.D (N+PREDS | Presidential Task Force.N| (ON.P (K | Regulatory.a Relief.N|)))))))) ((ADV-E (DURING.P (THE.D ((MOD-N LAST.A) YEAR.N)))) (PAST ASK.V) (THE.D ((MOD-N CANCER.N) PANEL.N)) (TO (UNDERTAKE.V (THE.D STUDY.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / NP+PREDS :ARG0 (V3 / \"| President-elect Bush|\") :ARG1 (V4 / AS.P :ARG0 (V6 / K :ARG0 (V8 / CHIEF-OF.N :ARG0 (V10 / THE.D :ARG0 (V12 / N+PREDS :ARG0 (V14 / \"| Presidential Task Force.N|\") :ARG1 (V15 / ON.P :ARG0 (V17 / K :ARG0 (V19 / \"| Regulatory.a Relief.N|\"))))))))) :ARG0 (V20 / COMPLEX :INSTANCE (V21 / ADV-E :ARG0 (V23 / DURING.P :ARG0 (V25 / THE.D :ARG0 (V27 / COMPLEX :INSTANCE (V28 / MOD-N :ARG0 (V30 / LAST.A)) :ARG0 (V31 / YEAR.N))))) :ARG0 (V32 / PAST :ARG0 (V34 / ASK.V)) :ARG1 (V35 / THE.D :ARG0 (V37 / COMPLEX :INSTANCE (V38 / MOD-N :ARG0 (V40 / CANCER.N)) :ARG0 (V41 / PANEL.N))) :ARG2 (V42 / TO :ARG0 (V44 / UNDERTAKE.V :ARG0 (V46 / THE.D :ARG0 (V48 / STUDY.N))))))"
+    ],
+    [
+        "916523",
+        "Hammer said that in a meeting Tuesday , Bush repeated his commitment to the project .",
+        "(| Hammer| ((PAST SAY.V) (THAT ((ADV-E (IN.P (A.D MEETING.N))) (ADV-E (ON.P | Tuesday|)) (| Bush| ((PAST REPEAT.V) (HIS.D (COMMITMENT.N (TO.P-ARG (THE.D PROJECT.N))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Hammer|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THAT :ARG0 (V8 / COMPLEX :INSTANCE (V9 / ADV-E :ARG0 (V11 / IN.P :ARG0 (V13 / A.D :ARG0 (V15 / MEETING.N)))) :ARG0 (V16 / ADV-E :ARG0 (V18 / ON.P :ARG0 (V20 / \"| Tuesday|\"))) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / \"| Bush|\") :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / REPEAT.V)) :ARG0 (V27 / HIS.D :ARG0 (V29 / COMMITMENT.N :ARG0 (V31 / TO.P-ARG :ARG0 (V33 / THE.D :ARG0 (V35 / PROJECT.N)))))))))))"
+    ],
+    [
+        "916524",
+        "`` He was so positive , '' Hammer said .",
+        "(SUB (|\"| (HE.PRO ((PAST BE.V) (SO.MOD-A POSITIVE.A))) |\"|) (| Hammer| ((PAST SAY.V) *H)))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / HE.PRO :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / BE.V)) :ARG0 (V10 / SO.MOD-A :ARG0 (V12 / POSITIVE.A)))) :ARG1 (V13 / \"|\\\"|\")) :ARG1 (V14 / COMPLEX :INSTANCE (V15 / \"| Hammer|\") :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PAST :ARG0 (V19 / SAY.V)) :ARG0 (V20 / *H))))"
+    ],
+    [
+        "916532",
+        "The Gramm-Rudman law states that the administration 's deficit forecast - not the one made by CB0 - determines whether the automatic cuts would be necessary .",
+        "((THE.D (| Gramm-Rudman| LAW.N)) ((PRES STATE.V) (THAT ((NP+PREDS (((THE.D ADMINISTRATION.N) 'S) ((MOD-N DEFICIT.N) FORECAST.N)) (NOT (= (THE.D (N+PREDS ONE.N ((PASV MAKE.V) (BY.P-ARG | CB0|))))))) ((PRES DETERMINE.V) (WHETHER ((THE.D ((MOD-N AUTOMATIC.A) (PLUR CUT.N))) ((CF WILL.AUX-S) (BE.V NECESSARY.A)))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / COMPLEX :INSTANCE (V4 / \"| Gramm-Rudman|\") :ARG0 (V5 / LAW.N))) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / STATE.V)) :ARG0 (V10 / THAT :ARG0 (V12 / COMPLEX :INSTANCE (V13 / NP+PREDS :ARG0 (V15 / COMPLEX :INSTANCE (V16 / COMPLEX :INSTANCE (V17 / THE.D :ARG0 (V19 / ADMINISTRATION.N)) :ARG0 (V20 / 'S)) :ARG0 (V23 / COMPLEX :INSTANCE (V24 / MOD-N :ARG0 (V26 / DEFICIT.N)) :ARG0 (V27 / FORECAST.N))) :ARG1 (V28 / NOT :ARG0 (V30 / = :ARG0 (V32 / THE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / ONE.N) :ARG1 (V37 / COMPLEX :INSTANCE (V38 / PASV :ARG0 (V40 / MAKE.V)) :ARG0 (V41 / BY.P-ARG :ARG0 (V43 / \"| CB0|\")))))))) :ARG0 (V44 / COMPLEX :INSTANCE (V45 / PRES :ARG0 (V47 / DETERMINE.V)) :ARG0 (V48 / WHETHER :ARG0 (V50 / COMPLEX :INSTANCE (V51 / THE.D :ARG0 (V53 / COMPLEX :INSTANCE (V54 / MOD-N :ARG0 (V56 / AUTOMATIC.A)) :ARG0 (V57 / PLUR :ARG0 (V59 / CUT.N)))) :ARG0 (V60 / COMPLEX :INSTANCE (V61 / CF :ARG0 (V63 / WILL.AUX-S)) :ARG0 (V64 / BE.V :ARG0 (V66 / NECESSARY.A))))))))))"
+    ],
+    [
+        "916533",
+        "But Congress relies on the CBO figures as a guideline in its budget work .",
+        "(BUT.ADV-S (| Congress| ((PRES RELY.V) (ON.P-ARG (THE.D (| CBO| (PLUR FIGURE.N)))) (ADV-A (AS.P (A.D GUIDELINE.N))) (ADV-A (IN.P (ITS.D ((MOD-N BUDGET.N) WORK.N)))))))",
+        "(V0 / BUT.ADV-S :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"| Congress|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / RELY.V)) :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / THE.D :ARG0 (V12 / COMPLEX :INSTANCE (V13 / \"| CBO|\") :ARG0 (V14 / PLUR :ARG0 (V16 / FIGURE.N))))) :ARG1 (V17 / ADV-A :ARG0 (V19 / AS.P :ARG0 (V21 / A.D :ARG0 (V23 / GUIDELINE.N)))) :ARG2 (V24 / ADV-A :ARG0 (V26 / IN.P :ARG0 (V28 / ITS.D :ARG0 (V30 / COMPLEX :INSTANCE (V31 / MOD-N :ARG0 (V33 / BUDGET.N)) :ARG0 (V34 / WORK.N))))))))"
+    ],
+    [
+        "924030",
+        "How can I find a list of celebrities ' real names ?",
+        "((SUB HOW.PQ ((PRES CAN.AUX-V) I.PRO (FIND.V (A.D (N+PREDS LIST.N (OF.P (((K (PLUR CELEBRITY.N)) 'S) ((MOD-N REAL.A) (PLUR NAME.N)))))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FIND.V :ARG0 (V11 / A.D :ARG0 (V13 / N+PREDS :ARG0 (V15 / LIST.N) :ARG1 (V16 / OF.P :ARG0 (V18 / COMPLEX :INSTANCE (V19 / COMPLEX :INSTANCE (V20 / K :ARG0 (V22 / PLUR :ARG0 (V24 / CELEBRITY.N))) :ARG0 (V25 / 'S)) :ARG0 (V28 / COMPLEX :INSTANCE (V29 / MOD-N :ARG0 (V31 / REAL.A)) :ARG0 (V32 / PLUR :ARG0 (V34 / NAME.N))))))) :ARG1 (V35 / *H)))) :ARG0 (V36 / ?))"
+    ],
+    [
+        "924218",
+        "What therapy attempts to elicit the `` primal scream '' ?",
+        "(((WHAT.D THERAPY.N) ((PRES ATTEMPT.V) (TO (ELICIT.V (THE.D ((MOD-N PRIMAL.A) SCREAM.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / THERAPY.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / ATTEMPT.V)) :ARG0 (V9 / TO :ARG0 (V11 / ELICIT.V :ARG0 (V13 / THE.D :ARG0 (V15 / COMPLEX :INSTANCE (V16 / MOD-N :ARG0 (V18 / PRIMAL.A)) :ARG0 (V19 / SCREAM.N))))))) :ARG0 (V20 / ?))"
+    ],
+    [
+        "924328",
+        "What chemicals are used in lethal injection ?",
+        "(((WHAT.D (PLUR CHEMICAL.N)) ((PRES (PASV USE.V)) (ADV-A (IN.P (K ((MOD-N LETHAL.A) INJECTION.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / PLUR :ARG0 (V6 / CHEMICAL.N))) :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / PASV :ARG0 (V12 / USE.V))) :ARG0 (V13 / ADV-A :ARG0 (V15 / IN.P :ARG0 (V17 / K :ARG0 (V19 / COMPLEX :INSTANCE (V20 / MOD-N :ARG0 (V22 / LETHAL.A)) :ARG0 (V23 / INJECTION.N))))))) :ARG0 (V24 / ?))"
+    ],
+    [
+        "924483",
+        "Where can I find a person 's address from a telephone number ?",
+        "((SUB WHERE.PQ ((PRES CAN.AUX-S) I.PRO (FIND.V (((A.D PERSON.N) 'S) ADDRESS.N) (ADV-A (FROM.P (A.D ((MOD-N TELEPHONE.N) NUMBER.N)))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHERE.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-S)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FIND.V :ARG0 (V11 / COMPLEX :INSTANCE (V12 / COMPLEX :INSTANCE (V13 / A.D :ARG0 (V15 / PERSON.N)) :ARG0 (V16 / 'S)) :ARG0 (V19 / ADDRESS.N)) :ARG1 (V20 / ADV-A :ARG0 (V22 / FROM.P :ARG0 (V24 / A.D :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / TELEPHONE.N)) :ARG0 (V30 / NUMBER.N))))) :ARG2 (V31 / *H)))) :ARG0 (V32 / ?))"
+    ],
+    [
+        "924630",
+        "Name the operating system that runs on IBM-compatible machines .",
+        "((YOU.PRO ((PRES NAME.V) (THE.D (N+PREDS ((MOD-N OPERATE.V) SYSTEM.N) (THAT.REL ((PRES RUN.V) (ADV-A (ON.P (K ((MOD-N | IBM-compatible.A|) (PLUR MACHINE.N))))))))))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / NAME.V)) :ARG0 (V7 / THE.D :ARG0 (V9 / N+PREDS :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / OPERATE.V)) :ARG0 (V15 / SYSTEM.N)) :ARG1 (V16 / THAT.REL :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / RUN.V)) :ARG0 (V22 / ADV-A :ARG0 (V24 / ON.P :ARG0 (V26 / K :ARG0 (V28 / COMPLEX :INSTANCE (V29 / MOD-N :ARG0 (V31 / \"| IBM-compatible.A|\")) :ARG0 (V32 / PLUR :ARG0 (V34 / MACHINE.N)))))))))))) :ARG0 (V35 / !))"
+    ],
+    [
+        "924659",
+        "What two colors are you blind to if you suffer from protanopia ?",
+        "(((SUB (WHAT.D ((MOD-N TWO.A) (PLUR COLOR.N))) ((PRES BE.V) YOU.PRO (BLIND.A (TO.P-ARG *H)))) (IF.PS (YOU.PRO ((PRES SUFFER.V) (FROM.P-ARG (K PROTANOPIA.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / SUB :ARG0 (V4 / WHAT.D :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / TWO.A)) :ARG0 (V10 / PLUR :ARG0 (V12 / COLOR.N)))) :ARG1 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / YOU.PRO) :ARG1 (V18 / BLIND.A :ARG0 (V20 / TO.P-ARG :ARG0 (V22 / *H))))) :ARG0 (V23 / IF.PS :ARG0 (V25 / YOU.PRO :ARG0 (V27 / COMPLEX :INSTANCE (V28 / PRES :ARG0 (V30 / SUFFER.V)) :ARG0 (V31 / FROM.P-ARG :ARG0 (V33 / K :ARG0 (V35 / PROTANOPIA.N))))))) :ARG0 (V36 / ?))"
+    ],
+    [
+        "924727",
+        "Name the disposable razor that `` costs about 19 cents . ''",
+        "((YOU.PRO ((PRES NAME.V) (THE.D (N+PREDS ((MOD-N DISPOSABLE.A) RAZOR.N) (THAT.REL ((PRES COST.V) (ABOUT.ADV-S (DS CURRENCY \"19 cents\")))))))) !)",
+        "(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / NAME.V)) :ARG0 (V7 / THE.D :ARG0 (V9 / N+PREDS :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / DISPOSABLE.A)) :ARG0 (V15 / RAZOR.N)) :ARG1 (V16 / THAT.REL :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / COST.V)) :ARG0 (V22 / ABOUT.ADV-S :ARG0 (V24 / DS :ARG0 (V26 / CURRENCY) :ARG1 (V27 / \"19 cents\"))))))))) :ARG0 (V28 / !))"
+    ],
+    [
+        "924728",
+        "How far do you have to run if you hit a home run ?",
+        "(((SUB (HOW.MOD-A FAR.A) ((PRES DO.AUX-S) YOU.PRO (HAVE.V (TO (RUN.V *H))))) (IF.PS (YOU.PRO ((PRES HIT.V) (A.D ((MOD-N HOME.N) RUN.N)))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / SUB :ARG0 (V4 / HOW.MOD-A :ARG0 (V6 / FAR.A)) :ARG1 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / DO.AUX-S)) :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / HAVE.V :ARG0 (V14 / TO :ARG0 (V16 / RUN.V :ARG0 (V18 / *H)))))) :ARG0 (V19 / IF.PS :ARG0 (V21 / YOU.PRO :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PRES :ARG0 (V26 / HIT.V)) :ARG0 (V27 / A.D :ARG0 (V29 / COMPLEX :INSTANCE (V30 / MOD-N :ARG0 (V32 / HOME.N)) :ARG0 (V33 / RUN.N))))))) :ARG0 (V34 / ?))"
+    ],
+    [
+        "924803",
+        "What historical event happened in Dogtown in 1899 ?",
+        "(((WHAT.D ((MOD-N HISTORICAL.A) EVENT.N)) ((PAST HAPPEN.V) (ADV-E (IN.P | Dogtown|)) (ADV-E (IN.P | 1899|)))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / COMPLEX :INSTANCE (V5 / MOD-N :ARG0 (V7 / HISTORICAL.A)) :ARG0 (V8 / EVENT.N))) :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PAST :ARG0 (V12 / HAPPEN.V)) :ARG0 (V13 / ADV-E :ARG0 (V15 / IN.P :ARG0 (V17 / \"| Dogtown|\"))) :ARG1 (V18 / ADV-E :ARG0 (V20 / IN.P :ARG0 (V22 / \"| 1899|\"))))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "924837",
+        "What is the meaning of W.B. Yeat 's poem , `` The Three Hermits ? ''",
+        "((SUB WHAT.PRO ((PRES BE.V) (THE.D (MEANING.N (OF.P-ARG (NP+PREDS ((| W.B. Yeat| 'S) POEM.N) (= | The Three Hermits|))))) (= *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / MEANING.N :ARG0 (V12 / OF.P-ARG :ARG0 (V14 / NP+PREDS :ARG0 (V16 / COMPLEX :INSTANCE (V17 / COMPLEX :INSTANCE (V18 / \"| W.B. Yeat|\") :ARG0 (V19 / 'S)) :ARG0 (V22 / POEM.N)) :ARG1 (V23 / = :ARG0 (V25 / \"| The Three Hermits|\")))))) :ARG1 (V26 / = :ARG0 (V28 / *H)))) :ARG0 (V29 / ?))"
+    ],
+    [
+        "933488",
+        "As to my own part , having turned my thoughts for many years , upon this important subject , and maturely weighed the several schemes of our projectors , I have always found them grossly mistaken in their computation .",
+        "((ADV-S (AS_TO.P (MY.D ((MOD-N OWN.A) (PART-OF.N *REF))))) (ADV-S (PERF ((TURN.V (MY.D (PLUR THOUGHT.N)) (ADV-E (FOR.P (MANY.D (PLUR YEAR.N)))) (UPON.P-ARG (THIS.D ((MOD-N IMPORTANT.A) SUBJECT.N)))) AND.CC (MATURELY.ADV-A WEIGH.V (THE.D (N+PREDS ((MOD-N SEVERAL.A) (PLUR SCHEME.N)) (OF.P (OUR.D (PLUR PROJECTOR.N))))))))) (I.PRO ((PRES PERF) ALWAYS.ADV-F (FIND.V THEM.PRO (GROSSLY.MOD-A (MISTAKEN.A (IN.P-ARG (THEIR.D COMPUTATION.N))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / ADV-S :ARG0 (V3 / AS_TO.P :ARG0 (V5 / MY.D :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / OWN.A)) :ARG0 (V11 / PART-OF.N :ARG0 (V13 / *REF)))))) :ARG0 (V14 / ADV-S :ARG0 (V16 / PERF :ARG0 (V18 / COMPLEX :INSTANCE (V19 / TURN.V :ARG0 (V21 / MY.D :ARG0 (V23 / PLUR :ARG0 (V25 / THOUGHT.N))) :ARG1 (V26 / ADV-E :ARG0 (V28 / FOR.P :ARG0 (V30 / MANY.D :ARG0 (V32 / PLUR :ARG0 (V34 / YEAR.N))))) :ARG2 (V35 / UPON.P-ARG :ARG0 (V37 / THIS.D :ARG0 (V39 / COMPLEX :INSTANCE (V40 / MOD-N :ARG0 (V42 / IMPORTANT.A)) :ARG0 (V43 / SUBJECT.N))))) :ARG0 (V44 / AND.CC) :ARG1 (V45 / MATURELY.ADV-A :ARG0 (V47 / WEIGH.V) :ARG1 (V48 / THE.D :ARG0 (V50 / N+PREDS :ARG0 (V52 / COMPLEX :INSTANCE (V53 / MOD-N :ARG0 (V55 / SEVERAL.A)) :ARG0 (V56 / PLUR :ARG0 (V58 / SCHEME.N))) :ARG1 (V59 / OF.P :ARG0 (V61 / OUR.D :ARG0 (V63 / PLUR :ARG0 (V65 / PROJECTOR.N)))))))))) :ARG1 (V66 / I.PRO :ARG0 (V68 / COMPLEX :INSTANCE (V69 / PRES :ARG0 (V71 / PERF)) :ARG0 (V72 / ALWAYS.ADV-F) :ARG1 (V73 / FIND.V :ARG0 (V75 / THEM.PRO) :ARG1 (V76 / GROSSLY.MOD-A :ARG0 (V78 / MISTAKEN.A :ARG0 (V80 / IN.P-ARG :ARG0 (V82 / THEIR.D :ARG0 (V84 / COMPUTATION.N)))))))))"
+    ],
+    [
+        "933489",
+        "It is true , a child just dropt from its dam , may be supported by her milk , for a solar year , with little other nourishment : at most not above the value of two shillings , which the mother may certainly get , or the value in scraps , by her lawful occupation of begging ; and it is exactly at one year old that I propose to provide for them in such a manner , as , instead of being a charge upon their parents , or the parish , or wanting food and raiment for the rest of their lives , they shall , on the contrary , contribute to the feeding , and partly to the cloathing of many thousands .",
+        "((IT-EXTRA.PRO (((PRES BE.V) TRUE.A) (THT ((A.D (N+PREDS CHILD.N (JUST.ADV-E ((PASV DROP.V) (ADV-A (FROM.P (ITS.D (DAM-OF.N *S)))))))) ((PRES MAY.AUX-S) ((PASV SUPPORT.V) (BY.P-ARG (HER.D MILK.N)) (ADV-E (FOR.P (A.D ((MOD-N SOLAR.A) YEAR.N)))) (ADV-A (WITH.P (NP+PREDS (K ((MOD-N LITTLE.A) ((MOD-N OTHER.A) NOURISHMENT.N))) ((MOD-A (AT.P (THE.D ((MOD-N MOST.A) REF.N)))) (NOT (ABOVE.P (THE.D (VALUE-OF.N (NP+PREDS (TWO.D (PLUR SHILLING.N)) (SUB WHICH.REL ((THE.D (MOTHER-OF.N *REF)) ((PRES MAY.AUX-S) CERTAINLY.ADV-S (GET.V (*H OR.CC (THE.D (N+PREDS VALUE.N (IN.P (K (PLUR SCRAP.N)))))) (ADV-A (BY.P (HER.D (N+PREDS ((MOD-N LAWFUL.A) OCCUPATION.N) (OF.P (KA BEG.V))))))))))))))))))))))))) (AND.ADV-S ((IT-CLEFT.PRO (((PRES BE.V) (ADV-E (EXACTLY.ADV-S (AT.P (KA (BE.V ((ONE.D YEAR.N) OLD.A))))))) (THAT.REL (I.PRO ((PRES PROPOSE.V) (TO (PROVIDE.V (FOR.P-ARG THEM.PRO) (ADV-A (IN.P (SUCH.D (= (A.D MANNER.N)))))))))))) AS.CC ((ADV-S (INSTEAD_OF.P ((KA (BE.V (= (A.D (N+PREDS CHARGE.N (UPON.P ((THEIR.D (PLUR (PARENT-OF.N *S))) OR.CC (THE.D PARISH.N)))))))) OR.CC (KA (WANT.V ((K FOOD.N) AND.CC (K RAIMENT.N)) (ADV-E (FOR.P (THE.D (N+PREDS REST.N (OF.P (THEIR.D (PLUR LIFE.N)))))))))))) (THEY.PRO ((PRES SHALL.AUX-S) (ADV-S (ON.P (THE.D CONTRARY.N))) (CONTRIBUTE.V ((TO.P-ARG (THE.D FEEDING.N)) AND.CC (PARTLY.ADV-S (TO.P-ARG (THE.D (CLOATHING.N (OF.P-ARG (MANY.D (N+PREDS (PLUR THOUSAND.N) (OF.P (K REF.N)))))))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / IT-EXTRA.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / TRUE.A)) :ARG0 (V9 / THT :ARG0 (V11 / COMPLEX :INSTANCE (V12 / A.D :ARG0 (V14 / N+PREDS :ARG0 (V16 / CHILD.N) :ARG1 (V17 / JUST.ADV-E :ARG0 (V19 / COMPLEX :INSTANCE (V20 / PASV :ARG0 (V22 / DROP.V)) :ARG0 (V23 / ADV-A :ARG0 (V25 / FROM.P :ARG0 (V27 / ITS.D :ARG0 (V29 / DAM-OF.N :ARG0 (V31 / *S))))))))) :ARG0 (V32 / COMPLEX :INSTANCE (V33 / PRES :ARG0 (V35 / MAY.AUX-S)) :ARG0 (V36 / COMPLEX :INSTANCE (V37 / PASV :ARG0 (V39 / SUPPORT.V)) :ARG0 (V40 / BY.P-ARG :ARG0 (V42 / HER.D :ARG0 (V44 / MILK.N))) :ARG1 (V45 / ADV-E :ARG0 (V47 / FOR.P :ARG0 (V49 / A.D :ARG0 (V51 / COMPLEX :INSTANCE (V52 / MOD-N :ARG0 (V54 / SOLAR.A)) :ARG0 (V55 / YEAR.N))))) :ARG2 (V56 / ADV-A :ARG0 (V58 / WITH.P :ARG0 (V60 / NP+PREDS :ARG0 (V62 / K :ARG0 (V64 / COMPLEX :INSTANCE (V65 / MOD-N :ARG0 (V67 / LITTLE.A)) :ARG0 (V68 / COMPLEX :INSTANCE (V69 / MOD-N :ARG0 (V71 / OTHER.A)) :ARG0 (V72 / NOURISHMENT.N)))) :ARG1 (V73 / COMPLEX :INSTANCE (V74 / MOD-A :ARG0 (V76 / AT.P :ARG0 (V78 / THE.D :ARG0 (V80 / COMPLEX :INSTANCE (V81 / MOD-N :ARG0 (V83 / MOST.A)) :ARG0 (V84 / REF.N))))) :ARG0 (V85 / NOT :ARG0 (V87 / ABOVE.P :ARG0 (V89 / THE.D :ARG0 (V91 / VALUE-OF.N :ARG0 (V93 / NP+PREDS :ARG0 (V95 / TWO.D :ARG0 (V97 / PLUR :ARG0 (V99 / SHILLING.N))) :ARG1 (V100 / SUB :ARG0 (V102 / WHICH.REL) :ARG1 (V103 / COMPLEX :INSTANCE (V104 / THE.D :ARG0 (V106 / MOTHER-OF.N :ARG0 (V108 / *REF))) :ARG0 (V109 / COMPLEX :INSTANCE (V110 / PRES :ARG0 (V112 / MAY.AUX-S)) :ARG0 (V113 / CERTAINLY.ADV-S) :ARG1 (V114 / GET.V :ARG0 (V116 / *H :ARG0 (V118 / OR.CC) :ARG1 (V119 / THE.D :ARG0 (V121 / N+PREDS :ARG0 (V123 / VALUE.N) :ARG1 (V124 / IN.P :ARG0 (V126 / K :ARG0 (V128 / PLUR :ARG0 (V130 / SCRAP.N))))))) :ARG1 (V131 / ADV-A :ARG0 (V133 / BY.P :ARG0 (V135 / HER.D :ARG0 (V137 / N+PREDS :ARG0 (V139 / COMPLEX :INSTANCE (V140 / MOD-N :ARG0 (V142 / LAWFUL.A)) :ARG0 (V143 / OCCUPATION.N)) :ARG1 (V144 / OF.P :ARG0 (V146 / KA :ARG0 (V148 / BEG.V)))))))))))))))))))))))))) :ARG0 (V149 / AND.ADV-S :ARG0 (V151 / COMPLEX :INSTANCE (V152 / IT-CLEFT.PRO :ARG0 (V154 / COMPLEX :INSTANCE (V155 / COMPLEX :INSTANCE (V156 / PRES :ARG0 (V158 / BE.V)) :ARG0 (V159 / ADV-E :ARG0 (V161 / EXACTLY.ADV-S :ARG0 (V163 / AT.P :ARG0 (V165 / KA :ARG0 (V167 / BE.V :ARG0 (V169 / COMPLEX :INSTANCE (V170 / ONE.D :ARG0 (V172 / YEAR.N)) :ARG0 (V173 / OLD.A)))))))) :ARG0 (V174 / THAT.REL :ARG0 (V176 / I.PRO :ARG0 (V178 / COMPLEX :INSTANCE (V179 / PRES :ARG0 (V181 / PROPOSE.V)) :ARG0 (V182 / TO :ARG0 (V184 / PROVIDE.V :ARG0 (V186 / FOR.P-ARG :ARG0 (V188 / THEM.PRO)) :ARG1 (V189 / ADV-A :ARG0 (V191 / IN.P :ARG0 (V193 / SUCH.D :ARG0 (V195 / = :ARG0 (V197 / A.D :ARG0 (V199 / MANNER.N))))))))))))) :ARG0 (V200 / AS.CC) :ARG1 (V201 / COMPLEX :INSTANCE (V202 / ADV-S :ARG0 (V204 / INSTEAD_OF.P :ARG0 (V206 / COMPLEX :INSTANCE (V207 / KA :ARG0 (V209 / BE.V :ARG0 (V211 / = :ARG0 (V213 / A.D :ARG0 (V215 / N+PREDS :ARG0 (V217 / CHARGE.N) :ARG1 (V218 / UPON.P :ARG0 (V220 / COMPLEX :INSTANCE (V221 / THEIR.D :ARG0 (V223 / PLUR :ARG0 (V225 / PARENT-OF.N :ARG0 (V227 / *S)))) :ARG0 (V228 / OR.CC) :ARG1 (V229 / THE.D :ARG0 (V231 / PARISH.N))))))))) :ARG0 (V232 / OR.CC) :ARG1 (V233 / KA :ARG0 (V235 / WANT.V :ARG0 (V237 / COMPLEX :INSTANCE (V238 / K :ARG0 (V240 / FOOD.N)) :ARG0 (V241 / AND.CC) :ARG1 (V242 / K :ARG0 (V244 / RAIMENT.N))) :ARG1 (V245 / ADV-E :ARG0 (V247 / FOR.P :ARG0 (V249 / THE.D :ARG0 (V251 / N+PREDS :ARG0 (V253 / REST.N) :ARG1 (V254 / OF.P :ARG0 (V256 / THEIR.D :ARG0 (V258 / PLUR :ARG0 (V260 / LIFE.N))))))))))))) :ARG0 (V261 / THEY.PRO :ARG0 (V263 / COMPLEX :INSTANCE (V264 / PRES :ARG0 (V266 / SHALL.AUX-S)) :ARG0 (V267 / ADV-S :ARG0 (V269 / ON.P :ARG0 (V271 / THE.D :ARG0 (V273 / CONTRARY.N)))) :ARG1 (V274 / CONTRIBUTE.V :ARG0 (V276 / COMPLEX :INSTANCE (V277 / TO.P-ARG :ARG0 (V279 / THE.D :ARG0 (V281 / FEEDING.N))) :ARG0 (V282 / AND.CC) :ARG1 (V283 / PARTLY.ADV-S :ARG0 (V285 / TO.P-ARG :ARG0 (V287 / THE.D :ARG0 (V289 / CLOATHING.N :ARG0 (V291 / OF.P-ARG :ARG0 (V293 / MANY.D :ARG0 (V295 / N+PREDS :ARG0 (V297 / PLUR :ARG0 (V299 / THOUSAND.N)) :ARG1 (V300 / OF.P :ARG0 (V302 / K :ARG0 (V304 / REF.N))))))))))))))))))"
+    ],
+    [
+        "938119",
+        "\" But for such a work you must have needed books--had you any ? \"",
+        "(|\"| (BUT.ADV-S (ADV-S (FOR.P (SUCH.D (= (A.D WORK.N))))) (YOU.PRO ((PRES MUST.AUX-S) (PERF (NEED.V (K (PLUR BOOK.N))))))) (((PAST HAVE.V) YOU.PRO (ANY.D REF.N)) ?) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / BUT.ADV-S :ARG0 (V4 / ADV-S :ARG0 (V6 / FOR.P :ARG0 (V8 / SUCH.D :ARG0 (V10 / = :ARG0 (V12 / A.D :ARG0 (V14 / WORK.N)))))) :ARG1 (V15 / YOU.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PRES :ARG0 (V20 / MUST.AUX-S)) :ARG0 (V21 / PERF :ARG0 (V23 / NEED.V :ARG0 (V25 / K :ARG0 (V27 / PLUR :ARG0 (V29 / BOOK.N)))))))) :ARG1 (V30 / COMPLEX :INSTANCE (V31 / COMPLEX :INSTANCE (V32 / PAST :ARG0 (V34 / HAVE.V)) :ARG0 (V35 / YOU.PRO) :ARG1 (V36 / ANY.D :ARG0 (V38 / REF.N))) :ARG0 (V39 / ?)) :ARG2 (V40 / \"|\\\"|\"))"
+    ],
+    [
+        "940327",
+        "\" You ? \"",
+        "(|\"| ((PU YOU.PRO) ?) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PU :ARG0 (V5 / YOU.PRO)) :ARG0 (V6 / ?)) :ARG1 (V7 / \"|\\\"|\"))"
+    ],
+    [
+        "941968",
+        "\" Sinbad the Sailor ? \" he said .",
+        "(SUB (|\"| ((PU | Sinbad the Sailor|) ?) |\"|) (HE.PRO ((PAST SAY.V) *H)))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PU :ARG0 (V7 / \"| Sinbad the Sailor|\")) :ARG0 (V8 / ?)) :ARG1 (V9 / \"|\\\"|\")) :ARG1 (V10 / HE.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PAST :ARG0 (V15 / SAY.V)) :ARG0 (V16 / *H))))"
+    ],
+    [
+        "943203",
+        "he asked of Franz .",
+        "(HE.PRO ((PAST ASK.V) THAT.PRO (OF.P-ARG | Franz|)))",
+        "(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / ASK.V)) :ARG0 (V6 / THAT.PRO) :ARG1 (V7 / OF.P-ARG :ARG0 (V9 / \"| Franz|\"))))"
+    ],
+    [
+        "943480",
+        "\" What are you going to do ? \" inquired the count .",
+        "(SUB (|\"| ((SUB WHAT.PRO ((PRES PROG) YOU.PRO (GO.V (TO (DO.V *H))))) ?) |\"|) ((THE.D COUNT.N) ((PAST INQUIRE.V) *H)))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / SUB :ARG0 (V7 / WHAT.PRO) :ARG1 (V8 / COMPLEX :INSTANCE (V9 / PRES :ARG0 (V11 / PROG)) :ARG0 (V12 / YOU.PRO) :ARG1 (V13 / GO.V :ARG0 (V15 / TO :ARG0 (V17 / DO.V :ARG0 (V19 / *H)))))) :ARG0 (V20 / ?)) :ARG1 (V21 / \"|\\\"|\")) :ARG1 (V22 / COMPLEX :INSTANCE (V23 / THE.D :ARG0 (V25 / COUNT.N)) :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PAST :ARG0 (V29 / INQUIRE.V)) :ARG0 (V30 / *H))))"
+    ],
+    [
+        "943481",
+        "\" I will show you the way back myself , \" said the captain ; \" that is the least honor that I can render to your excellency . \"",
+        "(|\"| (I.PRO ((PRES WILL.AUX-S) (SHOW.V YOU.PRO (THE.D (N+PREDS WAY.N (BACK.P REF.PRO))) (ADV-A (BY.P MYSELF.PRO))))) (QT-ATTR ((THE.D CAPTAIN.N) ((PAST SAY.V) *QT))) (THAT.PRO ((PRES BE.V) (= (THE.D (LEAST.MOD-N (N+PREDS HONOR.N (SUB THAT.REL (I.PRO ((PRES CAN.AUX-V) (RENDER.V *H (TO.P-ARG (YOUR.D EXCELLENCY.N)))))))))))) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / SHOW.V :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / THE.D :ARG0 (V13 / N+PREDS :ARG0 (V15 / WAY.N) :ARG1 (V16 / BACK.P :ARG0 (V18 / REF.PRO)))) :ARG2 (V19 / ADV-A :ARG0 (V21 / BY.P :ARG0 (V23 / MYSELF.PRO)))))) :ARG1 (V24 / QT-ATTR :ARG0 (V26 / COMPLEX :INSTANCE (V27 / THE.D :ARG0 (V29 / CAPTAIN.N)) :ARG0 (V30 / COMPLEX :INSTANCE (V31 / PAST :ARG0 (V33 / SAY.V)) :ARG0 (V34 / *QT)))) :ARG2 (V35 / THAT.PRO :ARG0 (V37 / COMPLEX :INSTANCE (V38 / PRES :ARG0 (V40 / BE.V)) :ARG0 (V41 / = :ARG0 (V43 / THE.D :ARG0 (V45 / LEAST.MOD-N :ARG0 (V47 / N+PREDS :ARG0 (V49 / HONOR.N) :ARG1 (V50 / SUB :ARG0 (V52 / THAT.REL) :ARG1 (V53 / I.PRO :ARG0 (V55 / COMPLEX :INSTANCE (V56 / PRES :ARG0 (V58 / CAN.AUX-V)) :ARG0 (V59 / RENDER.V :ARG0 (V61 / *H) :ARG1 (V62 / TO.P-ARG :ARG0 (V64 / YOUR.D :ARG0 (V66 / EXCELLENCY.N))))))))))))) :ARG3 (V67 / \"|\\\"|\"))"
+    ],
+    [
+        "943482",
+        "And taking the lighted torch from the hands of the herdsman , he preceded his guests , not as a servant who performs an act of civility , but like a king who precedes ambassadors .",
+        "(AND.ADV-S (SUB (ADV-A (TAKE.V (THE.D ((MOD-N LIGHTED.A) TORCH.N)) (FROM.P-ARG (THE.D (N+PREDS (PLUR HAND.N) (OF.P (THE.D HERDSMAN.N))))))) (HE.PRO (*H (PAST PRECEDE.V) (HIS.D (PLUR (GUEST-OF.N *REF))) (ADV-A (NOT (AS.P (A.D (N+PREDS SERVANT.N (WHO.REL ((PRES PERFORM.V) (AN.D (N+PREDS ACT.N (OF.P (K CIVILITY.N))))))))))) (ADV-A (BUT.ADV-S (LIKE.A (A.D (N+PREDS KING.N (WHO.REL ((PRES PRECEDE.V) (K (PLUR AMBASSADOR.N)))))))))))))",
+        "(V0 / AND.ADV-S :ARG0 (V2 / SUB :ARG0 (V4 / ADV-A :ARG0 (V6 / TAKE.V :ARG0 (V8 / THE.D :ARG0 (V10 / COMPLEX :INSTANCE (V11 / MOD-N :ARG0 (V13 / LIGHTED.A)) :ARG0 (V14 / TORCH.N))) :ARG1 (V15 / FROM.P-ARG :ARG0 (V17 / THE.D :ARG0 (V19 / N+PREDS :ARG0 (V21 / PLUR :ARG0 (V23 / HAND.N)) :ARG1 (V24 / OF.P :ARG0 (V26 / THE.D :ARG0 (V28 / HERDSMAN.N)))))))) :ARG1 (V29 / HE.PRO :ARG0 (V31 / *H :ARG0 (V33 / PAST :ARG0 (V35 / PRECEDE.V)) :ARG1 (V36 / HIS.D :ARG0 (V38 / PLUR :ARG0 (V40 / GUEST-OF.N :ARG0 (V42 / *REF)))) :ARG2 (V43 / ADV-A :ARG0 (V45 / NOT :ARG0 (V47 / AS.P :ARG0 (V49 / A.D :ARG0 (V51 / N+PREDS :ARG0 (V53 / SERVANT.N) :ARG1 (V54 / WHO.REL :ARG0 (V56 / COMPLEX :INSTANCE (V57 / PRES :ARG0 (V59 / PERFORM.V)) :ARG0 (V60 / AN.D :ARG0 (V62 / N+PREDS :ARG0 (V64 / ACT.N) :ARG1 (V65 / OF.P :ARG0 (V67 / K :ARG0 (V69 / CIVILITY.N)))))))))))) :ARG3 (V70 / ADV-A :ARG0 (V72 / BUT.ADV-S :ARG0 (V74 / LIKE.A :ARG0 (V76 / A.D :ARG0 (V78 / N+PREDS :ARG0 (V80 / KING.N) :ARG1 (V81 / WHO.REL :ARG0 (V83 / COMPLEX :INSTANCE (V84 / PRES :ARG0 (V86 / PRECEDE.V)) :ARG0 (V87 / K :ARG0 (V89 / PLUR :ARG0 (V91 / AMBASSADOR.N))))))))))))))"
+    ],
+    [
+        "943483",
+        "On reaching the door , he bowed .",
+        "((ADV-E (ON.P (KA (REACH.V (THE.D DOOR.N))))) (HE.PRO (PAST BOW.V)))",
+        "(V0 / COMPLEX :INSTANCE (V1 / ADV-E :ARG0 (V3 / ON.P :ARG0 (V5 / KA :ARG0 (V7 / REACH.V :ARG0 (V9 / THE.D :ARG0 (V11 / DOOR.N)))))) :ARG0 (V12 / HE.PRO :ARG0 (V14 / PAST :ARG0 (V16 / BOW.V))))"
+    ],
+    [
+        "983493",
+        "\" What think you of Bossuet chanting the _Te Deum_ over the dragonnades ? \"",
+        "(|\"| ((SUB WHAT.PRO ((PRES THINK.V) YOU.PRO *H (OF.P-ARG (KE (| Bossuet| (CHANT.V (THE.D | Te Deum.N|) (ADV-E (OVER.P (THE.D (PLUR DRAGONNADE.N)))))))))) ?) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / SUB :ARG0 (V5 / WHAT.PRO) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / THINK.V)) :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / *H) :ARG2 (V12 / OF.P-ARG :ARG0 (V14 / KE :ARG0 (V16 / COMPLEX :INSTANCE (V17 / \"| Bossuet|\") :ARG0 (V18 / CHANT.V :ARG0 (V20 / THE.D :ARG0 (V22 / \"| Te Deum.N|\")) :ARG1 (V23 / ADV-E :ARG0 (V25 / OVER.P :ARG0 (V27 / THE.D :ARG0 (V29 / PLUR :ARG0 (V31 / DRAGONNADE.N))))))))))) :ARG0 (V32 / ?)) :ARG1 (V33 / \"|\\\"|\"))"
+    ],
+    [
+        "983494",
+        "The retort was a harsh one , but it attained its mark with the directness of a point of steel .",
+        "(((THE.D RETORT.N) ((PAST BE.V) (= (A.D ((MOD-N HARSH.A) ONE.N))))) BUT.CC (IT.PRO ((PAST ATTAIN.V) (ITS.D MARK.N) (ADV-A (WITH.P (THE.D (N+PREDS DIRECTNESS.N (OF.P (A.D (N+PREDS POINT.N (OF.P (K STEEL.N))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / RETORT.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BE.V)) :ARG0 (V9 / = :ARG0 (V11 / A.D :ARG0 (V13 / COMPLEX :INSTANCE (V14 / MOD-N :ARG0 (V16 / HARSH.A)) :ARG0 (V17 / ONE.N)))))) :ARG0 (V18 / BUT.CC) :ARG1 (V19 / IT.PRO :ARG0 (V21 / COMPLEX :INSTANCE (V22 / PAST :ARG0 (V24 / ATTAIN.V)) :ARG0 (V25 / ITS.D :ARG0 (V27 / MARK.N)) :ARG1 (V28 / ADV-A :ARG0 (V30 / WITH.P :ARG0 (V32 / THE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / DIRECTNESS.N) :ARG1 (V37 / OF.P :ARG0 (V39 / A.D :ARG0 (V41 / N+PREDS :ARG0 (V43 / POINT.N) :ARG1 (V44 / OF.P :ARG0 (V46 / K :ARG0 (V48 / STEEL.N)))))))))))))"
+    ],
+    [
+        "983495",
+        "The Bishop quivered under it ; no reply occurred to him ; but he was offended by this mode of alluding to Bossuet .",
+        "(((THE.D | Bishop.N|) (PAST QUIVER.V) (ADV-E (UNDER.P IT.PRO))) ((NO.D REPLY.N) ((PAST OCCUR.V) (TO.P-ARG HIM.PRO))) (BUT.ADV-S (HE.PRO ((PAST (PASV OFFEND.V)) (BY.P-ARG (THIS.D (MODE-OF.N (KA (ALLUDE.V (TO.P-ARG | Bossuet|))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / \"| Bishop.N|\")) :ARG0 (V5 / PAST :ARG0 (V7 / QUIVER.V)) :ARG1 (V8 / ADV-E :ARG0 (V10 / UNDER.P :ARG0 (V12 / IT.PRO)))) :ARG0 (V13 / COMPLEX :INSTANCE (V14 / NO.D :ARG0 (V16 / REPLY.N)) :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PAST :ARG0 (V20 / OCCUR.V)) :ARG0 (V21 / TO.P-ARG :ARG0 (V23 / HIM.PRO)))) :ARG1 (V24 / BUT.ADV-S :ARG0 (V26 / HE.PRO :ARG0 (V28 / COMPLEX :INSTANCE (V29 / PAST :ARG0 (V31 / PASV :ARG0 (V33 / OFFEND.V))) :ARG0 (V34 / BY.P-ARG :ARG0 (V36 / THIS.D :ARG0 (V38 / MODE-OF.N :ARG0 (V40 / KA :ARG0 (V42 / ALLUDE.V :ARG0 (V44 / TO.P-ARG :ARG0 (V46 / \"| Bossuet|\")))))))))))"
+    ],
+    [
+        "983496",
+        "The best of minds will have their fetiches , and they sometimes feel vaguely wounded by the want of respect of logic .",
+        "(((THE.D (BEST-OF.N (K (PLUR MIND.N)))) ((PRES WILL.AUX-S) (HAVE.V (THEIR.D (PLUR FETICH.N))))) AND.CC (THEY.PRO SOMETIMES.ADV-F ((PRES FEEL.V) (VAGUELY.MOD-A (WOUNDED.A (BY.P-ARG (THE.D (WANT.N (OF.P-ARG (K (RESPECT.N (OF.P-ARG (K LOGIC.N)))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / BEST-OF.N :ARG0 (V6 / K :ARG0 (V8 / PLUR :ARG0 (V10 / MIND.N))))) :ARG0 (V11 / COMPLEX :INSTANCE (V12 / PRES :ARG0 (V14 / WILL.AUX-S)) :ARG0 (V15 / HAVE.V :ARG0 (V17 / THEIR.D :ARG0 (V19 / PLUR :ARG0 (V21 / FETICH.N)))))) :ARG0 (V22 / AND.CC) :ARG1 (V23 / THEY.PRO :ARG0 (V25 / SOMETIMES.ADV-F) :ARG1 (V26 / COMPLEX :INSTANCE (V27 / PRES :ARG0 (V29 / FEEL.V)) :ARG0 (V30 / VAGUELY.MOD-A :ARG0 (V32 / WOUNDED.A :ARG0 (V34 / BY.P-ARG :ARG0 (V36 / THE.D :ARG0 (V38 / WANT.N :ARG0 (V40 / OF.P-ARG :ARG0 (V42 / K :ARG0 (V44 / RESPECT.N :ARG0 (V46 / OF.P-ARG :ARG0 (V48 / K :ARG0 (V50 / LOGIC.N))))))))))))))"
+    ],
+    [
+        "983497",
+        "The conventionary began to pant ; the asthma of the agony which is mingled with the last breaths interrupted his voice ; still , there was a perfect lucidity of soul in his eyes .",
+        "(((THE.D CONVENTIONARY.N) ((PAST BEGIN.V) (TO PANT.V))) ((THE.D (N+PREDS ASTHMA.N (OF.P (THE.D AGONY.N)) (WHICH.REL ((PRES (PASV MINGLED.V)) (WITH.P-ARG (THE.D ((MOD-N LAST.A) (PLUR BREATH.N)))))))) ((PAST INTERRUPT.V) (HIS.D (VOICE-OF.N *S)))) (STILL.ADV-S (THERE.PRO (((PAST BE.V) (= (A.D ((MOD-N PERFECT.A) (N+PREDS LUCIDITY.N (OF.P (K SOUL.N))))))) (ADV-E (IN.P (HIS.D (PLUR EYE.N))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / CONVENTIONARY.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BEGIN.V)) :ARG0 (V9 / TO :ARG0 (V11 / PANT.V)))) :ARG0 (V12 / COMPLEX :INSTANCE (V13 / THE.D :ARG0 (V15 / N+PREDS :ARG0 (V17 / ASTHMA.N) :ARG1 (V18 / OF.P :ARG0 (V20 / THE.D :ARG0 (V22 / AGONY.N))) :ARG2 (V23 / WHICH.REL :ARG0 (V25 / COMPLEX :INSTANCE (V26 / PRES :ARG0 (V28 / PASV :ARG0 (V30 / MINGLED.V))) :ARG0 (V31 / WITH.P-ARG :ARG0 (V33 / THE.D :ARG0 (V35 / COMPLEX :INSTANCE (V36 / MOD-N :ARG0 (V38 / LAST.A)) :ARG0 (V39 / PLUR :ARG0 (V41 / BREATH.N))))))))) :ARG0 (V42 / COMPLEX :INSTANCE (V43 / PAST :ARG0 (V45 / INTERRUPT.V)) :ARG0 (V46 / HIS.D :ARG0 (V48 / VOICE-OF.N :ARG0 (V50 / *S))))) :ARG1 (V51 / STILL.ADV-S :ARG0 (V53 / THERE.PRO :ARG0 (V55 / COMPLEX :INSTANCE (V56 / COMPLEX :INSTANCE (V57 / PAST :ARG0 (V59 / BE.V)) :ARG0 (V60 / = :ARG0 (V62 / A.D :ARG0 (V64 / COMPLEX :INSTANCE (V65 / MOD-N :ARG0 (V67 / PERFECT.A)) :ARG0 (V68 / N+PREDS :ARG0 (V70 / LUCIDITY.N) :ARG1 (V71 / OF.P :ARG0 (V73 / K :ARG0 (V75 / SOUL.N)))))))) :ARG0 (V76 / ADV-E :ARG0 (V78 / IN.P :ARG0 (V80 / HIS.D :ARG0 (V82 / PLUR :ARG0 (V84 / EYE.N)))))))))"
+    ],
+    [
+        "983500",
+        "Apart from the Revolution , which , taken as a whole , is an immense human affirmation , ' 93 is , alas ! a rejoinder .",
+        "((ADV-S (APART_FROM.P (NP+PREDS (THE.D | Revolution.N|) (WHICH.REL (ADV-S (TAKEN.A (AS.P-ARG (A.D WHOLE.N)))) ((PRES BE.V) (= (AN.D ((MOD-N IMMENSE.A) ((MOD-N HUMAN.N) AFFIRMATION.N))))))))) (| '93| ((PRES BE.V) ALAS.X (= (A.D REJOINDER.N)))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / ADV-S :ARG0 (V3 / APART_FROM.P :ARG0 (V5 / NP+PREDS :ARG0 (V7 / THE.D :ARG0 (V9 / \"| Revolution.N|\")) :ARG1 (V10 / WHICH.REL :ARG0 (V12 / ADV-S :ARG0 (V14 / TAKEN.A :ARG0 (V16 / AS.P-ARG :ARG0 (V18 / A.D :ARG0 (V20 / WHOLE.N))))) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / PRES :ARG0 (V24 / BE.V)) :ARG0 (V25 / = :ARG0 (V27 / AN.D :ARG0 (V29 / COMPLEX :INSTANCE (V30 / MOD-N :ARG0 (V32 / IMMENSE.A)) :ARG0 (V33 / COMPLEX :INSTANCE (V34 / MOD-N :ARG0 (V36 / HUMAN.N)) :ARG0 (V37 / AFFIRMATION.N)))))))))) :ARG0 (V38 / COMPLEX :INSTANCE (V39 / \"| '93|\") :ARG0 (V40 / COMPLEX :INSTANCE (V41 / PRES :ARG0 (V43 / BE.V)) :ARG0 (V44 / ALAS.X) :ARG1 (V45 / = :ARG0 (V47 / A.D :ARG0 (V49 / REJOINDER.N))))))"
+    ],
+    [
+        "983922",
+        "Can you read ? \"",
+        "(((PRES CAN.AUX-V) YOU.PRO READ.V) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / READ.V)) :ARG0 (V7 / ?))"
+    ],
+    [
+        "985625",
+        "\" What would you do , Favourite , if I were to cease to love you ? \"",
+        "(|\"| (((SUB WHAT.PRO ((CF WILL.AUX-S) YOU.PRO (DO.V *H))) (VOC | Favourite|) (IF.PS (I.PRO ((CF BE-TO.V) (CEASE.V (TO (LOVE.V YOU.PRO))))))) ?) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / SUB :ARG0 (V6 / WHAT.PRO) :ARG1 (V7 / COMPLEX :INSTANCE (V8 / CF :ARG0 (V10 / WILL.AUX-S)) :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / DO.V :ARG0 (V14 / *H)))) :ARG0 (V15 / VOC :ARG0 (V17 / \"| Favourite|\")) :ARG1 (V18 / IF.PS :ARG0 (V20 / I.PRO :ARG0 (V22 / COMPLEX :INSTANCE (V23 / CF :ARG0 (V25 / BE-TO.V)) :ARG0 (V26 / CEASE.V :ARG0 (V28 / TO :ARG0 (V30 / LOVE.V :ARG0 (V32 / YOU.PRO)))))))) :ARG0 (V33 / ?)) :ARG1 (V34 / \"|\\\"|\"))"
+    ],
+    [
+        "986907",
+        "Fantine returned home .",
+        "(| Fantine| ((PAST RETURN.V) (TO.P-ARG (K HOME.N))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"| Fantine|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / RETURN.V)) :ARG0 (V6 / TO.P-ARG :ARG0 (V8 / K :ARG0 (V10 / HOME.N)))))"
+    ],
+    [
+        "993480",
+        "Memories recurred to Jean Valjean .",
+        "((K (PLUR MEMORY.N)) ((PAST RECUR.V) (TO.P-ARG | Jean Valjean|)))",
+        "(V0 / COMPLEX :INSTANCE (V1 / K :ARG0 (V3 / PLUR :ARG0 (V5 / MEMORY.N))) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / RECUR.V)) :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / \"| Jean Valjean|\"))))"
+    ],
+    [
+        "1214146",
+        "How could I dare to keep it back from him ?",
+        "((SUB HOW.ADV-A ((PRES COULD.AUX-V) I.PRO (DARE.V (TO (KEEP.V IT.PRO BACK.ADV-A (FROM.P-ARG HIM.PRO))) *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / DARE.V :ARG0 (V11 / TO :ARG0 (V13 / KEEP.V :ARG0 (V15 / IT.PRO) :ARG1 (V16 / BACK.ADV-A) :ARG2 (V17 / FROM.P-ARG :ARG0 (V19 / HIM.PRO)))) :ARG1 (V20 / *H)))) :ARG0 (V21 / ?))"
+    ],
+    [
+        "1215356",
+        "He visits princes , though he is only a peasant corrupted .",
+        "((HE.PRO ((PRES VISIT.V) (K (PLUR PRINCE.N)))) (THOUGH.PS (HE.PRO ((PRES BE.V) (ONLY.MOD-A (= (A.D (N+PREDS PEASANT.N CORRUPTED.A))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / HE.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / VISIT.V)) :ARG0 (V7 / K :ARG0 (V9 / PLUR :ARG0 (V11 / PRINCE.N))))) :ARG0 (V12 / THOUGH.PS :ARG0 (V14 / HE.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / BE.V)) :ARG0 (V20 / ONLY.MOD-A :ARG0 (V22 / = :ARG0 (V24 / A.D :ARG0 (V26 / N+PREDS :ARG0 (V28 / PEASANT.N) :ARG1 (V29 / CORRUPTED.A)))))))))"
+    ],
+    [
+        "1218532",
+        "Were you a cavalry officer ? \" put in Kalganov at once .",
+        "(SUB (|\"| (((PAST BE.V) YOU.PRO (= (A.D ((MOD-N CAVALRY.N) OFFICER.N)))) ?) |\"|) (| Kalganov| ((PAST PUT_IN.V) *H (ADV-A (AT.P ONCE.PRO)))))",
+        "(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / \"|\\\"|\") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BE.V)) :ARG0 (V9 / YOU.PRO) :ARG1 (V10 / = :ARG0 (V12 / A.D :ARG0 (V14 / COMPLEX :INSTANCE (V15 / MOD-N :ARG0 (V17 / CAVALRY.N)) :ARG0 (V18 / OFFICER.N))))) :ARG0 (V19 / ?)) :ARG1 (V20 / \"|\\\"|\")) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / \"| Kalganov|\") :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / PUT_IN.V)) :ARG0 (V27 / *H) :ARG1 (V28 / ADV-A :ARG0 (V30 / AT.P :ARG0 (V32 / ONCE.PRO))))))"
+    ],
+    [
+        "1220870",
+        "\" Last night ?",
+        "((PU ((MOD-N LAST.A) NIGHT.N)) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / PU :ARG0 (V3 / COMPLEX :INSTANCE (V4 / MOD-N :ARG0 (V6 / LAST.A)) :ARG0 (V7 / NIGHT.N))) :ARG0 (V8 / ?))"
+    ],
+    [
+        "1226940",
+        "My idea seemed silly to me at the time , but he was perhaps pointing then to that little bag in which he had fifteen hundred roubles ! \"",
+        "(((MY.D IDEA.N) ((PAST SEEM.V) SILLY.A (ADV-A (TO.P ME.PRO)) (ADV-E (AT.P (THE.D TIME.N))))) (BUT.PS (HE.PRO ((PAST PROG) PERHAPS.ADV-S (POINT.V THEN.ADV-E (ADV-A (TO.P (THAT.D (N+PREDS ((MOD-N LITTLE.A) BAG.N) (SUB (ADV-A (IN.P WHICH.REL)) (HE.PRO ((PAST HAVE.V) (DS CURRENCY \"fifteen hundred roubles\") *H))))))))))))",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / MY.D :ARG0 (V4 / IDEA.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / SEEM.V)) :ARG0 (V9 / SILLY.A) :ARG1 (V10 / ADV-A :ARG0 (V12 / TO.P :ARG0 (V14 / ME.PRO))) :ARG2 (V15 / ADV-E :ARG0 (V17 / AT.P :ARG0 (V19 / THE.D :ARG0 (V21 / TIME.N)))))) :ARG0 (V22 / BUT.PS :ARG0 (V24 / HE.PRO :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PAST :ARG0 (V29 / PROG)) :ARG0 (V30 / PERHAPS.ADV-S) :ARG1 (V31 / POINT.V :ARG0 (V33 / THEN.ADV-E) :ARG1 (V34 / ADV-A :ARG0 (V36 / TO.P :ARG0 (V38 / THAT.D :ARG0 (V40 / N+PREDS :ARG0 (V42 / COMPLEX :INSTANCE (V43 / MOD-N :ARG0 (V45 / LITTLE.A)) :ARG0 (V46 / BAG.N)) :ARG1 (V47 / SUB :ARG0 (V49 / ADV-A :ARG0 (V51 / IN.P :ARG0 (V53 / WHICH.REL))) :ARG1 (V54 / HE.PRO :ARG0 (V56 / COMPLEX :INSTANCE (V57 / PAST :ARG0 (V59 / HAVE.V)) :ARG0 (V60 / DS :ARG0 (V62 / CURRENCY) :ARG1 (V63 / \"fifteen hundred roubles\")) :ARG1 (V64 / *H)))))))))))))"
+    ],
+    [
+        "1227571",
+        "She became prudent and saved money .",
+        "(SHE.PRO (((PAST BECOME.V) PRUDENT.A) AND.CC ((PAST SAVE.V) (K (PLUR MONEY.N)))))",
+        "(V0 / SHE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / BECOME.V)) :ARG0 (V7 / PRUDENT.A)) :ARG0 (V8 / AND.CC) :ARG1 (V9 / COMPLEX :INSTANCE (V10 / PAST :ARG0 (V12 / SAVE.V)) :ARG0 (V13 / K :ARG0 (V15 / PLUR :ARG0 (V17 / MONEY.N))))))"
+    ],
+    [
+        "1230855",
+        "What will you have ?",
+        "((SUB WHAT.PRO ((PRES WILL.AUX-S) YOU.PRO (HAVE.V *H))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / HAVE.V :ARG0 (V11 / *H)))) :ARG0 (V12 / ?))"
+    ],
+    [
+        "1231961",
+        "Do you remember that thing he wrote ...? \"",
+        "(((PRES DO.AUX-S) YOU.PRO (REMEMBER.V (THAT.D (N+PREDS THING.N (SUB THT.REL (HE.PRO ((PAST WRITE.V) *H))))))) ?)",
+        "(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / REMEMBER.V :ARG0 (V8 / THAT.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / THING.N) :ARG1 (V13 / SUB :ARG0 (V15 / THT.REL) :ARG1 (V16 / HE.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PAST :ARG0 (V21 / WRITE.V)) :ARG0 (V22 / *H)))))))) :ARG0 (V23 / ?))"
+    ],
+    [
+        "1234912",
+        "\" Then I understand that on your arrival in London yesterday you went out at once and bought a pair of boots ? \"",
+        "(|\"| ((THEN.ADV-S (I.PRO ((PRES UNDERSTAND.V) (THAT (SUB (ADV-A (ON.P (YOUR.D (N+PREDS ARRIVAL.N (IN.P | London|))))) (YESTERDAY.ADV-E (YOU.PRO ((((PAST GO.V) OUT.ADV-A AT_ONCE.ADV-S) AND.CC ((PAST BUY.V) (A.D (N+PREDS PAIR.N (OF.P (K (PLUR BOOT.N))))))) *H)))))))) ?) |\"|)",
+        "(V0 / COMPLEX :INSTANCE (V1 / \"|\\\"|\") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / THEN.ADV-S :ARG0 (V5 / I.PRO :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / UNDERSTAND.V)) :ARG0 (V11 / THAT :ARG0 (V13 / SUB :ARG0 (V15 / ADV-A :ARG0 (V17 / ON.P :ARG0 (V19 / YOUR.D :ARG0 (V21 / N+PREDS :ARG0 (V23 / ARRIVAL.N) :ARG1 (V24 / IN.P :ARG0 (V26 / \"| London|\")))))) :ARG1 (V27 / YESTERDAY.ADV-E :ARG0 (V29 / YOU.PRO :ARG0 (V31 / COMPLEX :INSTANCE (V32 / COMPLEX :INSTANCE (V33 / COMPLEX :INSTANCE (V34 / PAST :ARG0 (V36 / GO.V)) :ARG0 (V37 / OUT.ADV-A) :ARG1 (V38 / AT_ONCE.ADV-S)) :ARG0 (V39 / AND.CC) :ARG1 (V40 / COMPLEX :INSTANCE (V41 / PAST :ARG0 (V43 / BUY.V)) :ARG0 (V44 / A.D :ARG0 (V46 / N+PREDS :ARG0 (V48 / PAIR.N) :ARG1 (V49 / OF.P :ARG0 (V51 / K :ARG0 (V53 / PLUR :ARG0 (V55 / BOOT.N)))))))) :ARG0 (V56 / *H))))))))) :ARG0 (V57 / ?)) :ARG1 (V58 / \"|\\\"|\"))"
+    ],
+    [
+        "1237619",
+        "Can you tell the position of the rooms ? What are those latticed windows at this end ? \"",
+        "(MULTI-SENT (((PRES CAN.AUX-V) YOU.PRO (TELL.V (THE.D (N+PREDS POSITION.N (OF.P (THE.D (PLUR ROOM.N))))))) ?) ((WHAT.PRO ((PRES BE.V) (= (THOSE.D (N+PREDS ((MOD-N LATTICED.A) (PLUR WINDOW.N)) (AT.P (THIS.D END.N))))))) ?))",
+        "(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / CAN.AUX-V)) :ARG0 (V7 / YOU.PRO) :ARG1 (V8 / TELL.V :ARG0 (V10 / THE.D :ARG0 (V12 / N+PREDS :ARG0 (V14 / POSITION.N) :ARG1 (V15 / OF.P :ARG0 (V17 / THE.D :ARG0 (V19 / PLUR :ARG0 (V21 / ROOM.N)))))))) :ARG0 (V22 / ?)) :ARG1 (V23 / COMPLEX :INSTANCE (V24 / WHAT.PRO :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PRES :ARG0 (V29 / BE.V)) :ARG0 (V30 / = :ARG0 (V32 / THOSE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / COMPLEX :INSTANCE (V37 / MOD-N :ARG0 (V39 / LATTICED.A)) :ARG0 (V40 / PLUR :ARG0 (V42 / WINDOW.N))) :ARG1 (V43 / AT.P :ARG0 (V45 / THIS.D :ARG0 (V47 / END.N)))))))) :ARG0 (V48 / ?)))"
+    ]
+]

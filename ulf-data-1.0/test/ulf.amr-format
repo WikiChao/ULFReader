@@ -1,0 +1,719 @@
+; sid: 227278
+; sentence: Let's try something.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LET.V)) :ARG0 (V7 / US.PRO) :ARG1 (V8 / TRY.V :ARG0 (V10 / SOMETHING.PRO)))) :ARG0 (V11 / !))
+
+; sid: 227354
+; sentence: Back in high school, I got up at 6 a.m. every morning.
+(V0 / COMPLEX :INSTANCE (V1 / BACK.ADV-E :ARG0 (V3 / ADV-E :ARG0 (V5 / IN.P :ARG0 (V7 / K :ARG0 (V9 / HIGH_SCHOOL.N)))) :ARG1 (V10 / I.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PAST :ARG0 (V15 / GET_UP.V)) :ARG0 (V16 / ADV-E :ARG0 (V18 / AT.P :ARG0 (V20 / DS :ARG0 (V22 / DATE-TIME) :ARG1 (V23 / "6 am")))) :ARG1 (V24 / ADV-F :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / EVERY.A)) :ARG0 (V30 / MORNING.N)))))))
+
+; sid: 228189
+; sentence: Who painted this painting?
+(V0 / COMPLEX :INSTANCE (V1 / WHO.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / PAINT.V)) :ARG0 (V7 / THIS.D :ARG0 (V9 / PAINTING.N)))) :ARG0 (V10 / ?))
+
+; sid: 228278
+; sentence: That's the snag.
+(V0 / THAT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / = :ARG0 (V8 / THE.D :ARG0 (V10 / SNAG.N)))))
+
+; sid: 228279
+; sentence: We are what we pretend to be, so we must be careful what we pretend to be.
+(V0 / COMPLEX :INSTANCE (V1 / WE.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / = :ARG0 (V9 / ANS-TO :ARG0 (V11 / SUB :ARG0 (V13 / WHAT.PRO) :ARG1 (V14 / WE.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / PRETEND.V)) :ARG0 (V20 / TO :ARG0 (V22 / BE.V :ARG0 (V24 / = :ARG0 (V26 / *H))))))))))) :ARG0 (V27 / SO.CC) :ARG1 (V28 / WE.PRO :ARG0 (V30 / COMPLEX :INSTANCE (V31 / PRES :ARG0 (V33 / MUST.AUX-V)) :ARG0 (V34 / BE.V :ARG0 (V36 / CAREFUL.A :ARG0 (V38 / ANS-TO :ARG0 (V40 / SUB :ARG0 (V42 / WHAT.PRO) :ARG1 (V43 / WE.PRO :ARG0 (V45 / COMPLEX :INSTANCE (V46 / PRES :ARG0 (V48 / PRETEND.V)) :ARG0 (V49 / TO :ARG0 (V51 / BE.V :ARG0 (V53 / = :ARG0 (V55 / *H)))))))))))))
+
+; sid: 228280
+; sentence: I don't know him.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / KNOW.V :ARG0 (V9 / HIM.PRO))))
+
+; sid: 228281
+; sentence: I liked this film.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / LIKE.V)) :ARG0 (V6 / THIS.D :ARG0 (V8 / FILM.N))))
+
+; sid: 228282
+; sentence: She's rolling in money.
+(V0 / SHE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PROG)) :ARG0 (V6 / ROLL.V :ARG0 (V8 / ADV-A :ARG0 (V10 / IN.P :ARG0 (V12 / K :ARG0 (V14 / MONEY.N)))))))
+
+; sid: 228283
+; sentence: It's not important.
+(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / NOT) :ARG1 (V7 / IMPORTANT.A)))
+
+; sid: 228284
+; sentence: I don't care.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / CARE.V)))
+
+; sid: 228397
+; sentence: You changed a lot.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / CHANGE.V)) :ARG0 (V6 / A_LOT.ADV-A)))
+
+; sid: 228398
+; sentence: Those who know him like him.
+(V0 / COMPLEX :INSTANCE (V1 / THOSE.D :ARG0 (V3 / N+PREDS :ARG0 (V5 / PLUR :ARG0 (V7 / PERSON.N)) :ARG1 (V8 / WHO.REL :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / KNOW.V)) :ARG0 (V14 / HIM.PRO))))) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / LIKE.V)) :ARG0 (V19 / HIM.PRO)))
+
+; sid: 228399
+; sentence: Tell me what happened.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / TELL.V)) :ARG0 (V7 / ME.PRO) :ARG1 (V8 / ANS-TO :ARG0 (V10 / WHAT.PRO :ARG0 (V12 / PAST :ARG0 (V14 / HAPPEN.V)))))) :ARG0 (V15 / !))
+
+; sid: 228400
+; sentence: They are sensible girls.
+(V0 / THEY.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / SENSIBLE.A)) :ARG0 (V10 / PLUR :ARG0 (V12 / GIRL.N)))))
+
+; sid: 228401
+; sentence: How beautiful you are!
+(V0 / SUB :ARG0 (V2 / HOW.MOD-A :ARG0 (V4 / BEAUTIFUL.A)) :ARG1 (V5 / YOU.PRO :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / BE.V)) :ARG0 (V11 / *H))))
+
+; sid: 228403
+; sentence: You must work more.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / WORK.V :ARG0 (V8 / MORE.ADV-A))))
+
+; sid: 228405
+; sentence: He told me he would go to Venice.
+(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / TELL.V)) :ARG0 (V6 / ME.PRO) :ARG1 (V7 / THT :ARG0 (V9 / HE.PRO :ARG0 (V11 / COMPLEX :INSTANCE (V12 / PAST :ARG0 (V14 / WILL.AUX-S)) :ARG0 (V15 / GO.V :ARG0 (V17 / TO.P-ARG :ARG0 (V19 / "| Venice|"))))))))
+
+; sid: 228406
+; sentence: Who are those guys?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHO.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / THOSE.D :ARG0 (V7 / PLUR :ARG0 (V9 / GUY.N))) :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / BE.V)) :ARG0 (V14 / = :ARG0 (V16 / *H))))) :ARG0 (V17 / ?))
+
+; sid: 228407
+; sentence: I don't agree with him.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / AGREE.V :ARG0 (V9 / WITH.P-ARG :ARG0 (V11 / HIM.PRO)))))
+
+; sid: 228408
+; sentence: The spirit is willing, but the flesh is weak.
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / SPIRIT.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / BE.V)) :ARG0 (V9 / WILLING.A))) :ARG0 (V10 / BUT.CC) :ARG1 (V11 / COMPLEX :INSTANCE (V12 / THE.D :ARG0 (V14 / FLESH.N)) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / BE.V)) :ARG0 (V19 / WEAK.A))))
+
+; sid: 228523
+; sentence: Are you not tired?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / NOT :ARG0 (V8 / TIRED.A))) :ARG0 (V9 / ?))
+
+; sid: 228524
+; sentence: You look tired. You ought to rest for an hour or two.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LOOK.V)) :ARG0 (V7 / TIRED.A))) :ARG0 (V8 / YOU.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / OUGHT_TO.AUX-V)) :ARG0 (V14 / REST.V :ARG0 (V16 / ADV-A :ARG0 (V18 / FOR.P :ARG0 (V20 / COMPLEX :INSTANCE (V21 / AN.D :ARG0 (V23 / HOUR.N)) :ARG0 (V24 / OR.CC) :ARG1 (V25 / TWO.PRO))))))))
+
+; sid: 228526
+; sentence: You can rely on him.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-S)) :ARG0 (V6 / RELY.V :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / HIM.PRO)))))
+
+; sid: 228527
+; sentence: You can rely on her.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-S)) :ARG0 (V6 / RELY.V :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / HER.PRO)))))
+
+; sid: 228529
+; sentence: You must not take advantage of her innocence.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / NOT) :ARG1 (V7 / TAKE.V :ARG0 (V9 / K :ARG0 (V11 / ADVANTAGE.N)) :ARG1 (V12 / ADV-A :ARG0 (V14 / OF.P :ARG0 (V16 / HER.D :ARG0 (V18 / INNOCENCE.N)))))))
+
+; sid: 228530
+; sentence: You should have acted on her advice.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SHOULD.AUX-V)) :ARG0 (V6 / PERF :ARG0 (V8 / ACT.V :ARG0 (V10 / ON.P-ARG :ARG0 (V12 / HER.D :ARG0 (V14 / ADVICE.N)))))))
+
+; sid: 228531
+; sentence: You are treading on her corns.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PROG)) :ARG0 (V6 / TREAD.V :ARG0 (V8 / ADV-A :ARG0 (V10 / ON.P :ARG0 (V12 / HER.D :ARG0 (V14 / PLUR :ARG0 (V16 / CORN.N))))))))
+
+; sid: 228532
+; sentence: I think that you ought to apologize to her.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / THINK.V)) :ARG0 (V6 / THAT :ARG0 (V8 / YOU.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / OUGHT_TO.AUX-V)) :ARG0 (V14 / APOLOGIZE.V :ARG0 (V16 / ADV-A :ARG0 (V18 / TO.P :ARG0 (V20 / HER.PRO)))))))))
+
+; sid: 228534
+; sentence: Just a minute.
+(V0 / PU :ARG0 (V2 / JUST.ADV-S :ARG0 (V4 / A.D :ARG0 (V6 / MINUTE.N))))
+
+; sid: 228535
+; sentence: You asked after her? What did she say?
+(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / ASK.V)) :ARG0 (V9 / ADV-A :ARG0 (V11 / AFTER.P :ARG0 (V13 / HER.PRO))))) :ARG0 (V14 / ?)) :ARG1 (V15 / COMPLEX :INSTANCE (V16 / SUB :ARG0 (V18 / WHAT.PRO) :ARG1 (V19 / COMPLEX :INSTANCE (V20 / PAST :ARG0 (V22 / DO.AUX-S)) :ARG0 (V23 / SHE.PRO) :ARG1 (V24 / SAY.V :ARG0 (V26 / *H)))) :ARG0 (V27 / ?)))
+
+; sid: 228706
+; sentence: I should think you are right.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / SHOULD.AUX-S)) :ARG0 (V6 / THINK.V :ARG0 (V8 / THT :ARG0 (V10 / YOU.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / BE.V)) :ARG0 (V16 / RIGHT.A)))))))
+
+; sid: 228707
+; sentence: You may be right, but I am against your opinion.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / MAY.AUX-S)) :ARG0 (V7 / BE.V :ARG0 (V9 / RIGHT.A)))) :ARG0 (V10 / BUT.CC) :ARG1 (V11 / I.PRO :ARG0 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / AGAINST.P :ARG0 (V19 / YOUR.D :ARG0 (V21 / OPINION.N))))))
+
+; sid: 228708
+; sentence: Are you concerned with politics?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / CONCERNED.A :ARG0 (V8 / WITH.P-ARG :ARG0 (V10 / K :ARG0 (V12 / PLUR :ARG0 (V14 / POLITIC.N)))))) :ARG0 (V15 / ?))
+
+; sid: 228709
+; sentence: You can get ahead in the world.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / CAN.AUX-V)) :ARG0 (V6 / GET.V :ARG0 (V8 / AHEAD.ADV-A) :ARG1 (V9 / ADV-E :ARG0 (V11 / IN.P :ARG0 (V13 / THE.D :ARG0 (V15 / WORLD.N)))))))
+
+; sid: 228710
+; sentence: He is ignorant of the world.
+(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / IGNORANT.A :ARG0 (V8 / OF.P-ARG :ARG0 (V10 / THE.D :ARG0 (V12 / WORLD.N))))))
+
+; sid: 228712
+; sentence: Are you fond of swimming?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / FOND.A :ARG0 (V8 / OF.P-ARG :ARG0 (V10 / KA :ARG0 (V12 / SWIM.V))))) :ARG0 (V13 / ?))
+
+; sid: 228713
+; sentence: You will soon get used to speaking in public.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / SOON.ADV-E) :ARG1 (V7 / GET.V :ARG0 (V9 / USED_TO.A :ARG0 (V11 / KA :ARG0 (V13 / SPEAK.V :ARG0 (V15 / ADV-E :ARG0 (V17 / IN.P :ARG0 (V19 / K :ARG0 (V21 / PUBLIC.N))))))))))
+
+; sid: 228714
+; sentence: You must not lose sight of your goal in life.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / NOT :ARG0 (V8 / LOSE.V :ARG0 (V10 / K :ARG0 (V12 / SIGHT.N :ARG0 (V14 / OF.P-ARG :ARG0 (V16 / YOUR.D :ARG0 (V18 / GOAL.N :ARG0 (V20 / MOD-N :ARG0 (V22 / IN.P :ARG0 (V24 / K :ARG0 (V26 / LIFE.N)))))))))))))
+
+; sid: 228715
+; sentence: You were kind to help me.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / BE.V)) :ARG0 (V6 / KIND.A) :ARG1 (V7 / ADV-A :ARG0 (V9 / IN.P :ARG0 (V11 / TO :ARG0 (V13 / HELP.V :ARG0 (V15 / ME.PRO)))))))
+
+; sid: 228716
+; sentence: Can you break away from your parents?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / BREAK_AWAY.V :ARG0 (V8 / FROM.P-ARG :ARG0 (V10 / YOUR.D :ARG0 (V12 / PLUR :ARG0 (V14 / PARENT-OF.N :ARG0 (V16 / *S))))))) :ARG0 (V17 / ?))
+
+; sid: 228833
+; sentence: You ought to have come to our party.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / OUGHT_TO.AUX-S)) :ARG0 (V6 / PERF :ARG0 (V8 / COME.V :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / OUR.D :ARG0 (V14 / PARTY.N)))))))
+
+; sid: 228835
+; sentence: You are to stay here until we come back.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE-TO.AUX-V)) :ARG0 (V7 / STAY.V :ARG0 (V9 / HERE.ADV-E)))) :ARG0 (V10 / UNTIL.PS :ARG0 (V12 / WE.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / COME.V)) :ARG0 (V18 / BACK.ADV-A)))))
+
+; sid: 228837
+; sentence: You don't know how worried I am.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / KNOW.V :ARG0 (V9 / ANS-TO :ARG0 (V11 / SUB :ARG0 (V13 / HOW.MOD-A :ARG0 (V15 / WORRIED.A)) :ARG1 (V16 / I.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / BE.V)) :ARG0 (V22 / *H))))))))
+
+; sid: 228838
+; sentence: You had better do as I suggest.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / HAD_BETTER.AUX-S)) :ARG0 (V7 / DO.V :ARG0 (V9 / REF1.PRO)))) :ARG0 (V10 / AS.PS :ARG0 (V12 / I.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / SUGGEST.V)) :ARG0 (V18 / REF2.PRO)))))
+
+; sid: 228839
+; sentence: Can you imagine me making a cake?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / IMAGINE.V :ARG0 (V8 / KE :ARG0 (V10 / ME.PRO :ARG0 (V12 / MAKE.V :ARG0 (V14 / A.D :ARG0 (V16 / CAKE.N))))))) :ARG0 (V17 / ?))
+
+; sid: 228840
+; sentence: You have only to follow the directions.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / HAVE.V)) :ARG0 (V6 / ONLY.ADV-S) :ARG1 (V7 / TO :ARG0 (V9 / FOLLOW.V :ARG0 (V11 / THE.D :ARG0 (V13 / PLUR :ARG0 (V15 / DIRECTION.N)))))))
+
+; sid: 228841
+; sentence: You must learn to obey instructions.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MUST.AUX-V)) :ARG0 (V6 / LEARN.V :ARG0 (V8 / TO :ARG0 (V10 / OBEY.V :ARG0 (V12 / K :ARG0 (V14 / PLUR :ARG0 (V16 / INSTRUCTION.N))))))))
+
+; sid: 228842
+; sentence: You finally succeeded in getting a job.
+(V0 / YOU.PRO :ARG0 (V2 / FINALLY.ADV-S :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / SUCCEED.V)) :ARG0 (V8 / ADV-A :ARG0 (V10 / IN.P :ARG0 (V12 / KA :ARG0 (V14 / GET.V :ARG0 (V16 / A.D :ARG0 (V18 / JOB.N)))))))))
+
+; sid: 228843
+; sentence: You are frustrated with your work.
+(V0 / YOU.PRO :ARG0 (V2 / PRES :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PASV :ARG0 (V7 / FRUSTRATE.V)) :ARG0 (V8 / WITH.P-ARG :ARG0 (V10 / YOUR.D :ARG0 (V12 / WORK.N))))))
+
+; sid: 228844
+; sentence: You were late for work.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / BE.V)) :ARG0 (V6 / LATE.A :ARG0 (V8 / MOD-A :ARG0 (V10 / FOR.P :ARG0 (V12 / K :ARG0 (V14 / WORK.N)))))))
+
+; sid: 229115
+; sentence: You may go home now.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / MAY.AUX-V)) :ARG0 (V6 / GO.V :ARG0 (V8 / K :ARG0 (V10 / HOME.N)) :ARG1 (V11 / NOW.ADV-E))))
+
+; sid: 229116
+; sentence: It is time you went to school.
+(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / N+PREDS :ARG0 (V8 / TIME.N) :ARG1 (V9 / SUB :ARG0 (V11 / THT.REL) :ARG1 (V12 / YOU.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CF :ARG0 (V17 / GO.V)) :ARG0 (V18 / ADV-A :ARG0 (V20 / TO.P :ARG0 (V22 / K :ARG0 (V24 / SCHOOL.N)))) :ARG1 (V25 / ADV-E :ARG0 (V27 / AT.P :ARG0 (V29 / *H)))))))))
+
+; sid: 229117
+; sentence: Have you turned in your report?
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / TURN.V :ARG0 (V9 / IN.ADV-A) :ARG1 (V10 / YOUR.D :ARG0 (V12 / REPORT.N))))) :ARG0 (V13 / ?))
+
+; sid: 229118
+; sentence: It's high time you got going.
+(V0 / IT.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / HIGH.A)) :ARG0 (V10 / N+PREDS :ARG0 (V12 / TIME.N) :ARG1 (V13 / SUB :ARG0 (V15 / THT.REL) :ARG1 (V16 / YOU.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / CF :ARG0 (V21 / GET.V)) :ARG0 (V22 / KA :ARG0 (V24 / GO.V)) :ARG1 (V25 / ADV-E :ARG0 (V27 / AT.P :ARG0 (V29 / *H))))))))))
+
+; sid: 229119
+; sentence: Have you finished reading that book yet?
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / FINISH.V :ARG0 (V9 / KA :ARG0 (V11 / READ.V :ARG0 (V13 / THAT.D :ARG0 (V15 / BOOK.N))))) :ARG1 (V16 / YET.ADV-E))) :ARG0 (V17 / ?))
+
+; sid: 229120
+; sentence: Have you finished the work yet?
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / PERF)) :ARG0 (V7 / FINISH.V :ARG0 (V9 / THE.D :ARG0 (V11 / WORK.N)) :ARG1 (V12 / YET.ADV-E)))) :ARG0 (V13 / ?))
+
+; sid: 229122
+; sentence: If you read this book again, you will have read it three times.
+(V0 / COMPLEX :INSTANCE (V1 / IF.PS :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / READ.V)) :ARG0 (V9 / THIS.D :ARG0 (V11 / BOOK.N)) :ARG1 (V12 / AGAIN.ADV-S)))) :ARG0 (V13 / YOU.PRO :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / WILL.AUX-S)) :ARG0 (V19 / PERF :ARG0 (V21 / READ.V :ARG0 (V23 / IT.PRO) :ARG1 (V24 / ADV-F :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / THREE.A)) :ARG0 (V30 / PLUR :ARG0 (V32 / TIME.N)))))))))
+
+; sid: 229123
+; sentence: Now that you are eighteen, you can get a driver's license.
+(V0 / COMPLEX :INSTANCE (V1 / ADV-E :ARG0 (V3 / NOW.P :ARG0 (V5 / THAT :ARG0 (V7 / YOU.PRO :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PRES :ARG0 (V12 / BE.V)) :ARG0 (V13 / EIGHTEEN.A)))))) :ARG0 (V14 / YOU.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / CAN.AUX-S)) :ARG0 (V20 / GET.V :ARG0 (V22 / COMPLEX :INSTANCE (V23 / COMPLEX :INSTANCE (V24 / A.D :ARG0 (V26 / DRIVER.N)) :ARG0 (V27 / 'S)) :ARG0 (V30 / LICENSE.N))))))
+
+; sid: 229125
+; sentence: You surprised everybody.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SURPRISE.V)) :ARG0 (V6 / EVERYBODY.PRO)))
+
+; sid: 229126
+; sentence: You've been properly led up the garden path.
+(V0 / YOU.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / PERF)) :ARG0 (V6 / PROPERLY.ADV-A :ARG0 (V8 / COMPLEX :INSTANCE (V9 / PASV :ARG0 (V11 / LEAD.V)) :ARG0 (V12 / ADV-A :ARG0 (V14 / UP.P :ARG0 (V16 / THE.D :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / GARDEN.N)) :ARG0 (V22 / PATH.N)))))))))
+
+; sid: 280136
+; sentence: I've never seen you cook. Can you cook anything at all?
+(V0 / MULTI-SENT :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / PERF)) :ARG0 (V8 / NEVER.ADV-E) :ARG1 (V9 / SEE.V :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / COOK.V)))) :ARG1 (V13 / COMPLEX :INSTANCE (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / CAN.AUX-V)) :ARG0 (V18 / YOU.PRO) :ARG1 (V19 / COOK.V :ARG0 (V21 / ANYTHING.PRO) :ARG1 (V22 / AT_ALL.ADV-A))) :ARG0 (V23 / ?)))
+
+; sid: 282012
+; sentence: Does the 19 bus go to Main Street?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / THE.D :ARG0 (V7 / COMPLEX :INSTANCE (V8 / "| 19|") :ARG0 (V9 / BUS.N))) :ARG1 (V10 / GO.V :ARG0 (V12 / TO.P-ARG :ARG0 (V14 / "| Main Street|")))) :ARG0 (V15 / ?))
+
+; sid: 282413
+; sentence: "Could you do this instead of me?" "Sorry, I'm too busy."
+(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / COULD.AUX-V)) :ARG0 (V9 / YOU.PRO) :ARG1 (V10 / DO.V :ARG0 (V12 / THIS.PRO) :ARG1 (V13 / ADV-S :ARG0 (V15 / INSTEAD_OF.P :ARG0 (V17 / ME.PRO))))) :ARG0 (V18 / ?)) :ARG1 (V19 / "|\"|")) :ARG1 (V20 / COMPLEX :INSTANCE (V21 / "|\"|") :ARG0 (V22 / COMPLEX :INSTANCE (V23 / PU :ARG0 (V25 / SORRY.A)) :ARG0 (V26 / I.PRO :ARG0 (V28 / COMPLEX :INSTANCE (V29 / PRES :ARG0 (V31 / BE.V)) :ARG0 (V32 / TOO.MOD-A :ARG0 (V34 / BUSY.A))))) :ARG1 (V35 / "|\"|")))
+
+; sid: 282830
+; sentence: The train was crowded with people.
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / TRAIN.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / BE.V)) :ARG0 (V8 / CROWDED.A :ARG0 (V10 / MOD-A :ARG0 (V12 / WITH.P :ARG0 (V14 / K :ARG0 (V16 / PEOPLE.N)))))))
+
+; sid: 282967
+; sentence: How long have you been dating?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.MOD-A :ARG0 (V5 / LONG.A)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / PERF)) :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / PROG :ARG0 (V13 / DATE.V :ARG0 (V15 / ADV-E :ARG0 (V17 / *H)))))) :ARG0 (V18 / ?))
+
+; sid: 283832
+; sentence: Does this mean you're not coming to help?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / THIS.PRO) :ARG1 (V6 / MEAN.V :ARG0 (V8 / THT :ARG0 (V10 / YOU.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / PROG)) :ARG0 (V16 / NOT) :ARG1 (V17 / COME.V :ARG0 (V19 / TO :ARG0 (V21 / HELP.V)))))))) :ARG0 (V22 / ?))
+
+; sid: 284282
+; sentence: The dog traced the rabbit into the forest.
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / DOG.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / TRACE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / RABBIT.N)) :ARG1 (V11 / ADV-A :ARG0 (V13 / INTO.P :ARG0 (V15 / THE.D :ARG0 (V17 / FOREST.N))))))
+
+; sid: 285613
+; sentence: Can you see Mt. Daisetsu over there?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / SEE.V :ARG0 (V8 / "| Mt. Daisetsu|") :ARG1 (V9 / OVER_THERE.ADV-E))) :ARG0 (V10 / ?))
+
+; sid: 286980
+; sentence: Will we be in time for the plane if we leave now?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / WE.PRO) :ARG1 (V7 / BE.V :ARG0 (V9 / IN.P :ARG0 (V11 / K :ARG0 (V13 / TIME.N))) :ARG1 (V14 / ADV-A :ARG0 (V16 / FOR.P :ARG0 (V18 / THE.D :ARG0 (V20 / PLANE.N)))))) :ARG0 (V21 / IF.PS :ARG0 (V23 / WE.PRO :ARG0 (V25 / COMPLEX :INSTANCE (V26 / PRES :ARG0 (V28 / LEAVE.V)) :ARG0 (V29 / NOW.ADV-E))))) :ARG0 (V30 / ?))
+
+; sid: 287762
+; sentence: How about meeting today?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / FEEL.V :ARG0 (V11 / ADV-A :ARG0 (V13 / ABOUT.P :ARG0 (V15 / KA :ARG0 (V17 / MEET.V :ARG0 (V19 / TODAY.ADV-E))))) :ARG1 (V20 / *H)))) :ARG0 (V21 / ?))
+
+; sid: 320015
+; sentence: A railroad was constructed in this town.
+(V0 / COMPLEX :INSTANCE (V1 / A.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PASV :ARG0 (V9 / CONSTRUCT.V))) :ARG0 (V10 / ADV-E :ARG0 (V12 / IN.P :ARG0 (V14 / THIS.D :ARG0 (V16 / TOWN.N))))))
+
+; sid: 320017
+; sentence: It's dangerous to walk on railway lines.
+(V0 / IT-EXTRA.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / DANGEROUS.A)) :ARG0 (V8 / TO :ARG0 (V10 / WALK.V :ARG0 (V12 / ADV-A :ARG0 (V14 / ON.P :ARG0 (V16 / K :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / RAILWAY.N)) :ARG0 (V22 / PLUR :ARG0 (V24 / LINE.N))))))))))
+
+; sid: 320018
+; sentence: What is it that determines the route a railway takes?
+(V0 / COMPLEX :INSTANCE (V1 / REP :ARG0 (V3 / SUB :ARG0 (V5 / WHAT.PRO) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / BE.V)) :ARG0 (V10 / IT-CLEFT.PRO) :ARG1 (V11 / *H) :ARG2 (V12 / *P))) :ARG1 (V13 / THAT.REL :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / DETERMINE.V)) :ARG0 (V19 / THE.D :ARG0 (V21 / N+PREDS :ARG0 (V23 / ROUTE.N) :ARG1 (V24 / SUB :ARG0 (V26 / THT.REL) :ARG1 (V27 / COMPLEX :INSTANCE (V28 / A.D :ARG0 (V30 / RAILROAD.N)) :ARG0 (V31 / COMPLEX :INSTANCE (V32 / PRES :ARG0 (V34 / TAKE.V)) :ARG0 (V35 / *H))))))))) :ARG0 (V36 / ?))
+
+; sid: 320020
+; sentence: The railroad provoked a kind of revolution.
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PROVOKE.V)) :ARG0 (V8 / A.D :ARG0 (V10 / KIND.N :ARG0 (V12 / OF.P-ARG :ARG0 (V14 / K :ARG0 (V16 / REVOLUTION.N)))))))
+
+; sid: 320021
+; sentence: Please look up the first train to London in the railway guide.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / PLEASE.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / LOOK.V)) :ARG0 (V8 / UP.ADV-A) :ARG1 (V9 / THE.D :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / FIRST.A)) :ARG0 (V15 / N+PREDS :ARG0 (V17 / TRAIN.N) :ARG1 (V18 / TO.P :ARG0 (V20 / "| London|")) :ARG2 (V21 / IN.P :ARG0 (V23 / THE.D :ARG0 (V25 / COMPLEX :INSTANCE (V26 / MOD-N :ARG0 (V28 / RAILWAY.N)) :ARG0 (V29 / GUIDE.N))))))))) :ARG0 (V30 / !))
+
+; sid: 320022
+; sentence: The railroad is parallel to the road.
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAILROAD.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / PARALLEL.A :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / THE.D :ARG0 (V14 / ROAD.N))))))
+
+; sid: 320023
+; sentence: The rail-line was carried under the Tsugaru Strait to Hokkaido.
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / RAIL-LINE.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / PASV :ARG0 (V9 / CARRY.V))) :ARG0 (V10 / ADV-A :ARG0 (V12 / UNDER.P :ARG0 (V14 / THE.D :ARG0 (V16 / "| Tsugaru Strait.N|")))) :ARG1 (V17 / ADV-A :ARG0 (V19 / TO.P :ARG0 (V21 / "| Hokkaido|")))))
+
+; sid: 320024
+; sentence: Every bullet has its billet.
+(V0 / COMPLEX :INSTANCE (V1 / EVERY.D :ARG0 (V3 / BULLET.N)) :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / HAVE.V)) :ARG0 (V8 / ITS.D :ARG0 (V10 / BILLET.N))))
+
+; sid: 320025
+; sentence: What is a typical British dinner?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / A.D :ARG0 (V10 / COMPLEX :INSTANCE (V11 / MOD-N :ARG0 (V13 / TYPICAL.A)) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / MOD-N :ARG0 (V17 / "| British.A|")) :ARG0 (V18 / DINNER.N)))) :ARG1 (V19 / = :ARG0 (V21 / *H)))) :ARG0 (V22 / ?))
+
+; sid: 320026
+; sentence: Typical Japanese babies sleep with their mother after coming home from hospital.
+(V0 / COMPLEX :INSTANCE (V1 / K :ARG0 (V3 / COMPLEX :INSTANCE (V4 / MOD-N :ARG0 (V6 / TYPICAL.A)) :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / "| Japanese.A|")) :ARG0 (V11 / PLUR :ARG0 (V13 / BABY.N))))) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PRES :ARG0 (V17 / SLEEP.V)) :ARG0 (V18 / ADV-A :ARG0 (V20 / WITH.P :ARG0 (V22 / THEIR.D :ARG0 (V24 / MOTHER.N))) :ARG1 (V25 / ADV-E :ARG0 (V27 / AFTER.P :ARG0 (V29 / KA :ARG0 (V31 / COME.V :ARG0 (V33 / K :ARG0 (V35 / HOME.N)) :ARG1 (V36 / FROM.P-ARG :ARG0 (V38 / K :ARG0 (V40 / HOSPITAL.N))))))))))
+
+; sid: 415475
+; sentence: Tom didn't want to eat the worms even though they were high in protein.
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / "| Tom|") :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / NOT) :ARG1 (V8 / WANT.V :ARG0 (V10 / TO :ARG0 (V12 / EAT.V :ARG0 (V14 / THE.D :ARG0 (V16 / PLUR :ARG0 (V18 / WORM.N)))))))) :ARG0 (V19 / EVEN_THOUGH.PS :ARG0 (V21 / THEY.PRO :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / BE.V)) :ARG0 (V27 / HIGH.A :ARG0 (V29 / IN.P-ARG :ARG0 (V31 / K :ARG0 (V33 / PROTEIN.N))))))))
+
+; sid: 420702
+; sentence: Could you help me wash the dishes?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / COULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / HELP.V :ARG0 (V8 / ME.PRO) :ARG1 (V9 / KA :ARG0 (V11 / WASH.V :ARG0 (V13 / THE.D :ARG0 (V15 / PLUR :ARG0 (V17 / DISH.N))))))) :ARG0 (V18 / ?))
+
+; sid: 421851
+; sentence: Why don't you drop in?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHY.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / NOT) :ARG1 (V9 / YOU.PRO) :ARG2 (V10 / DROP_IN.V :ARG0 (V12 / *H)))) :ARG0 (V13 / ?))
+
+; sid: 423617
+; sentence: Tom has never said such a thing.
+(V0 / COMPLEX :INSTANCE (V1 / "| Tom.N|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / PERF)) :ARG0 (V6 / NOT) :ARG1 (V7 / EVER.ADV-S) :ARG2 (V8 / SAY.V :ARG0 (V10 / SUCH.D :ARG0 (V12 / = :ARG0 (V14 / A.D :ARG0 (V16 / THING.N)))))))
+
+; sid: 430573
+; sentence: If you go too close, you run the risk of being electrocuted.
+(V0 / COMPLEX :INSTANCE (V1 / IF.PS :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / GO.V)) :ARG0 (V9 / ADV-A :ARG0 (V11 / TOO.MOD-A :ARG0 (V13 / CLOSE.A)))))) :ARG0 (V14 / YOU.PRO :ARG0 (V16 / RUN.V :ARG0 (V18 / THE.D :ARG0 (V20 / RISK.N :ARG0 (V22 / OF.P-ARG :ARG0 (V24 / KA :ARG0 (V26 / PASV :ARG0 (V28 / ELECTROCUTE.V)))))))))
+
+; sid: 430657
+; sentence: Did you know that men can get breast cancer?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PAST :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / KNOW.V :ARG0 (V8 / THAT :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PLUR :ARG0 (V13 / MAN.N)) :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CAN.AUX-V :ARG0 (V17 / GET.V)) :ARG0 (V18 / COMPLEX :INSTANCE (V19 / MOD-N :ARG0 (V21 / BREAST.N)) :ARG0 (V22 / CANCER.N))))))) :ARG0 (V23 / ?))
+
+; sid: 431123
+; sentence: I can't keep up with you. Could you dictate a bit slower?
+(V0 / MULTI-SENT :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-V)) :ARG0 (V8 / NOT) :ARG1 (V9 / KEEP_UP.V :ARG0 (V11 / WITH.P-ARG :ARG0 (V13 / YOU.PRO))))) :ARG1 (V14 / COMPLEX :INSTANCE (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / COULD.AUX-V)) :ARG0 (V19 / YOU.PRO) :ARG1 (V20 / DICTATE.V :ARG0 (V22 / ADV-A :ARG0 (V24 / A_BIT.MOD-A :ARG0 (V26 / SLOWER.A))))) :ARG0 (V27 / ?)))
+
+; sid: 431423
+; sentence: It's OK with me if you take that book.
+(V0 / COMPLEX :INSTANCE (V1 / IT.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / OK.A) :ARG1 (V8 / ADV-A :ARG0 (V10 / WITH.P :ARG0 (V12 / ME.PRO))))) :ARG0 (V13 / IF.PS :ARG0 (V15 / YOU.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PRES :ARG0 (V20 / TAKE.V)) :ARG0 (V21 / THAT.D :ARG0 (V23 / BOOK.N))))))
+
+; sid: 432749
+; sentence: I'm broken.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / BE.V)) :ARG0 (V6 / BROKEN.A)))
+
+; sid: 435994
+; sentence: You don't worry.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / NOT) :ARG1 (V8 / WORRY.V))) :ARG0 (V9 / !))
+
+; sid: 554138
+; sentence: Where is Banja Luka?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / AT-LOC.P :ARG0 (V5 / WHICH.PRO)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / BE.V)) :ARG0 (V10 / "| Banja Luka|") :ARG1 (V11 / *H))) :ARG0 (V12 / ?))
+
+; sid: 554310
+; sentence: He says that he will come tomorrow.
+(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THAT :ARG0 (V8 / HE.PRO :ARG0 (V10 / COMPLEX :INSTANCE (V11 / PRES :ARG0 (V13 / WILL.AUX-S)) :ARG0 (V14 / COME.V :ARG0 (V16 / TOMORROW.ADV-E)))))))
+
+; sid: 555349
+; sentence: Maybe you could draw me a map?
+(V0 / COMPLEX :INSTANCE (V1 / MAYBE.ADV-S :ARG0 (V3 / YOU.PRO :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / COULD.AUX-V)) :ARG0 (V9 / DRAW.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / A.D :ARG0 (V14 / MAP.N)))))) :ARG0 (V15 / ?))
+
+; sid: 556069
+; sentence: Would you like to grab a bite to eat somewhere?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PAST :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LIKE.V :ARG0 (V8 / TO :ARG0 (V10 / GRAB.V :ARG0 (V12 / A.D :ARG0 (V14 / BITE.N)) :ARG1 (V15 / ADV-A :ARG0 (V17 / FOR.P :ARG0 (V19 / TO :ARG0 (V21 / EAT.V)))) :ARG2 (V22 / SOMEWHERE.ADV-E))))) :ARG0 (V23 / ?))
+
+; sid: 557369
+; sentence: Would you take Tom to Boston with you?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / TAKE.V :ARG0 (V8 / "| Tom|") :ARG1 (V9 / TO.P-ARG :ARG0 (V11 / "| Boston|")) :ARG2 (V12 / ADV-A :ARG0 (V14 / WITH.P :ARG0 (V16 / YOU.PRO))))) :ARG0 (V17 / ?))
+
+; sid: 558231
+; sentence: Are you recording this conversation?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / PROG)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / RECORD.V :ARG0 (V8 / THIS.D :ARG0 (V10 / CONVERSATION.N)))) :ARG0 (V11 / ?))
+
+; sid: 559083
+; sentence: Tom won't even know we were here.
+(V0 / COMPLEX :INSTANCE (V1 / "| Tom|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / EVEN.ADV-S) :ARG2 (V8 / KNOW.V :ARG0 (V10 / THT :ARG0 (V12 / WE.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / PAST :ARG0 (V17 / BE.V)) :ARG0 (V18 / HERE.A)))))))
+
+; sid: 562628
+; sentence: I'd know if you were lying.
+(V0 / COMPLEX :INSTANCE (V1 / I.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / CF :ARG0 (V6 / WILL.AUX-S)) :ARG0 (V7 / KNOW.V :ARG0 (V9 / REF.PRO)))) :ARG0 (V10 / IF.PS :ARG0 (V12 / YOU.PRO :ARG0 (V14 / COMPLEX :INSTANCE (V15 / CF :ARG0 (V17 / PROG)) :ARG0 (V18 / LIE.V)))))
+
+; sid: 564580
+; sentence: What's behind the door?
+(V0 / COMPLEX :INSTANCE (V1 / WHAT.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / BEHIND.P :ARG0 (V9 / THE.D :ARG0 (V11 / DOOR.N))))) :ARG0 (V12 / ?))
+
+; sid: 564804
+; sentence: I'm the boss, aren't I?
+(V0 / COMPLEX :INSTANCE (V1 / I.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / BE.V)) :ARG0 (V7 / = :ARG0 (V9 / THE.D :ARG0 (V11 / BOSS.N))))) :ARG0 (V12 / .?))
+
+; sid: 652869
+; sentence: Do you love your children?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOVE.V :ARG0 (V8 / YOUR.D :ARG0 (V10 / PLUR :ARG0 (V12 / CHILD-OF.N :ARG0 (V14 / *S)))))) :ARG0 (V15 / ?))
+
+; sid: 654086
+; sentence: Are you sure it's safe?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / SURE.A :ARG0 (V8 / THT :ARG0 (V10 / IT.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / BE.V)) :ARG0 (V16 / SAFE.A)))))) :ARG0 (V17 / ?))
+
+; sid: 654336
+; sentence: Why do you hate me so much?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHY.ADV-S) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / HATE.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / ADV-A :ARG0 (V14 / SO.MOD-A :ARG0 (V16 / MUCH.A))) :ARG2 (V17 / *H)))) :ARG0 (V18 / ?))
+
+; sid: 657004
+; sentence: Hey... did you hear the news?
+(V0 / COMPLEX :INSTANCE (V1 / HEY.GR :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / DO.AUX-S)) :ARG0 (V7 / YOU.PRO) :ARG1 (V8 / HEAR.V :ARG0 (V10 / THE.D :ARG0 (V12 / NEWS.N))))) :ARG0 (V13 / ?))
+
+; sid: 657145
+; sentence: Can you loan him some money?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOAN.V :ARG0 (V8 / HIM.PRO) :ARG1 (V9 / SOME.D :ARG0 (V11 / MONEY.N)))) :ARG0 (V12 / ?))
+
+; sid: 657146
+; sentence: Can you loan her some money?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOAN.V :ARG0 (V8 / HER.PRO) :ARG1 (V9 / SOME.D :ARG0 (V11 / MONEY.N)))) :ARG0 (V12 / ?))
+
+; sid: 657398
+; sentence: I do not understand Tom's ostensible contempt for satorial concerns of his peers.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / DO.AUX-S)) :ARG0 (V6 / NOT) :ARG1 (V7 / UNDERSTAND.V :ARG0 (V9 / COMPLEX :INSTANCE (V10 / COMPLEX :INSTANCE (V11 / "| Tom|") :ARG0 (V12 / 'S)) :ARG0 (V15 / COMPLEX :INSTANCE (V16 / MOD-N :ARG0 (V18 / OSTENSIBLE.A)) :ARG0 (V19 / CONTEMPT.N :ARG0 (V21 / FOR.P-ARG :ARG0 (V23 / K :ARG0 (V25 / N+PREDS :ARG0 (V27 / COMPLEX :INSTANCE (V28 / MOD-N :ARG0 (V30 / SATORIAL.A)) :ARG0 (V31 / PLUR :ARG0 (V33 / CONCERN.N))) :ARG1 (V34 / OF.P :ARG0 (V36 / HIS.D :ARG0 (V38 / PLUR :ARG0 (V40 / PEER-OF.N :ARG0 (V42 / *S))))))))))))))
+
+; sid: 658175
+; sentence: Do you mean all this was for nothing?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / MEAN.V :ARG0 (V8 / THT :ARG0 (V10 / COMPLEX :INSTANCE (V11 / ALL.D :ARG0 (V13 / OF.P :ARG0 (V15 / THIS.PRO))) :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PAST :ARG0 (V19 / BE.V)) :ARG0 (V20 / FOR.P :ARG0 (V22 / NOTHING.PRO))))))) :ARG0 (V23 / ?))
+
+; sid: 658231
+; sentence: How could I forget something like that?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FORGET.V :ARG0 (V11 / NP+PREDS :ARG0 (V13 / SOMETHING.PRO) :ARG1 (V14 / LIKE.P :ARG0 (V16 / THAT.PRO))) :ARG1 (V17 / *H)))) :ARG0 (V18 / ?))
+
+; sid: 659571
+; sentence: What's the name of that fat girl you used to date in high school?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / NAME.N) :ARG1 (V13 / OF.P :ARG0 (V15 / THAT.D :ARG0 (V17 / N+PREDS :ARG0 (V19 / COMPLEX :INSTANCE (V20 / MOD-N :ARG0 (V22 / FAT.A)) :ARG0 (V23 / GIRL.N)) :ARG1 (V24 / SUB :ARG0 (V26 / THT.REL) :ARG1 (V27 / YOU.PRO :ARG0 (V29 / COMPLEX :INSTANCE (V30 / PAST :ARG0 (V32 / USE.V)) :ARG0 (V33 / TO :ARG0 (V35 / DATE.V :ARG0 (V37 / *H))) :ARG1 (V38 / ADV-E :ARG0 (V40 / IN.P :ARG0 (V42 / K :ARG0 (V44 / COMPLEX :INSTANCE (V45 / MOD-N :ARG0 (V47 / HIGH.A)) :ARG0 (V48 / SCHOOL.N))))))))))))) :ARG1 (V49 / = :ARG0 (V51 / *H)))) :ARG0 (V52 / ?))
+
+; sid: 749751
+; sentence: Don't you believe us?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / NOT) :ARG1 (V6 / YOU.PRO) :ARG2 (V7 / BELIEVE.V :ARG0 (V9 / US.PRO))) :ARG0 (V10 / ?))
+
+; sid: 751209
+; sentence: What didn't you like about me?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PAST :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / NOT) :ARG1 (V9 / YOU.PRO) :ARG2 (V10 / LIKE.V :ARG0 (V12 / NP+PREDS :ARG0 (V14 / *H) :ARG1 (V15 / ABOUT.P :ARG0 (V17 / ME.PRO)))))) :ARG0 (V18 / ?))
+
+; sid: 751227
+; sentence: How much do you know about her?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / ADV-A :ARG0 (V5 / HOW.MOD-A :ARG0 (V7 / MUCH.A))) :ARG1 (V8 / COMPLEX :INSTANCE (V9 / PRES :ARG0 (V11 / DO.AUX-S)) :ARG0 (V12 / YOU.PRO) :ARG1 (V13 / KNOW.V :ARG0 (V15 / *H) :ARG1 (V16 / ADV-A :ARG0 (V18 / ABOUT.P :ARG0 (V20 / HER.PRO)))))) :ARG0 (V21 / ?))
+
+; sid: 751988
+; sentence: Would you tell Tom I'm here?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WOULD.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / TELL.V :ARG0 (V8 / "| Tom|") :ARG1 (V9 / THT :ARG0 (V11 / I.PRO :ARG0 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / HERE.A)))))) :ARG0 (V18 / ?))
+
+; sid: 754304
+; sentence: Have you lost the key of your house?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / PERF)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / LOSE.V :ARG0 (V8 / THE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / KEY.N) :ARG1 (V13 / OF.P :ARG0 (V15 / YOUR.D :ARG0 (V17 / HOUSE.N))))))) :ARG0 (V18 / ?))
+
+; sid: 754831
+; sentence: The Earth orbits around the Sun. It takes one year to go around the Sun one complete time.
+(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / THE.D :ARG0 (V5 / "| Earth.N|")) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / ORBIT.V)) :ARG0 (V10 / AROUND.P-ARG :ARG0 (V12 / THE.D :ARG0 (V14 / "| Sun.N|"))))) :ARG1 (V15 / IT-EXTRA.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / TAKE.V)) :ARG0 (V22 / ONE.D :ARG0 (V24 / YEAR.N))) :ARG0 (V25 / TO :ARG0 (V27 / GO.V :ARG0 (V29 / ADV-A :ARG0 (V31 / AROUND.P :ARG0 (V33 / THE.D :ARG0 (V35 / "| Sun.N|")))) :ARG1 (V36 / ADV-A :ARG0 (V38 / FOR.P :ARG0 (V40 / ONE.D :ARG0 (V42 / COMPLEX :INSTANCE (V43 / MOD-N :ARG0 (V45 / COMPLETE.A)) :ARG0 (V46 / TIME.N))))))))))
+
+; sid: 756109
+; sentence: How will you solve the problem?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / SOLVE.V :ARG0 (V11 / THE.D :ARG0 (V13 / PROBLEM.N)) :ARG1 (V14 / *H)))) :ARG0 (V15 / ?))
+
+; sid: 756557
+; sentence: Do you have the rota for next week?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / HAVE.V :ARG0 (V8 / THE.D :ARG0 (V10 / ROTA.N)) :ARG1 (V11 / ADV-E :ARG0 (V13 / FOR.P :ARG0 (V15 / K :ARG0 (V17 / COMPLEX :INSTANCE (V18 / MOD-N :ARG0 (V20 / NEXT.A)) :ARG0 (V21 / WEEK.N))))))) :ARG0 (V22 / ?))
+
+; sid: 757629
+; sentence: When do you know me from?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHEN.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / KNOW.V :ARG0 (V11 / ME.PRO) :ARG1 (V12 / ADV-E :ARG0 (V14 / FROM.P :ARG0 (V16 / *H)))))) :ARG0 (V17 / ?))
+
+; sid: 758037
+; sentence: Are your parents coming to pick you up?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.AUX-V)) :ARG0 (V5 / YOUR.D :ARG0 (V7 / PLUR :ARG0 (V9 / PARENT-OF.N :ARG0 (V11 / *S)))) :ARG1 (V12 / PROG :ARG0 (V14 / COME.V :ARG0 (V16 / ADV-A :ARG0 (V18 / FOR.P :ARG0 (V20 / TO :ARG0 (V22 / PICK.V :ARG0 (V24 / YOU.PRO) :ARG1 (V25 / UP.ADV-A)))))))) :ARG0 (V26 / ?))
+
+; sid: 876631
+; sentence: How tough is your job?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.MOD-A :ARG0 (V5 / TOUGH.A)) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / BE.V)) :ARG0 (V10 / YOUR.D :ARG0 (V12 / JOB.N)) :ARG1 (V13 / *H))) :ARG0 (V14 / ?))
+
+; sid: 876837
+; sentence: Tom got to school just in time.
+(V0 / COMPLEX :INSTANCE (V1 / "| Tom|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / GET.V)) :ARG0 (V6 / TO.P-ARG :ARG0 (V8 / K :ARG0 (V10 / SCHOOL.N))) :ARG1 (V11 / ADV-S :ARG0 (V13 / JUST.ADV-S :ARG0 (V15 / IN.P :ARG0 (V17 / K :ARG0 (V19 / TIME.N)))))))
+
+; sid: 877457
+; sentence: Let me tell you my plans.
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / LET.V)) :ARG0 (V7 / ME.PRO) :ARG1 (V8 / TELL.V :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / MY.D :ARG0 (V13 / PLUR :ARG0 (V15 / PLAN.N)))))) :ARG0 (V16 / !))
+
+; sid: 877560
+; sentence: I'll just talk it over with Tom.
+(V0 / I.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PRES :ARG0 (V5 / WILL.AUX-S)) :ARG0 (V6 / JUST.ADV-S :ARG0 (V8 / TALK.V :ARG0 (V10 / IT.PRO) :ARG1 (V11 / OVER.ADV-A) :ARG2 (V12 / WITH.P-ARG :ARG0 (V14 / "| Tom|"))))))
+
+; sid: 877654
+; sentence: Will your parents let you stay home today?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / WILL.AUX-S)) :ARG0 (V5 / YOUR.D :ARG0 (V7 / PLUR :ARG0 (V9 / PARENT-OF.N :ARG0 (V11 / *S)))) :ARG1 (V12 / LET.V :ARG0 (V14 / YOU.PRO) :ARG1 (V15 / STAY.V :ARG0 (V17 / AT.P-ARG :ARG0 (V19 / K :ARG0 (V21 / HOME.N))) :ARG1 (V22 / TODAY.ADV-E)))) :ARG0 (V23 / ?))
+
+; sid: 880647
+; sentence: Are you pregnant yet?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / BE.V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / PREGNANT.A) :ARG2 (V7 / YET.ADV-E)) :ARG0 (V8 / ?))
+
+; sid: 881784
+; sentence: How exactly did this happen?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / EXACTLY.ADV-S :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / DO.AUX-S)) :ARG0 (V10 / THIS.PRO) :ARG1 (V11 / HAPPEN.V :ARG0 (V13 / *H))))) :ARG0 (V14 / ?))
+
+; sid: 881927
+; sentence: How could you understand what I'm going through?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / UNDERSTAND.V :ARG0 (V11 / ANS-TO :ARG0 (V13 / SUB :ARG0 (V15 / WHAT.PRO) :ARG1 (V16 / I.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / PROG)) :ARG0 (V22 / GO.V :ARG0 (V24 / THROUGH.P-ARG :ARG0 (V26 / *H))))))) :ARG1 (V27 / *H)))) :ARG0 (V28 / ?))
+
+; sid: 882689
+; sentence: How do you know this is a fake?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / DO.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / KNOW.V :ARG0 (V11 / THT :ARG0 (V13 / THIS.PRO :ARG0 (V15 / COMPLEX :INSTANCE (V16 / PRES :ARG0 (V18 / BE.V)) :ARG0 (V19 / = :ARG0 (V21 / A.D :ARG0 (V23 / FAKE.N)))))) :ARG1 (V24 / *H)))) :ARG0 (V25 / ?))
+
+; sid: 885332
+; sentence: Do you think I look happy?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / THINK.V :ARG0 (V8 / THT :ARG0 (V10 / I.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / LOOK.V)) :ARG0 (V16 / HAPPY.A)))))) :ARG0 (V17 / ?))
+
+; sid: 916513
+; sentence: New streamlined procedures announced last fall will cut FDA review time in half , he added .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / K :ARG0 (V5 / N+PREDS :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / NEW.A)) :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / STREAMLINED.A)) :ARG0 (V15 / PLUR :ARG0 (V17 / PROCEDURE.N)))) :ARG1 (V18 / COMPLEX :INSTANCE (V19 / PASV :ARG0 (V21 / ANNOUNCE.V)) :ARG0 (V22 / ADV-E :ARG0 (V24 / DURING.P :ARG0 (V26 / LAST.D :ARG0 (V28 / FALL.N))))))) :ARG0 (V29 / COMPLEX :INSTANCE (V30 / PRES :ARG0 (V32 / WILL.AUX-S)) :ARG0 (V33 / CUT.V :ARG0 (V35 / K :ARG0 (V37 / COMPLEX :INSTANCE (V38 / MOD-N :ARG0 (V40 / "| FDA.N|")) :ARG0 (V41 / COMPLEX :INSTANCE (V42 / MOD-N :ARG0 (V44 / REVIEW.N)) :ARG0 (V45 / TIME.N)))) :ARG1 (V46 / ADV-A :ARG0 (V48 / IN.P :ARG0 (V50 / K :ARG0 (V52 / HALF-OF.N :ARG0 (V54 / *REF)))))))) :ARG1 (V55 / HE.PRO :ARG0 (V57 / COMPLEX :INSTANCE (V58 / PAST :ARG0 (V60 / ADD.V)) :ARG0 (V61 / THT :ARG0 (V63 / *H)))))
+
+; sid: 916517
+; sentence: Young said the criticism reflects a `` misperception about FDA requirements . ''
+(V0 / COMPLEX :INSTANCE (V1 / "| Young|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THT :ARG0 (V8 / COMPLEX :INSTANCE (V9 / THE.D :ARG0 (V11 / CRITICISM.N)) :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PRES :ARG0 (V15 / REFLECT.V)) :ARG0 (V16 / A.D :ARG0 (V18 / N+PREDS :ARG0 (V20 / MISPERCEPTION.N) :ARG1 (V21 / ABOUT.P :ARG0 (V23 / K :ARG0 (V25 / COMPLEX :INSTANCE (V26 / MOD-N :ARG0 (V28 / "| FDA.N|")) :ARG0 (V29 / PLUR :ARG0 (V31 / REQUIREMENT.N))))))))))))
+
+; sid: 916519
+; sentence: Dr. Louis Lasagna , chairman of the panel studying how to speed up the process , said his committee hopes to establish `` mechanisms to mediate '' the fireworks between the FDA and the cancer institute .
+(V0 / COMPLEX :INSTANCE (V1 / NP+PREDS :ARG0 (V3 / "| Dr. Louis Lasagna|") :ARG1 (V4 / CHAIRMAN-OF.N :ARG0 (V6 / THE.D :ARG0 (V8 / N+PREDS :ARG0 (V10 / PANEL.N) :ARG1 (V11 / STUDY.V :ARG0 (V13 / ANS-TO :ARG0 (V15 / SUB :ARG0 (V17 / HOW.PQ) :ARG1 (V18 / TO :ARG0 (V20 / SPEED.V :ARG0 (V22 / UP.ADV-A) :ARG1 (V23 / THE.D :ARG0 (V25 / PROCESS.N)) :ARG2 (V26 / *H)))))))))) :ARG0 (V27 / COMPLEX :INSTANCE (V28 / PAST :ARG0 (V30 / SAY.V)) :ARG0 (V31 / THT :ARG0 (V33 / COMPLEX :INSTANCE (V34 / HIS.D :ARG0 (V36 / COMMITTEE.N)) :ARG0 (V37 / COMPLEX :INSTANCE (V38 / PRES :ARG0 (V40 / HOPE.V)) :ARG0 (V41 / TO :ARG0 (V43 / ESTABLISH.V :ARG0 (V45 / K :ARG0 (V47 / N+PREDS :ARG0 (V49 / PLUR :ARG0 (V51 / MECHANISM.N)) :ARG1 (V52 / FOR.P :ARG0 (V54 / TO :ARG0 (V56 / MEDIATE.V :ARG0 (V58 / THE.D :ARG0 (V60 / N+PREDS :ARG0 (V62 / PLUR :ARG0 (V64 / FIREWORK.N)) :ARG1 (V65 / BETWEEN.P :ARG0 (V67 / COMPLEX :INSTANCE (V68 / THE.D :ARG0 (V70 / "| FDA.N|")) :ARG0 (V71 / AND.CC) :ARG1 (V72 / THE.D :ARG0 (V74 / COMPLEX :INSTANCE (V75 / MOD-N :ARG0 (V77 / CANCER.N)) :ARG0 (V78 / INSTITUTE.N)))))))))))))))))))
+
+; sid: 916520
+; sentence: `` Because there is so much public pressure regarding AIDS , about not wasting time getting treatments to victims ... we might be able to capitalize on that concern to bring about improvements in the drug approval process , '' Lasagna said .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / BECAUSE.PS :ARG0 (V7 / THERE.PRO :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PRES :ARG0 (V12 / BE.V)) :ARG0 (V13 / COMPLEX :INSTANCE (V14 / MOD-N :ARG0 (V16 / SO.MOD-A :ARG0 (V18 / MUCH.A))) :ARG0 (V19 / N+PREDS :ARG0 (V21 / COMPLEX :INSTANCE (V22 / MOD-N :ARG0 (V24 / PUBLIC.A)) :ARG0 (V25 / PRESSURE.N)) :ARG1 (V26 / REGARD.V :ARG0 (V28 / "| AIDS|")) :ARG2 (V29 / ABOUT.P :ARG0 (V31 / KA :ARG0 (V33 / NOT :ARG0 (V35 / WASTE.V :ARG0 (V37 / K :ARG0 (V39 / TIME.N)) :ARG1 (V40 / FOR.P :ARG0 (V42 / KA :ARG0 (V44 / GET.V :ARG0 (V46 / K :ARG0 (V48 / PLUR :ARG0 (V50 / TREATMENT.N))) :ARG1 (V51 / ADV-A :ARG0 (V53 / TO.P :ARG0 (V55 / K :ARG0 (V57 / PLUR :ARG0 (V59 / VICTIM.N))))))))))))))))) :ARG0 (V60 / WE.PRO :ARG0 (V62 / COMPLEX :INSTANCE (V63 / PRES :ARG0 (V65 / MIGHT.AUX-S)) :ARG0 (V66 / BE.V :ARG0 (V68 / ABLE.A :ARG0 (V70 / TO :ARG0 (V72 / CAPITALIZE.V :ARG0 (V74 / ON.P-ARG :ARG0 (V76 / THAT.D :ARG0 (V78 / CONCERN.N))) :ARG1 (V79 / ADV-A :ARG0 (V81 / FOR.P :ARG0 (V83 / TO :ARG0 (V85 / BRING.V :ARG0 (V87 / ABOUT.P-ARG :ARG0 (V89 / K :ARG0 (V91 / N+PREDS :ARG0 (V93 / PLUR :ARG0 (V95 / IMPROVEMENT.N)) :ARG1 (V96 / IN.P :ARG0 (V98 / THE.D :ARG0 (V100 / COMPLEX :INSTANCE (V101 / MOD-N :ARG0 (V103 / COMPLEX :INSTANCE (V104 / MOD-N :ARG0 (V106 / DRUG.N)) :ARG0 (V107 / APPROVAL.N))) :ARG0 (V108 / PROCESS.N)))))))))))))))))) :ARG1 (V109 / "|\"|")) :ARG1 (V110 / COMPLEX :INSTANCE (V111 / "| Lasagna|") :ARG0 (V112 / COMPLEX :INSTANCE (V113 / PAST :ARG0 (V115 / SAY.V)) :ARG0 (V116 / *H))))
+
+; sid: 916521
+; sentence: The panel of nine scientists from leading pharmaceutical and biotechnical companies and major universities and laboratories was appointed by the President 's Cancer Panel , headed by Dr. Armand Hammer .
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / N+PREDS :ARG0 (V5 / PANEL.N) :ARG1 (V6 / OF.P :ARG0 (V8 / NINE.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / PLUR :ARG0 (V14 / SCIENTIST.N)) :ARG1 (V15 / FROM.P :ARG0 (V17 / K :ARG0 (V19 / COMPLEX :INSTANCE (V20 / COMPLEX :INSTANCE (V21 / MOD-N :ARG0 (V23 / LEADING.A)) :ARG0 (V24 / COMPLEX :INSTANCE (V25 / MOD-N :ARG0 (V27 / PHARMACEUTICAL.A :ARG0 (V29 / AND.CC) :ARG1 (V30 / BIOTECHNICAL.A))) :ARG0 (V31 / PLUR :ARG0 (V33 / COMPANY.N)))) :ARG0 (V34 / AND.CC) :ARG1 (V35 / COMPLEX :INSTANCE (V36 / MOD-N :ARG0 (V38 / MAJOR.A)) :ARG0 (V39 / COMPLEX :INSTANCE (V40 / PLUR :ARG0 (V42 / UNIVERSITY.N)) :ARG0 (V43 / AND.CC) :ARG1 (V44 / PLUR :ARG0 (V46 / LABORATORY.N)))))))))))) :ARG0 (V47 / COMPLEX :INSTANCE (V48 / PAST :ARG0 (V50 / PASV :ARG0 (V52 / APPOINT.V))) :ARG0 (V53 / BY.P-ARG :ARG0 (V55 / NP+PREDS :ARG0 (V57 / COMPLEX :INSTANCE (V58 / COMPLEX :INSTANCE (V59 / THE.D :ARG0 (V61 / PRESIDENT.N)) :ARG0 (V62 / 'S)) :ARG0 (V65 / COMPLEX :INSTANCE (V66 / MOD-N :ARG0 (V68 / CANCER.N)) :ARG0 (V69 / PANEL.N))) :ARG1 (V70 / COMPLEX :INSTANCE (V71 / PASV :ARG0 (V73 / HEAD.V)) :ARG0 (V74 / BY.P-ARG :ARG0 (V76 / "| Dr. Armand Hammer|")))))))
+
+; sid: 916522
+; sentence: President-elect Bush , as chief of the Presidential Task Force on Regulatory Relief , last year asked the cancer panel to undertake the study .
+(V0 / COMPLEX :INSTANCE (V1 / NP+PREDS :ARG0 (V3 / "| President-elect Bush|") :ARG1 (V4 / AS.P :ARG0 (V6 / K :ARG0 (V8 / CHIEF-OF.N :ARG0 (V10 / THE.D :ARG0 (V12 / N+PREDS :ARG0 (V14 / "| Presidential Task Force.N|") :ARG1 (V15 / ON.P :ARG0 (V17 / K :ARG0 (V19 / "| Regulatory.a Relief.N|"))))))))) :ARG0 (V20 / COMPLEX :INSTANCE (V21 / ADV-E :ARG0 (V23 / DURING.P :ARG0 (V25 / THE.D :ARG0 (V27 / COMPLEX :INSTANCE (V28 / MOD-N :ARG0 (V30 / LAST.A)) :ARG0 (V31 / YEAR.N))))) :ARG0 (V32 / PAST :ARG0 (V34 / ASK.V)) :ARG1 (V35 / THE.D :ARG0 (V37 / COMPLEX :INSTANCE (V38 / MOD-N :ARG0 (V40 / CANCER.N)) :ARG0 (V41 / PANEL.N))) :ARG2 (V42 / TO :ARG0 (V44 / UNDERTAKE.V :ARG0 (V46 / THE.D :ARG0 (V48 / STUDY.N))))))
+
+; sid: 916523
+; sentence: Hammer said that in a meeting Tuesday , Bush repeated his commitment to the project .
+(V0 / COMPLEX :INSTANCE (V1 / "| Hammer|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / SAY.V)) :ARG0 (V6 / THAT :ARG0 (V8 / COMPLEX :INSTANCE (V9 / ADV-E :ARG0 (V11 / IN.P :ARG0 (V13 / A.D :ARG0 (V15 / MEETING.N)))) :ARG0 (V16 / ADV-E :ARG0 (V18 / ON.P :ARG0 (V20 / "| Tuesday|"))) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / "| Bush|") :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / REPEAT.V)) :ARG0 (V27 / HIS.D :ARG0 (V29 / COMMITMENT.N :ARG0 (V31 / TO.P-ARG :ARG0 (V33 / THE.D :ARG0 (V35 / PROJECT.N)))))))))))
+
+; sid: 916524
+; sentence: `` He was so positive , '' Hammer said .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / HE.PRO :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / BE.V)) :ARG0 (V10 / SO.MOD-A :ARG0 (V12 / POSITIVE.A)))) :ARG1 (V13 / "|\"|")) :ARG1 (V14 / COMPLEX :INSTANCE (V15 / "| Hammer|") :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PAST :ARG0 (V19 / SAY.V)) :ARG0 (V20 / *H))))
+
+; sid: 916532
+; sentence: The Gramm-Rudman law states that the administration 's deficit forecast - not the one made by CB0 - determines whether the automatic cuts would be necessary .
+(V0 / COMPLEX :INSTANCE (V1 / THE.D :ARG0 (V3 / COMPLEX :INSTANCE (V4 / "| Gramm-Rudman|") :ARG0 (V5 / LAW.N))) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / STATE.V)) :ARG0 (V10 / THAT :ARG0 (V12 / COMPLEX :INSTANCE (V13 / NP+PREDS :ARG0 (V15 / COMPLEX :INSTANCE (V16 / COMPLEX :INSTANCE (V17 / THE.D :ARG0 (V19 / ADMINISTRATION.N)) :ARG0 (V20 / 'S)) :ARG0 (V23 / COMPLEX :INSTANCE (V24 / MOD-N :ARG0 (V26 / DEFICIT.N)) :ARG0 (V27 / FORECAST.N))) :ARG1 (V28 / NOT :ARG0 (V30 / = :ARG0 (V32 / THE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / ONE.N) :ARG1 (V37 / COMPLEX :INSTANCE (V38 / PASV :ARG0 (V40 / MAKE.V)) :ARG0 (V41 / BY.P-ARG :ARG0 (V43 / "| CB0|")))))))) :ARG0 (V44 / COMPLEX :INSTANCE (V45 / PRES :ARG0 (V47 / DETERMINE.V)) :ARG0 (V48 / WHETHER :ARG0 (V50 / COMPLEX :INSTANCE (V51 / THE.D :ARG0 (V53 / COMPLEX :INSTANCE (V54 / MOD-N :ARG0 (V56 / AUTOMATIC.A)) :ARG0 (V57 / PLUR :ARG0 (V59 / CUT.N)))) :ARG0 (V60 / COMPLEX :INSTANCE (V61 / CF :ARG0 (V63 / WILL.AUX-S)) :ARG0 (V64 / BE.V :ARG0 (V66 / NECESSARY.A))))))))))
+
+; sid: 916533
+; sentence: But Congress relies on the CBO figures as a guideline in its budget work .
+(V0 / BUT.ADV-S :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "| Congress|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / RELY.V)) :ARG0 (V8 / ON.P-ARG :ARG0 (V10 / THE.D :ARG0 (V12 / COMPLEX :INSTANCE (V13 / "| CBO|") :ARG0 (V14 / PLUR :ARG0 (V16 / FIGURE.N))))) :ARG1 (V17 / ADV-A :ARG0 (V19 / AS.P :ARG0 (V21 / A.D :ARG0 (V23 / GUIDELINE.N)))) :ARG2 (V24 / ADV-A :ARG0 (V26 / IN.P :ARG0 (V28 / ITS.D :ARG0 (V30 / COMPLEX :INSTANCE (V31 / MOD-N :ARG0 (V33 / BUDGET.N)) :ARG0 (V34 / WORK.N))))))))
+
+; sid: 924030
+; sentence: How can I find a list of celebrities ' real names ?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FIND.V :ARG0 (V11 / A.D :ARG0 (V13 / N+PREDS :ARG0 (V15 / LIST.N) :ARG1 (V16 / OF.P :ARG0 (V18 / COMPLEX :INSTANCE (V19 / COMPLEX :INSTANCE (V20 / K :ARG0 (V22 / PLUR :ARG0 (V24 / CELEBRITY.N))) :ARG0 (V25 / 'S)) :ARG0 (V28 / COMPLEX :INSTANCE (V29 / MOD-N :ARG0 (V31 / REAL.A)) :ARG0 (V32 / PLUR :ARG0 (V34 / NAME.N))))))) :ARG1 (V35 / *H)))) :ARG0 (V36 / ?))
+
+; sid: 924218
+; sentence: What therapy attempts to elicit the `` primal scream '' ?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / THERAPY.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PRES :ARG0 (V8 / ATTEMPT.V)) :ARG0 (V9 / TO :ARG0 (V11 / ELICIT.V :ARG0 (V13 / THE.D :ARG0 (V15 / COMPLEX :INSTANCE (V16 / MOD-N :ARG0 (V18 / PRIMAL.A)) :ARG0 (V19 / SCREAM.N))))))) :ARG0 (V20 / ?))
+
+; sid: 924328
+; sentence: What chemicals are used in lethal injection ?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / PLUR :ARG0 (V6 / CHEMICAL.N))) :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / PASV :ARG0 (V12 / USE.V))) :ARG0 (V13 / ADV-A :ARG0 (V15 / IN.P :ARG0 (V17 / K :ARG0 (V19 / COMPLEX :INSTANCE (V20 / MOD-N :ARG0 (V22 / LETHAL.A)) :ARG0 (V23 / INJECTION.N))))))) :ARG0 (V24 / ?))
+
+; sid: 924483
+; sentence: Where can I find a person 's address from a telephone number ?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHERE.PQ) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / CAN.AUX-S)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / FIND.V :ARG0 (V11 / COMPLEX :INSTANCE (V12 / COMPLEX :INSTANCE (V13 / A.D :ARG0 (V15 / PERSON.N)) :ARG0 (V16 / 'S)) :ARG0 (V19 / ADDRESS.N)) :ARG1 (V20 / ADV-A :ARG0 (V22 / FROM.P :ARG0 (V24 / A.D :ARG0 (V26 / COMPLEX :INSTANCE (V27 / MOD-N :ARG0 (V29 / TELEPHONE.N)) :ARG0 (V30 / NUMBER.N))))) :ARG2 (V31 / *H)))) :ARG0 (V32 / ?))
+
+; sid: 924630
+; sentence: Name the operating system that runs on IBM-compatible machines .
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / NAME.V)) :ARG0 (V7 / THE.D :ARG0 (V9 / N+PREDS :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / OPERATE.V)) :ARG0 (V15 / SYSTEM.N)) :ARG1 (V16 / THAT.REL :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / RUN.V)) :ARG0 (V22 / ADV-A :ARG0 (V24 / ON.P :ARG0 (V26 / K :ARG0 (V28 / COMPLEX :INSTANCE (V29 / MOD-N :ARG0 (V31 / "| IBM-compatible.A|")) :ARG0 (V32 / PLUR :ARG0 (V34 / MACHINE.N)))))))))))) :ARG0 (V35 / !))
+
+; sid: 924659
+; sentence: What two colors are you blind to if you suffer from protanopia ?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / SUB :ARG0 (V4 / WHAT.D :ARG0 (V6 / COMPLEX :INSTANCE (V7 / MOD-N :ARG0 (V9 / TWO.A)) :ARG0 (V10 / PLUR :ARG0 (V12 / COLOR.N)))) :ARG1 (V13 / COMPLEX :INSTANCE (V14 / PRES :ARG0 (V16 / BE.V)) :ARG0 (V17 / YOU.PRO) :ARG1 (V18 / BLIND.A :ARG0 (V20 / TO.P-ARG :ARG0 (V22 / *H))))) :ARG0 (V23 / IF.PS :ARG0 (V25 / YOU.PRO :ARG0 (V27 / COMPLEX :INSTANCE (V28 / PRES :ARG0 (V30 / SUFFER.V)) :ARG0 (V31 / FROM.P-ARG :ARG0 (V33 / K :ARG0 (V35 / PROTANOPIA.N))))))) :ARG0 (V36 / ?))
+
+; sid: 924727
+; sentence: Name the disposable razor that `` costs about 19 cents . ''
+(V0 / COMPLEX :INSTANCE (V1 / YOU.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / NAME.V)) :ARG0 (V7 / THE.D :ARG0 (V9 / N+PREDS :ARG0 (V11 / COMPLEX :INSTANCE (V12 / MOD-N :ARG0 (V14 / DISPOSABLE.A)) :ARG0 (V15 / RAZOR.N)) :ARG1 (V16 / THAT.REL :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PRES :ARG0 (V21 / COST.V)) :ARG0 (V22 / ABOUT.ADV-S :ARG0 (V24 / DS :ARG0 (V26 / CURRENCY) :ARG1 (V27 / "19 cents"))))))))) :ARG0 (V28 / !))
+
+; sid: 924728
+; sentence: How far do you have to run if you hit a home run ?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / SUB :ARG0 (V4 / HOW.MOD-A :ARG0 (V6 / FAR.A)) :ARG1 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / DO.AUX-S)) :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / HAVE.V :ARG0 (V14 / TO :ARG0 (V16 / RUN.V :ARG0 (V18 / *H)))))) :ARG0 (V19 / IF.PS :ARG0 (V21 / YOU.PRO :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PRES :ARG0 (V26 / HIT.V)) :ARG0 (V27 / A.D :ARG0 (V29 / COMPLEX :INSTANCE (V30 / MOD-N :ARG0 (V32 / HOME.N)) :ARG0 (V33 / RUN.N))))))) :ARG0 (V34 / ?))
+
+; sid: 924803
+; sentence: What historical event happened in Dogtown in 1899 ?
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / WHAT.D :ARG0 (V4 / COMPLEX :INSTANCE (V5 / MOD-N :ARG0 (V7 / HISTORICAL.A)) :ARG0 (V8 / EVENT.N))) :ARG0 (V9 / COMPLEX :INSTANCE (V10 / PAST :ARG0 (V12 / HAPPEN.V)) :ARG0 (V13 / ADV-E :ARG0 (V15 / IN.P :ARG0 (V17 / "| Dogtown|"))) :ARG1 (V18 / ADV-E :ARG0 (V20 / IN.P :ARG0 (V22 / "| 1899|"))))) :ARG0 (V23 / ?))
+
+; sid: 924837
+; sentence: What is the meaning of W.B. Yeat 's poem , `` The Three Hermits ? ''
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / THE.D :ARG0 (V10 / MEANING.N :ARG0 (V12 / OF.P-ARG :ARG0 (V14 / NP+PREDS :ARG0 (V16 / COMPLEX :INSTANCE (V17 / COMPLEX :INSTANCE (V18 / "| W.B. Yeat|") :ARG0 (V19 / 'S)) :ARG0 (V22 / POEM.N)) :ARG1 (V23 / = :ARG0 (V25 / "| The Three Hermits|")))))) :ARG1 (V26 / = :ARG0 (V28 / *H)))) :ARG0 (V29 / ?))
+
+; sid: 933488
+; sentence: As to my own part , having turned my thoughts for many years , upon this important subject , and maturely weighed the several schemes of our projectors , I have always found them grossly mistaken in their computation .
+(V0 / COMPLEX :INSTANCE (V1 / ADV-S :ARG0 (V3 / AS_TO.P :ARG0 (V5 / MY.D :ARG0 (V7 / COMPLEX :INSTANCE (V8 / MOD-N :ARG0 (V10 / OWN.A)) :ARG0 (V11 / PART-OF.N :ARG0 (V13 / *REF)))))) :ARG0 (V14 / ADV-S :ARG0 (V16 / PERF :ARG0 (V18 / COMPLEX :INSTANCE (V19 / TURN.V :ARG0 (V21 / MY.D :ARG0 (V23 / PLUR :ARG0 (V25 / THOUGHT.N))) :ARG1 (V26 / ADV-E :ARG0 (V28 / FOR.P :ARG0 (V30 / MANY.D :ARG0 (V32 / PLUR :ARG0 (V34 / YEAR.N))))) :ARG2 (V35 / UPON.P-ARG :ARG0 (V37 / THIS.D :ARG0 (V39 / COMPLEX :INSTANCE (V40 / MOD-N :ARG0 (V42 / IMPORTANT.A)) :ARG0 (V43 / SUBJECT.N))))) :ARG0 (V44 / AND.CC) :ARG1 (V45 / MATURELY.ADV-A :ARG0 (V47 / WEIGH.V) :ARG1 (V48 / THE.D :ARG0 (V50 / N+PREDS :ARG0 (V52 / COMPLEX :INSTANCE (V53 / MOD-N :ARG0 (V55 / SEVERAL.A)) :ARG0 (V56 / PLUR :ARG0 (V58 / SCHEME.N))) :ARG1 (V59 / OF.P :ARG0 (V61 / OUR.D :ARG0 (V63 / PLUR :ARG0 (V65 / PROJECTOR.N)))))))))) :ARG1 (V66 / I.PRO :ARG0 (V68 / COMPLEX :INSTANCE (V69 / PRES :ARG0 (V71 / PERF)) :ARG0 (V72 / ALWAYS.ADV-F) :ARG1 (V73 / FIND.V :ARG0 (V75 / THEM.PRO) :ARG1 (V76 / GROSSLY.MOD-A :ARG0 (V78 / MISTAKEN.A :ARG0 (V80 / IN.P-ARG :ARG0 (V82 / THEIR.D :ARG0 (V84 / COMPUTATION.N)))))))))
+
+; sid: 933489
+; sentence: It is true , a child just dropt from its dam , may be supported by her milk , for a solar year , with little other nourishment : at most not above the value of two shillings , which the mother may certainly get , or the value in scraps , by her lawful occupation of begging ; and it is exactly at one year old that I propose to provide for them in such a manner , as , instead of being a charge upon their parents , or the parish , or wanting food and raiment for the rest of their lives , they shall , on the contrary , contribute to the feeding , and partly to the cloathing of many thousands .
+(V0 / COMPLEX :INSTANCE (V1 / IT-EXTRA.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / BE.V)) :ARG0 (V8 / TRUE.A)) :ARG0 (V9 / THT :ARG0 (V11 / COMPLEX :INSTANCE (V12 / A.D :ARG0 (V14 / N+PREDS :ARG0 (V16 / CHILD.N) :ARG1 (V17 / JUST.ADV-E :ARG0 (V19 / COMPLEX :INSTANCE (V20 / PASV :ARG0 (V22 / DROP.V)) :ARG0 (V23 / ADV-A :ARG0 (V25 / FROM.P :ARG0 (V27 / ITS.D :ARG0 (V29 / DAM-OF.N :ARG0 (V31 / *S))))))))) :ARG0 (V32 / COMPLEX :INSTANCE (V33 / PRES :ARG0 (V35 / MAY.AUX-S)) :ARG0 (V36 / COMPLEX :INSTANCE (V37 / PASV :ARG0 (V39 / SUPPORT.V)) :ARG0 (V40 / BY.P-ARG :ARG0 (V42 / HER.D :ARG0 (V44 / MILK.N))) :ARG1 (V45 / ADV-E :ARG0 (V47 / FOR.P :ARG0 (V49 / A.D :ARG0 (V51 / COMPLEX :INSTANCE (V52 / MOD-N :ARG0 (V54 / SOLAR.A)) :ARG0 (V55 / YEAR.N))))) :ARG2 (V56 / ADV-A :ARG0 (V58 / WITH.P :ARG0 (V60 / NP+PREDS :ARG0 (V62 / K :ARG0 (V64 / COMPLEX :INSTANCE (V65 / MOD-N :ARG0 (V67 / LITTLE.A)) :ARG0 (V68 / COMPLEX :INSTANCE (V69 / MOD-N :ARG0 (V71 / OTHER.A)) :ARG0 (V72 / NOURISHMENT.N)))) :ARG1 (V73 / COMPLEX :INSTANCE (V74 / MOD-A :ARG0 (V76 / AT.P :ARG0 (V78 / THE.D :ARG0 (V80 / COMPLEX :INSTANCE (V81 / MOD-N :ARG0 (V83 / MOST.A)) :ARG0 (V84 / REF.N))))) :ARG0 (V85 / NOT :ARG0 (V87 / ABOVE.P :ARG0 (V89 / THE.D :ARG0 (V91 / VALUE-OF.N :ARG0 (V93 / NP+PREDS :ARG0 (V95 / TWO.D :ARG0 (V97 / PLUR :ARG0 (V99 / SHILLING.N))) :ARG1 (V100 / SUB :ARG0 (V102 / WHICH.REL) :ARG1 (V103 / COMPLEX :INSTANCE (V104 / THE.D :ARG0 (V106 / MOTHER-OF.N :ARG0 (V108 / *REF))) :ARG0 (V109 / COMPLEX :INSTANCE (V110 / PRES :ARG0 (V112 / MAY.AUX-S)) :ARG0 (V113 / CERTAINLY.ADV-S) :ARG1 (V114 / GET.V :ARG0 (V116 / *H :ARG0 (V118 / OR.CC) :ARG1 (V119 / THE.D :ARG0 (V121 / N+PREDS :ARG0 (V123 / VALUE.N) :ARG1 (V124 / IN.P :ARG0 (V126 / K :ARG0 (V128 / PLUR :ARG0 (V130 / SCRAP.N))))))) :ARG1 (V131 / ADV-A :ARG0 (V133 / BY.P :ARG0 (V135 / HER.D :ARG0 (V137 / N+PREDS :ARG0 (V139 / COMPLEX :INSTANCE (V140 / MOD-N :ARG0 (V142 / LAWFUL.A)) :ARG0 (V143 / OCCUPATION.N)) :ARG1 (V144 / OF.P :ARG0 (V146 / KA :ARG0 (V148 / BEG.V)))))))))))))))))))))))))) :ARG0 (V149 / AND.ADV-S :ARG0 (V151 / COMPLEX :INSTANCE (V152 / IT-CLEFT.PRO :ARG0 (V154 / COMPLEX :INSTANCE (V155 / COMPLEX :INSTANCE (V156 / PRES :ARG0 (V158 / BE.V)) :ARG0 (V159 / ADV-E :ARG0 (V161 / EXACTLY.ADV-S :ARG0 (V163 / AT.P :ARG0 (V165 / KA :ARG0 (V167 / BE.V :ARG0 (V169 / COMPLEX :INSTANCE (V170 / ONE.D :ARG0 (V172 / YEAR.N)) :ARG0 (V173 / OLD.A)))))))) :ARG0 (V174 / THAT.REL :ARG0 (V176 / I.PRO :ARG0 (V178 / COMPLEX :INSTANCE (V179 / PRES :ARG0 (V181 / PROPOSE.V)) :ARG0 (V182 / TO :ARG0 (V184 / PROVIDE.V :ARG0 (V186 / FOR.P-ARG :ARG0 (V188 / THEM.PRO)) :ARG1 (V189 / ADV-A :ARG0 (V191 / IN.P :ARG0 (V193 / SUCH.D :ARG0 (V195 / = :ARG0 (V197 / A.D :ARG0 (V199 / MANNER.N))))))))))))) :ARG0 (V200 / AS.CC) :ARG1 (V201 / COMPLEX :INSTANCE (V202 / ADV-S :ARG0 (V204 / INSTEAD_OF.P :ARG0 (V206 / COMPLEX :INSTANCE (V207 / KA :ARG0 (V209 / BE.V :ARG0 (V211 / = :ARG0 (V213 / A.D :ARG0 (V215 / N+PREDS :ARG0 (V217 / CHARGE.N) :ARG1 (V218 / UPON.P :ARG0 (V220 / COMPLEX :INSTANCE (V221 / THEIR.D :ARG0 (V223 / PLUR :ARG0 (V225 / PARENT-OF.N :ARG0 (V227 / *S)))) :ARG0 (V228 / OR.CC) :ARG1 (V229 / THE.D :ARG0 (V231 / PARISH.N))))))))) :ARG0 (V232 / OR.CC) :ARG1 (V233 / KA :ARG0 (V235 / WANT.V :ARG0 (V237 / COMPLEX :INSTANCE (V238 / K :ARG0 (V240 / FOOD.N)) :ARG0 (V241 / AND.CC) :ARG1 (V242 / K :ARG0 (V244 / RAIMENT.N))) :ARG1 (V245 / ADV-E :ARG0 (V247 / FOR.P :ARG0 (V249 / THE.D :ARG0 (V251 / N+PREDS :ARG0 (V253 / REST.N) :ARG1 (V254 / OF.P :ARG0 (V256 / THEIR.D :ARG0 (V258 / PLUR :ARG0 (V260 / LIFE.N))))))))))))) :ARG0 (V261 / THEY.PRO :ARG0 (V263 / COMPLEX :INSTANCE (V264 / PRES :ARG0 (V266 / SHALL.AUX-S)) :ARG0 (V267 / ADV-S :ARG0 (V269 / ON.P :ARG0 (V271 / THE.D :ARG0 (V273 / CONTRARY.N)))) :ARG1 (V274 / CONTRIBUTE.V :ARG0 (V276 / COMPLEX :INSTANCE (V277 / TO.P-ARG :ARG0 (V279 / THE.D :ARG0 (V281 / FEEDING.N))) :ARG0 (V282 / AND.CC) :ARG1 (V283 / PARTLY.ADV-S :ARG0 (V285 / TO.P-ARG :ARG0 (V287 / THE.D :ARG0 (V289 / CLOATHING.N :ARG0 (V291 / OF.P-ARG :ARG0 (V293 / MANY.D :ARG0 (V295 / N+PREDS :ARG0 (V297 / PLUR :ARG0 (V299 / THOUSAND.N)) :ARG1 (V300 / OF.P :ARG0 (V302 / K :ARG0 (V304 / REF.N))))))))))))))))))
+
+; sid: 938119
+; sentence: " But for such a work you must have needed books--had you any ? "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / BUT.ADV-S :ARG0 (V4 / ADV-S :ARG0 (V6 / FOR.P :ARG0 (V8 / SUCH.D :ARG0 (V10 / = :ARG0 (V12 / A.D :ARG0 (V14 / WORK.N)))))) :ARG1 (V15 / YOU.PRO :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PRES :ARG0 (V20 / MUST.AUX-S)) :ARG0 (V21 / PERF :ARG0 (V23 / NEED.V :ARG0 (V25 / K :ARG0 (V27 / PLUR :ARG0 (V29 / BOOK.N)))))))) :ARG1 (V30 / COMPLEX :INSTANCE (V31 / COMPLEX :INSTANCE (V32 / PAST :ARG0 (V34 / HAVE.V)) :ARG0 (V35 / YOU.PRO) :ARG1 (V36 / ANY.D :ARG0 (V38 / REF.N))) :ARG0 (V39 / ?)) :ARG2 (V40 / "|\"|"))
+
+; sid: 940327
+; sentence: " You ? "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PU :ARG0 (V5 / YOU.PRO)) :ARG0 (V6 / ?)) :ARG1 (V7 / "|\"|"))
+
+; sid: 941968
+; sentence: " Sinbad the Sailor ? " he said .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PU :ARG0 (V7 / "| Sinbad the Sailor|")) :ARG0 (V8 / ?)) :ARG1 (V9 / "|\"|")) :ARG1 (V10 / HE.PRO :ARG0 (V12 / COMPLEX :INSTANCE (V13 / PAST :ARG0 (V15 / SAY.V)) :ARG0 (V16 / *H))))
+
+; sid: 943203
+; sentence: he asked of Franz .
+(V0 / HE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / ASK.V)) :ARG0 (V6 / THAT.PRO) :ARG1 (V7 / OF.P-ARG :ARG0 (V9 / "| Franz|"))))
+
+; sid: 943480
+; sentence: " What are you going to do ? " inquired the count .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / SUB :ARG0 (V7 / WHAT.PRO) :ARG1 (V8 / COMPLEX :INSTANCE (V9 / PRES :ARG0 (V11 / PROG)) :ARG0 (V12 / YOU.PRO) :ARG1 (V13 / GO.V :ARG0 (V15 / TO :ARG0 (V17 / DO.V :ARG0 (V19 / *H)))))) :ARG0 (V20 / ?)) :ARG1 (V21 / "|\"|")) :ARG1 (V22 / COMPLEX :INSTANCE (V23 / THE.D :ARG0 (V25 / COUNT.N)) :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PAST :ARG0 (V29 / INQUIRE.V)) :ARG0 (V30 / *H))))
+
+; sid: 943481
+; sentence: " I will show you the way back myself , " said the captain ; " that is the least honor that I can render to your excellency . "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / I.PRO :ARG0 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / SHOW.V :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / THE.D :ARG0 (V13 / N+PREDS :ARG0 (V15 / WAY.N) :ARG1 (V16 / BACK.P :ARG0 (V18 / REF.PRO)))) :ARG2 (V19 / ADV-A :ARG0 (V21 / BY.P :ARG0 (V23 / MYSELF.PRO)))))) :ARG1 (V24 / QT-ATTR :ARG0 (V26 / COMPLEX :INSTANCE (V27 / THE.D :ARG0 (V29 / CAPTAIN.N)) :ARG0 (V30 / COMPLEX :INSTANCE (V31 / PAST :ARG0 (V33 / SAY.V)) :ARG0 (V34 / *QT)))) :ARG2 (V35 / THAT.PRO :ARG0 (V37 / COMPLEX :INSTANCE (V38 / PRES :ARG0 (V40 / BE.V)) :ARG0 (V41 / = :ARG0 (V43 / THE.D :ARG0 (V45 / LEAST.MOD-N :ARG0 (V47 / N+PREDS :ARG0 (V49 / HONOR.N) :ARG1 (V50 / SUB :ARG0 (V52 / THAT.REL) :ARG1 (V53 / I.PRO :ARG0 (V55 / COMPLEX :INSTANCE (V56 / PRES :ARG0 (V58 / CAN.AUX-V)) :ARG0 (V59 / RENDER.V :ARG0 (V61 / *H) :ARG1 (V62 / TO.P-ARG :ARG0 (V64 / YOUR.D :ARG0 (V66 / EXCELLENCY.N))))))))))))) :ARG3 (V67 / "|\"|"))
+
+; sid: 943482
+; sentence: And taking the lighted torch from the hands of the herdsman , he preceded his guests , not as a servant who performs an act of civility , but like a king who precedes ambassadors .
+(V0 / AND.ADV-S :ARG0 (V2 / SUB :ARG0 (V4 / ADV-A :ARG0 (V6 / TAKE.V :ARG0 (V8 / THE.D :ARG0 (V10 / COMPLEX :INSTANCE (V11 / MOD-N :ARG0 (V13 / LIGHTED.A)) :ARG0 (V14 / TORCH.N))) :ARG1 (V15 / FROM.P-ARG :ARG0 (V17 / THE.D :ARG0 (V19 / N+PREDS :ARG0 (V21 / PLUR :ARG0 (V23 / HAND.N)) :ARG1 (V24 / OF.P :ARG0 (V26 / THE.D :ARG0 (V28 / HERDSMAN.N)))))))) :ARG1 (V29 / HE.PRO :ARG0 (V31 / *H :ARG0 (V33 / PAST :ARG0 (V35 / PRECEDE.V)) :ARG1 (V36 / HIS.D :ARG0 (V38 / PLUR :ARG0 (V40 / GUEST-OF.N :ARG0 (V42 / *REF)))) :ARG2 (V43 / ADV-A :ARG0 (V45 / NOT :ARG0 (V47 / AS.P :ARG0 (V49 / A.D :ARG0 (V51 / N+PREDS :ARG0 (V53 / SERVANT.N) :ARG1 (V54 / WHO.REL :ARG0 (V56 / COMPLEX :INSTANCE (V57 / PRES :ARG0 (V59 / PERFORM.V)) :ARG0 (V60 / AN.D :ARG0 (V62 / N+PREDS :ARG0 (V64 / ACT.N) :ARG1 (V65 / OF.P :ARG0 (V67 / K :ARG0 (V69 / CIVILITY.N)))))))))))) :ARG3 (V70 / ADV-A :ARG0 (V72 / BUT.ADV-S :ARG0 (V74 / LIKE.A :ARG0 (V76 / A.D :ARG0 (V78 / N+PREDS :ARG0 (V80 / KING.N) :ARG1 (V81 / WHO.REL :ARG0 (V83 / COMPLEX :INSTANCE (V84 / PRES :ARG0 (V86 / PRECEDE.V)) :ARG0 (V87 / K :ARG0 (V89 / PLUR :ARG0 (V91 / AMBASSADOR.N))))))))))))))
+
+; sid: 943483
+; sentence: On reaching the door , he bowed .
+(V0 / COMPLEX :INSTANCE (V1 / ADV-E :ARG0 (V3 / ON.P :ARG0 (V5 / KA :ARG0 (V7 / REACH.V :ARG0 (V9 / THE.D :ARG0 (V11 / DOOR.N)))))) :ARG0 (V12 / HE.PRO :ARG0 (V14 / PAST :ARG0 (V16 / BOW.V))))
+
+; sid: 983493
+; sentence: " What think you of Bossuet chanting the _Te Deum_ over the dragonnades ? "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / SUB :ARG0 (V5 / WHAT.PRO) :ARG1 (V6 / COMPLEX :INSTANCE (V7 / PRES :ARG0 (V9 / THINK.V)) :ARG0 (V10 / YOU.PRO) :ARG1 (V11 / *H) :ARG2 (V12 / OF.P-ARG :ARG0 (V14 / KE :ARG0 (V16 / COMPLEX :INSTANCE (V17 / "| Bossuet|") :ARG0 (V18 / CHANT.V :ARG0 (V20 / THE.D :ARG0 (V22 / "| Te Deum.N|")) :ARG1 (V23 / ADV-E :ARG0 (V25 / OVER.P :ARG0 (V27 / THE.D :ARG0 (V29 / PLUR :ARG0 (V31 / DRAGONNADE.N))))))))))) :ARG0 (V32 / ?)) :ARG1 (V33 / "|\"|"))
+
+; sid: 983494
+; sentence: The retort was a harsh one , but it attained its mark with the directness of a point of steel .
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / RETORT.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BE.V)) :ARG0 (V9 / = :ARG0 (V11 / A.D :ARG0 (V13 / COMPLEX :INSTANCE (V14 / MOD-N :ARG0 (V16 / HARSH.A)) :ARG0 (V17 / ONE.N)))))) :ARG0 (V18 / BUT.CC) :ARG1 (V19 / IT.PRO :ARG0 (V21 / COMPLEX :INSTANCE (V22 / PAST :ARG0 (V24 / ATTAIN.V)) :ARG0 (V25 / ITS.D :ARG0 (V27 / MARK.N)) :ARG1 (V28 / ADV-A :ARG0 (V30 / WITH.P :ARG0 (V32 / THE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / DIRECTNESS.N) :ARG1 (V37 / OF.P :ARG0 (V39 / A.D :ARG0 (V41 / N+PREDS :ARG0 (V43 / POINT.N) :ARG1 (V44 / OF.P :ARG0 (V46 / K :ARG0 (V48 / STEEL.N)))))))))))))
+
+; sid: 983495
+; sentence: The Bishop quivered under it ; no reply occurred to him ; but he was offended by this mode of alluding to Bossuet .
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / "| Bishop.N|")) :ARG0 (V5 / PAST :ARG0 (V7 / QUIVER.V)) :ARG1 (V8 / ADV-E :ARG0 (V10 / UNDER.P :ARG0 (V12 / IT.PRO)))) :ARG0 (V13 / COMPLEX :INSTANCE (V14 / NO.D :ARG0 (V16 / REPLY.N)) :ARG0 (V17 / COMPLEX :INSTANCE (V18 / PAST :ARG0 (V20 / OCCUR.V)) :ARG0 (V21 / TO.P-ARG :ARG0 (V23 / HIM.PRO)))) :ARG1 (V24 / BUT.ADV-S :ARG0 (V26 / HE.PRO :ARG0 (V28 / COMPLEX :INSTANCE (V29 / PAST :ARG0 (V31 / PASV :ARG0 (V33 / OFFEND.V))) :ARG0 (V34 / BY.P-ARG :ARG0 (V36 / THIS.D :ARG0 (V38 / MODE-OF.N :ARG0 (V40 / KA :ARG0 (V42 / ALLUDE.V :ARG0 (V44 / TO.P-ARG :ARG0 (V46 / "| Bossuet|")))))))))))
+
+; sid: 983496
+; sentence: The best of minds will have their fetiches , and they sometimes feel vaguely wounded by the want of respect of logic .
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / BEST-OF.N :ARG0 (V6 / K :ARG0 (V8 / PLUR :ARG0 (V10 / MIND.N))))) :ARG0 (V11 / COMPLEX :INSTANCE (V12 / PRES :ARG0 (V14 / WILL.AUX-S)) :ARG0 (V15 / HAVE.V :ARG0 (V17 / THEIR.D :ARG0 (V19 / PLUR :ARG0 (V21 / FETICH.N)))))) :ARG0 (V22 / AND.CC) :ARG1 (V23 / THEY.PRO :ARG0 (V25 / SOMETIMES.ADV-F) :ARG1 (V26 / COMPLEX :INSTANCE (V27 / PRES :ARG0 (V29 / FEEL.V)) :ARG0 (V30 / VAGUELY.MOD-A :ARG0 (V32 / WOUNDED.A :ARG0 (V34 / BY.P-ARG :ARG0 (V36 / THE.D :ARG0 (V38 / WANT.N :ARG0 (V40 / OF.P-ARG :ARG0 (V42 / K :ARG0 (V44 / RESPECT.N :ARG0 (V46 / OF.P-ARG :ARG0 (V48 / K :ARG0 (V50 / LOGIC.N))))))))))))))
+
+; sid: 983497
+; sentence: The conventionary began to pant ; the asthma of the agony which is mingled with the last breaths interrupted his voice ; still , there was a perfect lucidity of soul in his eyes .
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / THE.D :ARG0 (V4 / CONVENTIONARY.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BEGIN.V)) :ARG0 (V9 / TO :ARG0 (V11 / PANT.V)))) :ARG0 (V12 / COMPLEX :INSTANCE (V13 / THE.D :ARG0 (V15 / N+PREDS :ARG0 (V17 / ASTHMA.N) :ARG1 (V18 / OF.P :ARG0 (V20 / THE.D :ARG0 (V22 / AGONY.N))) :ARG2 (V23 / WHICH.REL :ARG0 (V25 / COMPLEX :INSTANCE (V26 / PRES :ARG0 (V28 / PASV :ARG0 (V30 / MINGLED.V))) :ARG0 (V31 / WITH.P-ARG :ARG0 (V33 / THE.D :ARG0 (V35 / COMPLEX :INSTANCE (V36 / MOD-N :ARG0 (V38 / LAST.A)) :ARG0 (V39 / PLUR :ARG0 (V41 / BREATH.N))))))))) :ARG0 (V42 / COMPLEX :INSTANCE (V43 / PAST :ARG0 (V45 / INTERRUPT.V)) :ARG0 (V46 / HIS.D :ARG0 (V48 / VOICE-OF.N :ARG0 (V50 / *S))))) :ARG1 (V51 / STILL.ADV-S :ARG0 (V53 / THERE.PRO :ARG0 (V55 / COMPLEX :INSTANCE (V56 / COMPLEX :INSTANCE (V57 / PAST :ARG0 (V59 / BE.V)) :ARG0 (V60 / = :ARG0 (V62 / A.D :ARG0 (V64 / COMPLEX :INSTANCE (V65 / MOD-N :ARG0 (V67 / PERFECT.A)) :ARG0 (V68 / N+PREDS :ARG0 (V70 / LUCIDITY.N) :ARG1 (V71 / OF.P :ARG0 (V73 / K :ARG0 (V75 / SOUL.N)))))))) :ARG0 (V76 / ADV-E :ARG0 (V78 / IN.P :ARG0 (V80 / HIS.D :ARG0 (V82 / PLUR :ARG0 (V84 / EYE.N)))))))))
+
+; sid: 983500
+; sentence: Apart from the Revolution , which , taken as a whole , is an immense human affirmation , ' 93 is , alas ! a rejoinder .
+(V0 / COMPLEX :INSTANCE (V1 / ADV-S :ARG0 (V3 / APART_FROM.P :ARG0 (V5 / NP+PREDS :ARG0 (V7 / THE.D :ARG0 (V9 / "| Revolution.N|")) :ARG1 (V10 / WHICH.REL :ARG0 (V12 / ADV-S :ARG0 (V14 / TAKEN.A :ARG0 (V16 / AS.P-ARG :ARG0 (V18 / A.D :ARG0 (V20 / WHOLE.N))))) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / PRES :ARG0 (V24 / BE.V)) :ARG0 (V25 / = :ARG0 (V27 / AN.D :ARG0 (V29 / COMPLEX :INSTANCE (V30 / MOD-N :ARG0 (V32 / IMMENSE.A)) :ARG0 (V33 / COMPLEX :INSTANCE (V34 / MOD-N :ARG0 (V36 / HUMAN.N)) :ARG0 (V37 / AFFIRMATION.N)))))))))) :ARG0 (V38 / COMPLEX :INSTANCE (V39 / "| '93|") :ARG0 (V40 / COMPLEX :INSTANCE (V41 / PRES :ARG0 (V43 / BE.V)) :ARG0 (V44 / ALAS.X) :ARG1 (V45 / = :ARG0 (V47 / A.D :ARG0 (V49 / REJOINDER.N))))))
+
+; sid: 983922
+; sentence: Can you read ? "
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / CAN.AUX-V)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / READ.V)) :ARG0 (V7 / ?))
+
+; sid: 985625
+; sentence: " What would you do , Favourite , if I were to cease to love you ? "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / SUB :ARG0 (V6 / WHAT.PRO) :ARG1 (V7 / COMPLEX :INSTANCE (V8 / CF :ARG0 (V10 / WILL.AUX-S)) :ARG0 (V11 / YOU.PRO) :ARG1 (V12 / DO.V :ARG0 (V14 / *H)))) :ARG0 (V15 / VOC :ARG0 (V17 / "| Favourite|")) :ARG1 (V18 / IF.PS :ARG0 (V20 / I.PRO :ARG0 (V22 / COMPLEX :INSTANCE (V23 / CF :ARG0 (V25 / BE-TO.V)) :ARG0 (V26 / CEASE.V :ARG0 (V28 / TO :ARG0 (V30 / LOVE.V :ARG0 (V32 / YOU.PRO)))))))) :ARG0 (V33 / ?)) :ARG1 (V34 / "|\"|"))
+
+; sid: 986907
+; sentence: Fantine returned home .
+(V0 / COMPLEX :INSTANCE (V1 / "| Fantine|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / PAST :ARG0 (V5 / RETURN.V)) :ARG0 (V6 / TO.P-ARG :ARG0 (V8 / K :ARG0 (V10 / HOME.N)))))
+
+; sid: 993480
+; sentence: Memories recurred to Jean Valjean .
+(V0 / COMPLEX :INSTANCE (V1 / K :ARG0 (V3 / PLUR :ARG0 (V5 / MEMORY.N))) :ARG0 (V6 / COMPLEX :INSTANCE (V7 / PAST :ARG0 (V9 / RECUR.V)) :ARG0 (V10 / TO.P-ARG :ARG0 (V12 / "| Jean Valjean|"))))
+
+; sid: 1214146
+; sentence: How could I dare to keep it back from him ?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / HOW.ADV-A) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / COULD.AUX-V)) :ARG0 (V8 / I.PRO) :ARG1 (V9 / DARE.V :ARG0 (V11 / TO :ARG0 (V13 / KEEP.V :ARG0 (V15 / IT.PRO) :ARG1 (V16 / BACK.ADV-A) :ARG2 (V17 / FROM.P-ARG :ARG0 (V19 / HIM.PRO)))) :ARG1 (V20 / *H)))) :ARG0 (V21 / ?))
+
+; sid: 1215356
+; sentence: He visits princes , though he is only a peasant corrupted .
+(V0 / COMPLEX :INSTANCE (V1 / HE.PRO :ARG0 (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / VISIT.V)) :ARG0 (V7 / K :ARG0 (V9 / PLUR :ARG0 (V11 / PRINCE.N))))) :ARG0 (V12 / THOUGH.PS :ARG0 (V14 / HE.PRO :ARG0 (V16 / COMPLEX :INSTANCE (V17 / PRES :ARG0 (V19 / BE.V)) :ARG0 (V20 / ONLY.MOD-A :ARG0 (V22 / = :ARG0 (V24 / A.D :ARG0 (V26 / N+PREDS :ARG0 (V28 / PEASANT.N) :ARG1 (V29 / CORRUPTED.A)))))))))
+
+; sid: 1218532
+; sentence: Were you a cavalry officer ? " put in Kalganov at once .
+(V0 / SUB :ARG0 (V2 / COMPLEX :INSTANCE (V3 / "|\"|") :ARG0 (V4 / COMPLEX :INSTANCE (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / BE.V)) :ARG0 (V9 / YOU.PRO) :ARG1 (V10 / = :ARG0 (V12 / A.D :ARG0 (V14 / COMPLEX :INSTANCE (V15 / MOD-N :ARG0 (V17 / CAVALRY.N)) :ARG0 (V18 / OFFICER.N))))) :ARG0 (V19 / ?)) :ARG1 (V20 / "|\"|")) :ARG1 (V21 / COMPLEX :INSTANCE (V22 / "| Kalganov|") :ARG0 (V23 / COMPLEX :INSTANCE (V24 / PAST :ARG0 (V26 / PUT_IN.V)) :ARG0 (V27 / *H) :ARG1 (V28 / ADV-A :ARG0 (V30 / AT.P :ARG0 (V32 / ONCE.PRO))))))
+
+; sid: 1220870
+; sentence: " Last night ?
+(V0 / COMPLEX :INSTANCE (V1 / PU :ARG0 (V3 / COMPLEX :INSTANCE (V4 / MOD-N :ARG0 (V6 / LAST.A)) :ARG0 (V7 / NIGHT.N))) :ARG0 (V8 / ?))
+
+; sid: 1226940
+; sentence: My idea seemed silly to me at the time , but he was perhaps pointing then to that little bag in which he had fifteen hundred roubles ! "
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / MY.D :ARG0 (V4 / IDEA.N)) :ARG0 (V5 / COMPLEX :INSTANCE (V6 / PAST :ARG0 (V8 / SEEM.V)) :ARG0 (V9 / SILLY.A) :ARG1 (V10 / ADV-A :ARG0 (V12 / TO.P :ARG0 (V14 / ME.PRO))) :ARG2 (V15 / ADV-E :ARG0 (V17 / AT.P :ARG0 (V19 / THE.D :ARG0 (V21 / TIME.N)))))) :ARG0 (V22 / BUT.PS :ARG0 (V24 / HE.PRO :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PAST :ARG0 (V29 / PROG)) :ARG0 (V30 / PERHAPS.ADV-S) :ARG1 (V31 / POINT.V :ARG0 (V33 / THEN.ADV-E) :ARG1 (V34 / ADV-A :ARG0 (V36 / TO.P :ARG0 (V38 / THAT.D :ARG0 (V40 / N+PREDS :ARG0 (V42 / COMPLEX :INSTANCE (V43 / MOD-N :ARG0 (V45 / LITTLE.A)) :ARG0 (V46 / BAG.N)) :ARG1 (V47 / SUB :ARG0 (V49 / ADV-A :ARG0 (V51 / IN.P :ARG0 (V53 / WHICH.REL))) :ARG1 (V54 / HE.PRO :ARG0 (V56 / COMPLEX :INSTANCE (V57 / PAST :ARG0 (V59 / HAVE.V)) :ARG0 (V60 / DS :ARG0 (V62 / CURRENCY) :ARG1 (V63 / "fifteen hundred roubles")) :ARG1 (V64 / *H)))))))))))))
+
+; sid: 1227571
+; sentence: She became prudent and saved money .
+(V0 / SHE.PRO :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PAST :ARG0 (V6 / BECOME.V)) :ARG0 (V7 / PRUDENT.A)) :ARG0 (V8 / AND.CC) :ARG1 (V9 / COMPLEX :INSTANCE (V10 / PAST :ARG0 (V12 / SAVE.V)) :ARG0 (V13 / K :ARG0 (V15 / PLUR :ARG0 (V17 / MONEY.N))))))
+
+; sid: 1230855
+; sentence: What will you have ?
+(V0 / COMPLEX :INSTANCE (V1 / SUB :ARG0 (V3 / WHAT.PRO) :ARG1 (V4 / COMPLEX :INSTANCE (V5 / PRES :ARG0 (V7 / WILL.AUX-S)) :ARG0 (V8 / YOU.PRO) :ARG1 (V9 / HAVE.V :ARG0 (V11 / *H)))) :ARG0 (V12 / ?))
+
+; sid: 1231961
+; sentence: Do you remember that thing he wrote ...? "
+(V0 / COMPLEX :INSTANCE (V1 / COMPLEX :INSTANCE (V2 / PRES :ARG0 (V4 / DO.AUX-S)) :ARG0 (V5 / YOU.PRO) :ARG1 (V6 / REMEMBER.V :ARG0 (V8 / THAT.D :ARG0 (V10 / N+PREDS :ARG0 (V12 / THING.N) :ARG1 (V13 / SUB :ARG0 (V15 / THT.REL) :ARG1 (V16 / HE.PRO :ARG0 (V18 / COMPLEX :INSTANCE (V19 / PAST :ARG0 (V21 / WRITE.V)) :ARG0 (V22 / *H)))))))) :ARG0 (V23 / ?))
+
+; sid: 1234912
+; sentence: " Then I understand that on your arrival in London yesterday you went out at once and bought a pair of boots ? "
+(V0 / COMPLEX :INSTANCE (V1 / "|\"|") :ARG0 (V2 / COMPLEX :INSTANCE (V3 / THEN.ADV-S :ARG0 (V5 / I.PRO :ARG0 (V7 / COMPLEX :INSTANCE (V8 / PRES :ARG0 (V10 / UNDERSTAND.V)) :ARG0 (V11 / THAT :ARG0 (V13 / SUB :ARG0 (V15 / ADV-A :ARG0 (V17 / ON.P :ARG0 (V19 / YOUR.D :ARG0 (V21 / N+PREDS :ARG0 (V23 / ARRIVAL.N) :ARG1 (V24 / IN.P :ARG0 (V26 / "| London|")))))) :ARG1 (V27 / YESTERDAY.ADV-E :ARG0 (V29 / YOU.PRO :ARG0 (V31 / COMPLEX :INSTANCE (V32 / COMPLEX :INSTANCE (V33 / COMPLEX :INSTANCE (V34 / PAST :ARG0 (V36 / GO.V)) :ARG0 (V37 / OUT.ADV-A) :ARG1 (V38 / AT_ONCE.ADV-S)) :ARG0 (V39 / AND.CC) :ARG1 (V40 / COMPLEX :INSTANCE (V41 / PAST :ARG0 (V43 / BUY.V)) :ARG0 (V44 / A.D :ARG0 (V46 / N+PREDS :ARG0 (V48 / PAIR.N) :ARG1 (V49 / OF.P :ARG0 (V51 / K :ARG0 (V53 / PLUR :ARG0 (V55 / BOOT.N)))))))) :ARG0 (V56 / *H))))))))) :ARG0 (V57 / ?)) :ARG1 (V58 / "|\"|"))
+
+; sid: 1237619
+; sentence: Can you tell the position of the rooms ? What are those latticed windows at this end ? "
+(V0 / MULTI-SENT :ARG0 (V2 / COMPLEX :INSTANCE (V3 / COMPLEX :INSTANCE (V4 / PRES :ARG0 (V6 / CAN.AUX-V)) :ARG0 (V7 / YOU.PRO) :ARG1 (V8 / TELL.V :ARG0 (V10 / THE.D :ARG0 (V12 / N+PREDS :ARG0 (V14 / POSITION.N) :ARG1 (V15 / OF.P :ARG0 (V17 / THE.D :ARG0 (V19 / PLUR :ARG0 (V21 / ROOM.N)))))))) :ARG0 (V22 / ?)) :ARG1 (V23 / COMPLEX :INSTANCE (V24 / WHAT.PRO :ARG0 (V26 / COMPLEX :INSTANCE (V27 / PRES :ARG0 (V29 / BE.V)) :ARG0 (V30 / = :ARG0 (V32 / THOSE.D :ARG0 (V34 / N+PREDS :ARG0 (V36 / COMPLEX :INSTANCE (V37 / MOD-N :ARG0 (V39 / LATTICED.A)) :ARG0 (V40 / PLUR :ARG0 (V42 / WINDOW.N))) :ARG1 (V43 / AT.P :ARG0 (V45 / THIS.D :ARG0 (V47 / END.N)))))))) :ARG0 (V48 / ?)))
