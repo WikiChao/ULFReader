@@ -36,7 +36,7 @@ The evaluation can be done by accessing the ground truth sentence in `metadata['
 # Usage
 To run the code, use the command below:
 ```
-     python ulf_dataloader.py --input [file_dir] --batch_size [num of batch_size]
+python ulf_dataloader.py --input [file_dir] --batch_size [num of batch_size]
 ```
 
 
