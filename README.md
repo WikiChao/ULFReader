@@ -1,6 +1,9 @@
 NetID: chuang65
-email: chuang65@ur.rochester.edu
+
+Email: chuang65@ur.rochester.edu
+
 Name: Chao Huang
+
 Course 447 final project
 
 # ULFReader
