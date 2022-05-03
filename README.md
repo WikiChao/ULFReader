@@ -1,3 +1,8 @@
+NetID: chuang65
+email: chuang65@ur.rochester.edu
+Name: Chao Huang
+Course 447 final project
+
 # ULFReader
 An AllenNLP supported dataset loader for ULF dataset v1.0. This data loader produces batch like tensors for processing.
 
@@ -47,5 +52,7 @@ To run the code, use the command below:
 python ulf_dataloader.py --input [file_dir] --batch_size [num of batch_size]
 ```
 
+An example of dataloader output:
+![An example of output from dataloader](./example_output.jpg)
 
 
